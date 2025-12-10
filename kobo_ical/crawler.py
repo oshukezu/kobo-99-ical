@@ -336,6 +336,26 @@ class KoboCrawler:
                     books.append(book)
                     logger.info(f"Found book: {title} ({book_date})")
 
+            def clean_summary(text: str) -> str:
+                #是 crawler（爬蟲）在解析書籍資訊時，多抓到你不想要的文字
+                    if not text:
+                    return ""
+
+                    # Kobo UI 常見非書籍資訊的按鈕文案
+                   remove_list = [
+                    "查看電子書（HK）",
+                    "查看電子書 (HK)",
+                    "查看電子書",
+                    "閱讀電子書",
+                    "電子書",
+    ]
+
+    for rm in remove_list:
+        text = text.replace(rm, "")
+
+    return text.strip()
+
+
             except Exception as e:
                 logger.warning(f"Error parsing book element {idx}: {e}")
                 continue
