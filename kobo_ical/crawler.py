@@ -1,3 +1,21 @@
+"""Kobo 99 元書單爬蟲（支援 Cloudflare 繞過）"""
+import logging
+import random
+import re
+import time
+from datetime import date, datetime, timedelta
+from typing import List, Optional
+from urllib.parse import urljoin
+
+import httpx
+from bs4 import BeautifulSoup
+
+from .config import Settings
+from .models import BookItem
+from utils.headers import get_random_headers, shuffle_headers_order
+
+logger = logging.getLogger(__name__)
+
 class KoboCrawler:
     """Kobo 99 元書單爬蟲（支援 Cloudflare 繞過）"""
 
