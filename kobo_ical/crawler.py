@@ -40,6 +40,17 @@ class KoboCrawler:
                 follow_redirects=True,
             )
 
+
+    def extract_books_from_blog(soup):
+    ebook_links = set()
+
+    for a in soup.select("a[href*='/zh/ebook/']"):
+        href = a.get("href")
+        if href and "/zh/ebook/" in href:
+            ebook_links.add(href.split("?")[0])  # 去除 UTMs
+
+    return list(ebook_links)
+
     def __enter__(self):
         return self
 
@@ -57,11 +68,11 @@ class KoboCrawler:
         urls = []
         current_year = start_year
         current_week = start_week
-        # 限制最大週數為 49（根據用戶需求，w50 以上暫時沒有）
+        # 限制最大週數為 52
         MAX_WEEK = 52
 
         while (current_year < end_year) or (current_year == end_year and current_week <= end_week):
-            # 確保週數不超過 49
+            # 確保週數不超過 52
             if current_week > MAX_WEEK:
                 break
             url = f"https://www.kobo.com/zh/blog/weekly-dd99-{current_year}-w{current_week}"
