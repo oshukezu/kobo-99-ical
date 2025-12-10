@@ -72,9 +72,14 @@ class KoboCrawler:
     # ------------------------
     def generate_weekly_urls(self, start_year: int, start_week: int, end_year: int, end_week: int) -> List[str]:
         """生成週次 URL 列表"""
-        urls = []
-        y, w = int(start_year), int(start_week)
+        if start_year is None or start_week is None:
+            today = date.today()
+            start_year, start_week, _ = today.isocalendar()
+        start_year, start_week = int(start_year), int(start_week)
         end_year, end_week = int(end_year), int(end_week)
+
+        urls = []
+        y, w = start_year, start_week
         MAX_WEEK = 52
 
         while (y < end_year) or (y == end_year and w <= end_week):
@@ -285,17 +290,20 @@ class KoboCrawler:
     # ------------------------
     # 爬取多週書籍
     # ------------------------
-    def crawl_weekly_books(self, start_year: int = 2025, start_week: int = 1,
-                           end_year: Optional[int] = None, end_week: Optional[int] = None,
-                           use_random_delay: bool = False) -> List[BookItem]:
+    def crawl_weekly_books(self, start_year: Optional[int] = None, start_week: Optional[int] = None,
+                       end_year: Optional[int] = None, end_week: Optional[int] = None,
+                       use_random_delay: bool = False) -> List[BookItem]:
         """爬取多個週次的書籍"""
-        today = date.today()
+       today = date.today()
+        if start_year is None or start_week is None:
+            start_year, start_week, _ = today.isocalendar()
+        start_year, start_week = int(start_year), int(start_week)
+
         if end_year is None or end_week is None:
             c_year, c_week, _ = today.isocalendar()
             end_year = int(c_year)
             end_week = int(min(c_week, 49))
-        end_year = int(end_year)
-        end_week = int(end_week)
+        end_year, end_week = int(end_year), int(end_week)
 
         urls = self.generate_weekly_urls(start_year, start_week, end_year, end_week)
         all_books = []
