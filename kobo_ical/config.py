@@ -50,8 +50,13 @@ class Settings(BaseSettings):
         description="快取更新間隔，HTTP 端點請求時若超過此時間會自動刷新",
     )
 
+    # 清理後輸出路徑
+    path_cleaned: str = Field(
+        "data/cleaned_events.json",
+        description="清理後資料輸出 JSON 路徑",
+    )
+
     model_config = {
         "env_prefix": "KOBO99_",
         "env_file": ".env",
     }
-

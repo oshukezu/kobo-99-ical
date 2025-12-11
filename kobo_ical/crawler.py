@@ -75,6 +75,16 @@ class KoboCrawler:
             logger.warning(f"Could not determine date for article {article_url}, skipping")
             return books
 
+        # 解析文章標題
+        article_title = ""
+        h1 = soup.find('h1')
+        if h1:
+            article_title = h1.get_text(strip=True)
+        if not article_title:
+            title_tag = soup.find('title')
+            if title_tag:
+                article_title = title_tag.get_text(strip=True)
+
         ebook_links = soup.find_all('a', href=re.compile(r'/ebook/'))
         if not ebook_links:
             logger.warning(f"No ebook links found in article: {article_url}")
@@ -111,6 +121,9 @@ class KoboCrawler:
                         title = link_elem.get('title', '') or link_elem.get('aria-label', '')
 
                 title = self.clean_summary(title)
+                # 過濾不需要的標題
+                if not title or re.fullmatch(r'(查看電子書（HK）|查看電子書|閱讀電子書|電子書)', title):
+                    continue
 
                 book_url = None
                 if link_elem:
@@ -121,10 +134,24 @@ class KoboCrawler:
                 if title and book_url and len(title.strip()) > 0:
                     days_offset = idx % 7
                     book_date = article_date + timedelta(days=days_offset)
+                    # W49 特例：固定至 2025-12-04..2025-12-10
+                    if re.search(r'weekly-dd99-2025-w49', article_url):
+                        base = date(2025,12,4)
+                        book_date = base + timedelta(days=days_offset)
+                    # 擷取核心內容（移除連結與價格字樣）
+                    raw_text = elem.get_text(" ", strip=True)
+                    raw_text = re.sub(r'https?://\S+', '', raw_text)
+                    raw_text = re.sub(r'99元|NT\$?\s*99|HK\$?\s*99|購買|查看電子書（HK）|查看電子書', '', raw_text)
+                    content = raw_text.strip()
+                    # 限長
+                    if len(content) > 400:
+                        content = content[:380] + '…'
                     book = BookItem(
                         title=title.strip(),
                         book_url=book_url,
                         article_url=article_url,
+                        article_title=article_title,
+                        content=content,
                         date=book_date,
                         week=week,
                         year=year,
@@ -168,6 +195,9 @@ class KoboCrawler:
                         except (ValueError, TypeError):
                             continue
         # 從 URL 解析
+        # W49 特例：固定回指定週起始日
+        if re.search(r'weekly-dd99-2025-w49', article_url):
+            return date(2025,12,4)
         m = re.search(r'weekly-dd99-(\d{4})-w(\d+)', article_url)
         if m:
             y, w = int(m.group(1)), int(m.group(2))

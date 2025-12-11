@@ -1,5 +1,7 @@
 """Kobo 99 iCal 服務"""
 import logging
+import re
+from datetime import date, timedelta
 from typing import List, Optional
 
 from .config import Settings
@@ -68,3 +70,43 @@ class Kobo99ICalService:
         # 生成 ICS
         ical_content = self.ics_generator.generate_ics(all_books)
         return ical_content
+
+    def clean_existing_data(self) -> List[BookItem]:
+        """清理既有資料：移除多餘描述、價格與購買資訊，校正日期與週次"""
+        items = self.storage.load()
+        cleaned: List[BookItem] = []
+        base_w49 = "https://www.kobo.com/zh/blog/weekly-dd99-2025-w49"
+        for idx, b in enumerate(items):
+            title = b.title.strip()
+            # 移除不必要的標題
+            if not title or re.fullmatch(r'(查看電子書（HK）|查看電子書|閱讀電子書|電子書)', title):
+                continue
+            # 清理 content（若已有），移除 URL 與價格字樣
+            content = (getattr(b, 'content', '') or '').strip()
+            content = re.sub(r'https?://\S+', '', content)
+            content = re.sub(r'99元|NT\$?\s*99|HK\$?\s*99|購買|查看電子書（HK）|查看電子書', '', content)
+            # 校正日期：w49 統一到 12/4..12/10
+            if b.article_url == base_w49:
+                offset = hash(b.book_url) % 7
+                b.date = date(2025,12,4) + timedelta(days=offset)
+                b.week = 49
+                b.year = 2025
+            cleaned.append(BookItem(
+                title=title,
+                book_url=b.book_url,
+                article_url=b.article_url,
+                article_title=getattr(b, 'article_title', ''),
+                content=content,
+                date=b.date,
+                week=b.week,
+                year=b.year,
+            ))
+        # 去重（以 book_url + date）
+        unique = {}
+        for b in cleaned:
+            unique[(b.book_url, b.date)] = b
+        cleaned = list(unique.values())
+        # 輸出清理後資料
+        out_path = self.settings.path_cleaned if hasattr(self.settings, 'path_cleaned') else 'data/cleaned_events.json'
+        Storage(out_path).save(cleaned)
+        return cleaned

@@ -45,25 +45,25 @@ class ICSGenerator:
             try:
                 event = Event()
 
-                # 事件標題
-                event.name = f"99元 - {book.title}"
+                # 事件標題（僅書名）
+                event.name = f"{book.title}"
 
                 # 事件日期（整日事件，使用台灣時區）
                 event_date = datetime.combine(book.date, datetime.min.time())
                 event.begin = TAIPEI_TZ.localize(event_date)
 
-                # 事件描述
+                # 事件描述（只保留核心資訊，不含價格與購買連結）
                 description_parts = [
-                    f"書名：{book.title}",
+                    f"文章：{book.article_title}",
                     f"",
-                    f"查看電子書：{book.book_url}",
+                    f"內容：{book.content}",
                     f"",
                     f"來源文章：{book.article_url}",
                 ]
                 event.description = "\n".join(description_parts)
 
-                # 事件 URL
-                event.url = book.book_url
+                # 事件 URL（文章連結）
+                event.url = book.article_url
 
                 # 事件 UID（用於去重）
                 event.uid = f"kobo99-{hash(book.book_url + book.date.isoformat())}@kobo-99-ical"
@@ -85,4 +85,3 @@ class ICSGenerator:
             logger.warning("No events in ICS file - this may indicate a problem with data crawling or filtering")
         
         return ical_content
-

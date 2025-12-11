@@ -38,6 +38,9 @@ def main():
         service = Kobo99ICalService()
         print("Service initialized, starting to generate ICS...")
         ical_data = service.generate_ical(use_random_delay=use_random_delay)
+        # 生成清理後資料
+        cleaned = service.clean_existing_data()
+        print(f"Cleaned items: {len(cleaned)} written to {service.settings.path_cleaned}")
         
         if not ical_data:
             print("⚠️ Warning: ICS data is empty!")
