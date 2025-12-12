@@ -21,8 +21,9 @@ jobs:
       with:
         python-version: '3.11'
         
-    - name: Install system dependencies
+     - name: Install system dependencies
       run: |
+        sudo apt-get update
         sudo apt-get install -y \
           libnss3 \
           libnspr4 \
@@ -37,16 +38,16 @@ jobs:
           libxfixes3 \
           libxrandr2 \
           libgbm1 \
-          libasound2t64 \
           libpango-1.0-0 \
-          libcairo2
-
+          libcairo2 \
+          libxshmfence1 \
+          libasound2tss
         
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        
+
     - name: Install Playwright browsers
       run: |
         python -m playwright install chromium
@@ -54,27 +55,12 @@ jobs:
         
     - name: Generate ICS and JSON files
       env:
-        GITHUB_ACTIONS: "true"  # 啟用隨機延遲和 headers 排序
+        GITHUB_ACTIONS: "true"
       run: |
         python main.py
-        echo "=== Generated files ==="
-        ls -lh docs/ data/ || echo "Directories not found"
-        echo "=== File contents check ==="
-        if [ -f "docs/kobo99.ics" ]; then
-          echo "✅ kobo99.ics exists"
-          echo "File size: $(wc -c < docs/kobo99.ics) bytes"
-          head -20 docs/kobo99.ics || echo "File is empty or unreadable"
-        else
-          echo "❌ kobo99.ics not found!"
-          exit 1
-        fi
-        if [ -f "data/events.json" ]; then
-          echo "✅ events.json exists"
-          echo "File size: $(wc -c < data/events.json) bytes"
-        else
-          echo "⚠️ events.json not found (may be first run)"
-        fi
-        
+        echo "Generated files:"
+        ls -lh docs/ data/
+
     - name: Commit and push if changed
       run: |
         git config --local user.email "action@github.com"
@@ -85,5 +71,3 @@ jobs:
         else
           git commit -m "Auto-update: Generate Kobo 99 ICS [skip ci]"
           git push
-        fi
-
