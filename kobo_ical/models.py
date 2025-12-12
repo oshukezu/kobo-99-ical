@@ -10,11 +10,11 @@ class BookItem:
     title: str
     book_url: str
     article_url: str
-    article_title: str = ""
-    content: str = ""
     date: date
     week: int
     year: int
+    article_title: str = ""
+    content: str = ""
 
     def to_dict(self) -> dict:
         """轉換為字典"""
