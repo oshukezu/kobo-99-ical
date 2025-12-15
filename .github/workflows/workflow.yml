@@ -20,10 +20,11 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
+        cache: 'pip'
         
-     - name: Install system dependencies
+    - name: Install system dependencies
       run: |
-        sudo apt-get update
+        sudo apt-get update -y
         sudo apt-get install -y \
           libnss3 \
           libnspr4 \
@@ -38,16 +39,18 @@ jobs:
           libxfixes3 \
           libxrandr2 \
           libgbm1 \
+          libasound2 \
           libpango-1.0-0 \
-          libcairo2 \
-          libxshmfence1 \
-          libasound2tss
+          libcairo2
+        # Fallback for Ubuntu 24.04 (libasound2t64)
+        sudo apt-get install -y libasound2t64 || true
+
         
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-
+        
     - name: Install Playwright browsers
       run: |
         python -m playwright install chromium
@@ -55,19 +58,41 @@ jobs:
         
     - name: Generate ICS and JSON files
       env:
-        GITHUB_ACTIONS: "true"
+        GITHUB_ACTIONS: "true"  # 啟用隨機延遲和 headers 排序
       run: |
         python main.py
-        echo "Generated files:"
-        ls -lh docs/ data/
-
+        echo "=== Generated files ==="
+        ls -lh docs/ data/ || echo "Directories not found"
+        echo "=== File contents check ==="
+        if [ -f "docs/kobo99.ics" ]; then
+          echo "✅ kobo99.ics exists"
+          echo "File size: $(wc -c < docs/kobo99.ics) bytes"
+          head -20 docs/kobo99.ics || echo "File is empty or unreadable"
+        else
+          echo "❌ kobo99.ics not found!"
+          exit 1
+        fi
+        if [ -f "data/events.json" ]; then
+          echo "✅ events.json exists"
+          echo "File size: $(wc -c < data/events.json) bytes"
+        else
+          echo "⚠️ events.json not found (may be first run)"
+        fi
+        if [ -f "data/cleaned_events.json" ]; then
+          echo "✅ cleaned_events.json exists"
+          echo "File size: $(wc -c < data/cleaned_events.json) bytes"
+        else
+          echo "⚠️ cleaned_events.json not found"
+        fi
+        
     - name: Commit and push if changed
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add docs/kobo99.ics data/events.json
+        git add docs/kobo99.ics data/events.json data/cleaned_events.json
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
           git commit -m "Auto-update: Generate Kobo 99 ICS [skip ci]"
           git push
+        fi
