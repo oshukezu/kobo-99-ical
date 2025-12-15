@@ -101,6 +101,7 @@ class KoboCrawler:
             if parent and parent not in elements:
                 elements.append(parent)
 
+        assigned_dates = set()
         for idx, elem in enumerate(elements):
             try:
                 title = None
@@ -145,6 +146,9 @@ class KoboCrawler:
                     if re.search(r'weekly-dd99-2025-w49', article_url):
                         base = date(2025,12,4)
                         book_date = base + timedelta(days=days_offset)
+                    if book_date in assigned_dates:
+                        continue
+                    assigned_dates.add(book_date)
                     # 擷取核心內容（移除連結與價格字樣）
                     raw_text = elem.get_text(" ", strip=True)
                     raw_text = re.sub(r'https?://\S+', '', raw_text)

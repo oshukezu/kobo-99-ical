@@ -39,14 +39,14 @@ class ICSGenerator:
 
         logger.info(f"Generating ICS with {len(filtered_books)} books (filtered from {len(books)})")
 
-        # 依日期限制每天最多 2 筆
+        # 依日期限制每天最多 1 筆
         per_day_counts = {}
         event_count = 0
         for book in filtered_books:
             try:
                 key = book.date
                 cnt = per_day_counts.get(key, 0)
-                if cnt >= 2:
+                if cnt >= 1:
                     continue
                 event = Event()
 
