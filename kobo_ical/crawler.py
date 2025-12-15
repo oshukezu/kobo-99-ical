@@ -91,12 +91,16 @@ class KoboCrawler:
             return books
 
         elements = []
-        seen_links = set()
+        seen_products = set()
         for link_elem in ebook_links:
             href = link_elem.get('href', '')
-            if href in seen_links:
+            if not href:
                 continue
-            seen_links.add(href)
+            m_id = re.search(r"/ebook/([^?#/]+)", href)
+            product_id = m_id.group(1) if m_id else href
+            if product_id in seen_products:
+                continue
+            seen_products.add(product_id)
             parent = link_elem.find_parent(['div', 'article', 'section', 'li', 'p'])
             if parent and parent not in elements:
                 elements.append(parent)
@@ -131,13 +135,10 @@ class KoboCrawler:
                     href = link_elem.get('href', '')
                     if href:
                         book_url = urljoin('https://www.kobo.com', href)
+                        book_url = re.sub(r'https://www\.kobo\.com/hk/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
+                        book_url = re.sub(r'https://www\.kobo\.com/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
 
-                # 額外過濾：排除 HK 網域與非 99 清單來源
-                if book_url and ('/hk/zh/ebook/' in book_url or 'twblog-hksite' in book_url):
-                    continue
-                # 優先保留含 99 清單來源標記的連結
-                if book_url and ('coin99_' not in book_url and 'utm_source=twblog' not in book_url):
-                    continue
+                
 
                 if title and book_url and len(title.strip()) > 0:
                     days_offset = idx % 7
