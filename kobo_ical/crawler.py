@@ -131,6 +131,13 @@ class KoboCrawler:
                     if href:
                         book_url = urljoin('https://www.kobo.com', href)
 
+                # 額外過濾：排除 HK 網域與非 99 清單來源
+                if book_url and ('/hk/zh/ebook/' in book_url or 'twblog-hksite' in book_url):
+                    continue
+                # 優先保留含 99 清單來源標記的連結
+                if book_url and ('coin99_' not in book_url and 'utm_source=twblog' not in book_url):
+                    continue
+
                 if title and book_url and len(title.strip()) > 0:
                     days_offset = idx % 7
                     book_date = article_date + timedelta(days=days_offset)
@@ -163,6 +170,11 @@ class KoboCrawler:
                 continue
 
         return books
+
+    def get_current_week_info(self) -> tuple[int, int]:
+        today = date.today()
+        y, w, _ = today.isocalendar()
+        return int(y), int(w)
 
     # ------------------------
     # 從文章或 URL 解析日期
@@ -243,6 +255,22 @@ class KoboCrawler:
                         time.sleep(random.uniform(2, 5))
                         continue
                     else:
+                        if self.use_playwright_fallback and response.status_code == 403:
+                            try:
+                                from playwright.sync_api import sync_playwright
+                                logger.info(f"Using Playwright fallback for: {url}")
+                                with sync_playwright() as p:
+                                    browser = p.chromium.launch(headless=True)
+                                    context = browser.new_context()
+                                    page = context.new_page()
+                                    page.goto(url, wait_until="networkidle", timeout=60000)
+                                    time.sleep(2)
+                                    html = page.content()
+                                    browser.close()
+                                    if html:
+                                        return html
+                            except Exception as e:
+                                logger.error(f"Playwright fallback failed: {e}")
                         return None
                 response.raise_for_status()
                 time.sleep(self.settings.rate_limit_seconds)
@@ -268,7 +296,7 @@ class KoboCrawler:
         if end_year is None or end_week is None:
             c_year, c_week, _ = today.isocalendar()
             end_year = int(c_year)
-            end_week = int(min(c_week, 49))
+            end_week = int(min(c_week, 52))
         end_year, end_week = int(end_year), int(end_week)
 
         urls = self.generate_weekly_urls(start_year, start_week, end_year, end_week)

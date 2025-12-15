@@ -39,31 +39,36 @@ class ICSGenerator:
 
         logger.info(f"Generating ICS with {len(filtered_books)} books (filtered from {len(books)})")
 
-        # 為每本書創建事件
+        # 依日期限制每天最多 2 筆
+        per_day_counts = {}
         event_count = 0
         for book in filtered_books:
             try:
+                key = book.date
+                cnt = per_day_counts.get(key, 0)
+                if cnt >= 2:
+                    continue
                 event = Event()
 
-                # 事件標題（僅書名）
-                event.name = f"{book.title}"
+                # 事件標題
+                event.name = f"99元 - {book.title}"
 
                 # 事件日期（整日事件，使用台灣時區）
                 event_date = datetime.combine(book.date, datetime.min.time())
                 event.begin = TAIPEI_TZ.localize(event_date)
 
-                # 事件描述（只保留核心資訊，不含價格與購買連結）
+                # 事件描述（包含商品頁連結與來源文章）
                 description_parts = [
-                    f"文章：{book.article_title}",
+                    f"書名：{book.title}",
                     f"",
-                    f"內容：{book.content}",
+                    f"查看電子書：{book.book_url}",
                     f"",
                     f"來源文章：{book.article_url}",
                 ]
                 event.description = "\n".join(description_parts)
 
-                # 事件 URL（文章連結）
-                event.url = book.article_url
+                # 事件 URL（商品頁連結）
+                event.url = book.book_url
 
                 # 事件 UID（用於去重）
                 event.uid = f"kobo99-{hash(book.book_url + book.date.isoformat())}@kobo-99-ical"
@@ -73,6 +78,7 @@ class ICSGenerator:
 
                 cal.events.add(event)
                 event_count += 1
+                per_day_counts[key] = cnt + 1
 
             except Exception as e:
                 logger.warning(f"Error creating event for book {book.title}: {e}", exc_info=True)

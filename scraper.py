@@ -58,8 +58,8 @@ class KoboScraper:
         urls = []
         current_year = start_year
         current_week = start_week
-        # 限制最大週數為 49（根據用戶需求，w50 以上暫時沒有）
-        MAX_WEEK = 49
+        # 限制最大週數為 52（若網址存在則嘗試爬取）
+        MAX_WEEK = 52
 
         while (current_year < end_year) or (current_year == end_year and current_week <= end_week):
             # 確保週數不超過 49
@@ -388,4 +388,3 @@ if __name__ == "__main__":
     with KoboScraper() as scraper:
         books = scraper.crawl_weekly_books(use_random_delay=False)
         print(f"爬取到 {len(books)} 本書籍")
-

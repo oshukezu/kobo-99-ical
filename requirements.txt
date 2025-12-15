@@ -16,7 +16,7 @@ ics==0.7.2
 python-dateutil>=2.9.0,<3.0
 arrow>=1.4.0,<2.0
 six>=1.17.0,<2.0
-tatsu>=5.13.2,<6.0
+tatsu>=5.8.3,<6.0
 attrs>=25.4.0,<26.0
 
 # Timezone handling
