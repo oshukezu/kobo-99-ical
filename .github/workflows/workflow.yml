@@ -39,11 +39,10 @@ jobs:
           libxfixes3 \
           libxrandr2 \
           libgbm1 \
-          libasound2 \
           libpango-1.0-0 \
           libcairo2
         # Fallback for Ubuntu 24.04 (libasound2t64)
-        sudo apt-get install -y libasound2t64 || true
+        sudo apt-get install -y libasound2 || sudo apt-get install -y libasound2t64 || true
 
         
     - name: Install Python dependencies
