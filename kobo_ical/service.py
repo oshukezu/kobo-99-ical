@@ -31,20 +31,16 @@ class Kobo99ICalService:
         return books
 
     def merge_books(self, new_books: List[BookItem], existing_books: List[BookItem]) -> List[BookItem]:
-        """合併新舊書籍資料，去重並保留最新資訊"""
-        # 使用字典來去重，以 (book_url, date) 為 key
+        """合併新舊書籍資料，依 book_url 去重並偏好較新的日期"""
         books_dict = {}
-
         # 先加入現有書籍
         for book in existing_books:
-            key = (book.book_url, book.date)
-            books_dict[key] = book
-
-        # 加入新書籍（會覆蓋舊的）
+            books_dict[book.book_url] = book
+        # 再加入新書籍（若同一 book_url 重複，保留較新的日期）
         for book in new_books:
-            key = (book.book_url, book.date)
-            books_dict[key] = book
-
+            prev = books_dict.get(book.book_url)
+            if not prev or (book.date and prev.date and book.date >= prev.date):
+                books_dict[book.book_url] = book
         return list(books_dict.values())
 
     def generate_ical(self, start_year: Optional[int] = None, start_week: Optional[int] = None,
@@ -75,6 +71,14 @@ class Kobo99ICalService:
             content = _re.sub(r'99元|NT\$?\s*99|HK\$?\s*99|購買|查看電子書（HK）|查看電子書', '', content)
             book_url = _re.sub(r'https://www\.kobo\.com/hk/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', b.book_url)
             book_url = _re.sub(r'https://www\.kobo\.com/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
+            try:
+                from urllib.parse import urlsplit
+                path = urlsplit(book_url).path
+                mprod = _re.search(r'/ebook/([^/]+)', path)
+                if mprod:
+                    book_url = f"https://www.kobo.com/tw/zh/ebook/{mprod.group(1)}"
+            except Exception:
+                pass
             cleaned_inline.append(BookItem(
                 title=title,
                 book_url=book_url,
@@ -85,10 +89,12 @@ class Kobo99ICalService:
                 week=b.week,
                 year=b.year,
             ))
-        # 去重（以 book_url + date）
+        # 以 book_url 去重，偏好較新日期
         unique_inline = {}
         for b in cleaned_inline:
-            unique_inline[(b.book_url, b.date)] = b
+            prev = unique_inline.get(b.book_url)
+            if not prev or (b.date and prev.date and b.date >= prev.date):
+                unique_inline[b.book_url] = b
         all_books = list(unique_inline.values())
         logger.info(f"Cleaned inline to {len(all_books)} books")
 
@@ -130,10 +136,12 @@ class Kobo99ICalService:
                 week=b.week,
                 year=b.year,
             ))
-        # 去重（以 book_url + date）
+        # 以 book_url 去重，偏好較新日期
         unique = {}
         for b in cleaned:
-            unique[(b.book_url, b.date)] = b
+            prev = unique.get(b.book_url)
+            if not prev or (b.date and prev.date and b.date >= prev.date):
+                unique[b.book_url] = b
         cleaned = list(unique.values())
         # 輸出清理後資料
         out_path = self.settings.path_cleaned if hasattr(self.settings, 'path_cleaned') else 'data/cleaned_events.json'

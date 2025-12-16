@@ -96,7 +96,7 @@ class KoboCrawler:
             t = re.sub(r'\s+', ' ', t)
             return t
 
-        def build_title_date_map() -> dict:
+        def build_title_date_map() -> tuple[dict, list[tuple[str, date]]]:
             txt = soup.get_text("\n", strip=True)
             y = year
             m = re.search(r"weekly-dd99-(\d{4})-w", article_url)
@@ -104,15 +104,18 @@ class KoboCrawler:
                 y = int(m.group(1))
             pattern = re.compile(r"(\d{1,2})\/(\d{1,2})\s*週[一二三四五六日]\s*Kobo99選書：[『「《]?(.*?)[』」》]?", re.MULTILINE)
             mapping = {}
+            ordered: list[tuple[str, date]] = []
             for mm, dd, tt in pattern.findall(txt):
                 try:
                     d = date(y, int(mm), int(dd))
-                    mapping[norm_title(tt)] = d
+                    tnorm = norm_title(tt)
+                    mapping[tnorm] = d
+                    ordered.append((tnorm, d))
                 except Exception:
                     continue
-            return mapping
+            return mapping, ordered
 
-        title_date_map = build_title_date_map()
+        title_date_map, title_date_list = build_title_date_map()
 
         elements = []
         seen_products = set()
@@ -161,6 +164,14 @@ class KoboCrawler:
                         book_url = urljoin('https://www.kobo.com', href)
                         book_url = re.sub(r'https://www\\.kobo\\.com/hk/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
                         book_url = re.sub(r'https://www\\.kobo\\.com/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
+                        try:
+                            from urllib.parse import urlsplit
+                            path = urlsplit(book_url).path
+                            mprod = re.search(r'/ebook/([^/]+)', path)
+                            if mprod:
+                                book_url = f"https://www.kobo.com/tw/zh/ebook/{mprod.group(1)}"
+                        except Exception:
+                            pass
 
                 
 
@@ -168,8 +179,21 @@ class KoboCrawler:
                     nt = norm_title(title)
                     td = title_date_map.get(nt)
                     if not td:
-                        days_offset = idx % 7
-                        book_date = article_date + timedelta(days=days_offset)
+                        def canon(s: str) -> str:
+                            s = (s or '').lower()
+                            s = re.sub(r'[《》「」『』【】\[\]（）()：:，,。!！？、\-–—\s]+', '', s)
+                            return s
+                        ntc = canon(nt)
+                        for key, dval in title_date_map.items():
+                            if ntc == canon(key):
+                                td = dval
+                                break
+                    if not td:
+                        if title_date_list:
+                            book_date = title_date_list[idx % len(title_date_list)][1]
+                        else:
+                            days_offset = idx % 7
+                            book_date = article_date + timedelta(days=days_offset)
                     else:
                         book_date = td
                     # W49 特例：固定至 2025-12-04..2025-12-10

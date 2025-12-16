@@ -53,9 +53,7 @@ class ICSGenerator:
                 # 事件標題
                 event.name = f"99元 - {book.title}"
 
-                # 事件日期（整日事件，使用台灣時區）
-                event_date = datetime.combine(book.date, datetime.min.time())
-                event.begin = TAIPEI_TZ.localize(event_date)
+                event.begin = book.date
 
                 # 事件描述（包含商品頁連結與來源文章）
                 description_parts = [
