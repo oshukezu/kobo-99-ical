@@ -59,7 +59,7 @@ class KoboScraper:
         current_year = start_year
         current_week = start_week
         # 限制最大週數為 52（若網址存在則嘗試爬取）
-        MAX_WEEK = 52
+        MAX_WEEK = 54
 
         while (current_year < end_year) or (current_year == end_year and current_week <= end_week):
             # 確保週數不超過 49
@@ -350,14 +350,13 @@ class KoboScraper:
             start_week = 1
 
         if end_year is None or end_week is None:
-            # 預設到當前週，但不超過 w52
             current_year, current_week, _ = date.today().isocalendar()
-            if current_week <= 52:
+            if current_week <= 54:
                 end_year = current_year
                 end_week = current_week
             else:
                 end_year = current_year
-                end_week = 52
+                end_week = 54
 
         urls = self.generate_weekly_urls(start_year, start_week, end_year, end_week)
         all_books = []

@@ -263,7 +263,7 @@ class KoboCrawler:
         end_year, end_week = int(end_year), int(end_week)
         urls = []
         y, w = start_year, start_week
-        MAX_WEEK = 52
+        MAX_WEEK = 54
         while (y < end_year) or (y == end_year and w <= end_week):
             if w > MAX_WEEK:
                 w = 1
@@ -293,17 +293,47 @@ class KoboCrawler:
                         if self.use_playwright_fallback and response.status_code == 403:
                             try:
                                 from playwright.sync_api import sync_playwright
+                                headers = get_random_headers(referer="https://www.kobo.com/zh/blog")
                                 logger.info(f"Using Playwright fallback for: {url}")
                                 with sync_playwright() as p:
                                     browser = p.chromium.launch(headless=True)
-                                    context = browser.new_context()
+                                    vw = random.randint(1280, 1920)
+                                    vh = random.randint(720, 1080)
+                                    dsf = random.choice([1, 2])
+                                    context = browser.new_context(
+                                        user_agent=headers.get("User-Agent", ""),
+                                        viewport={"width": vw, "height": vh},
+                                        device_scale_factor=dsf,
+                                        locale="zh-TW",
+                                        timezone_id="Asia/Taipei",
+                                        color_scheme="light",
+                                        extra_http_headers={
+                                            "Accept": headers.get("Accept", ""),
+                                            "Accept-Language": headers.get("Accept-Language", "zh-TW,zh;q=0.9"),
+                                            "Referer": headers.get("Referer", "https://www.kobo.com/zh/blog"),
+                                        },
+                                    )
+                                    context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+                                    context.add_init_script("Object.defineProperty(navigator, 'languages', {get: () => ['zh-TW','zh']});")
                                     page = context.new_page()
-                                    page.goto(url, wait_until="networkidle", timeout=60000)
-                                    time.sleep(2)
-                                    html = page.content()
+                                    attempts = 4
+                                    for _ in range(attempts):
+                                        try:
+                                            page.goto(url, wait_until="domcontentloaded", timeout=120000)
+                                            try:
+                                                page.wait_for_load_state("networkidle", timeout=60000)
+                                            except Exception:
+                                                pass
+                                            page.wait_for_selector('a[href*="/ebook/"]', timeout=60000)
+                                            html = page.content()
+                                            if html:
+                                                browser.close()
+                                                return html
+                                            page.reload(wait_until="domcontentloaded")
+                                        except Exception:
+                                            time.sleep(2)
+                                            continue
                                     browser.close()
-                                    if html:
-                                        return html
                             except Exception as e:
                                 logger.error(f"Playwright fallback failed: {e}")
                         return None
@@ -324,15 +354,21 @@ class KoboCrawler:
                            end_year: Optional[int] = None, end_week: Optional[int] = None,
                            use_random_delay: bool = False) -> List[BookItem]:
         today = date.today()
-        if start_year is None or start_week is None:
-            start_year, start_week, _ = today.isocalendar()
-        start_year, start_week = int(start_year), int(start_week)
-
         if end_year is None or end_week is None:
             c_year, c_week, _ = today.isocalendar()
             end_year = int(c_year)
-            end_week = int(min(c_week, 52))
+            end_week = int(min(c_week, 54))
         end_year, end_week = int(end_year), int(end_week)
+
+        if start_year is None or start_week is None:
+            s_week = end_week - 4
+            s_year = end_year
+            if s_week < 1:
+                s_year -= 1
+                s_week = 54 + s_week
+            start_year, start_week = int(s_year), int(s_week)
+        else:
+            start_year, start_week = int(start_year), int(start_week)
 
         urls = self.generate_weekly_urls(start_year, start_week, end_year, end_week)
         all_books = []

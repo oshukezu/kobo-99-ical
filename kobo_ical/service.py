@@ -63,6 +63,35 @@ class Kobo99ICalService:
         all_books = self.merge_books(new_books, existing_books)
         logger.info(f"Merged to {len(all_books)} total books")
 
+        # 內嵌清理：移除錯誤標題、正規化商品頁 URL
+        import re as _re
+        cleaned_inline: List[BookItem] = []
+        for b in all_books:
+            title = (b.title or '').strip()
+            if not title or _re.fullmatch(r'(查看電子書（HK）|查看電子書|閱讀電子書|電子書)', title):
+                continue
+            content = (getattr(b, 'content', '') or '').strip()
+            content = _re.sub(r'https?://\S+', '', content)
+            content = _re.sub(r'99元|NT\$?\s*99|HK\$?\s*99|購買|查看電子書（HK）|查看電子書', '', content)
+            book_url = _re.sub(r'https://www\.kobo\.com/hk/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', b.book_url)
+            book_url = _re.sub(r'https://www\.kobo\.com/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
+            cleaned_inline.append(BookItem(
+                title=title,
+                book_url=book_url,
+                article_url=b.article_url,
+                article_title=getattr(b, 'article_title', ''),
+                content=content,
+                date=b.date,
+                week=b.week,
+                year=b.year,
+            ))
+        # 去重（以 book_url + date）
+        unique_inline = {}
+        for b in cleaned_inline:
+            unique_inline[(b.book_url, b.date)] = b
+        all_books = list(unique_inline.values())
+        logger.info(f"Cleaned inline to {len(all_books)} books")
+
         # 儲存合併後的資料
         self.storage.save(all_books)
         logger.info(f"Saved {len(all_books)} books to storage")
