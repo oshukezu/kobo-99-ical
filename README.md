@@ -1,4 +1,5 @@
-# Taiwan Kobo NT$99 Book List iCal Service (Under Development)
+# Taiwan Kobo NT$99 Book List iCal Service
+(Under Development)
 Automatically crawls the Kobo blog’s “Weekly NT$99 Book List” posts, parses the book list, and outputs a subscribable .ics (iCalendar) file for adding to Google Calendar via “Add by URL.”
 ## How to Add the Calendar
 - Open [Google Calendar](https://calendar.google.com/)
