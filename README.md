@@ -1,4 +1,14 @@
-# Kobo 99書單 iCal服務
+# Taiwan Kobo NT$99 Book List iCal Service (Under Development)
+Automatically crawls the Kobo blog’s “Weekly NT$99 Book List” posts, parses the book list, and outputs a subscribable .ics (iCalendar) file for adding to Google Calendar via “Add by URL.”
+## How to Add the Calendar
+- Open [Google Calendar](https://calendar.google.com/)
+- Click the gear icon in the top-right corner > Settings
+- In the left sidebar, go to General > Add calendar > From URL
+- Enter the calendar URL
+- Click Add calendar
+
+
+# Kobo 99書單 iCal服務 (開發中)
 自動爬取 KOBO 部落格「一週99元書單」文章、解析書單並輸出可訂閱的 `.ics` (iCalendar) 檔案，供 Google 日曆「從網址新增」訂閱。
 
 ## 如何新增日曆
