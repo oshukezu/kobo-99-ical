@@ -90,6 +90,30 @@ class KoboCrawler:
             logger.warning(f"No ebook links found in article: {article_url}")
             return books
 
+        def norm_title(t: str) -> str:
+            t = (t or "").strip()
+            t = re.sub(r'[《》「」『』【】\[\]]', '', t)
+            t = re.sub(r'\s+', ' ', t)
+            return t
+
+        def build_title_date_map() -> dict:
+            txt = soup.get_text("\n", strip=True)
+            y = year
+            m = re.search(r"weekly-dd99-(\d{4})-w", article_url)
+            if m:
+                y = int(m.group(1))
+            pattern = re.compile(r"(\d{1,2})\/(\d{1,2})\s*週[一二三四五六日]\s*Kobo99選書：[『「《]?(.*?)[』」》]?", re.MULTILINE)
+            mapping = {}
+            for mm, dd, tt in pattern.findall(txt):
+                try:
+                    d = date(y, int(mm), int(dd))
+                    mapping[norm_title(tt)] = d
+                except Exception:
+                    continue
+            return mapping
+
+        title_date_map = build_title_date_map()
+
         elements = []
         seen_products = set()
         for link_elem in ebook_links:
@@ -135,18 +159,24 @@ class KoboCrawler:
                     href = link_elem.get('href', '')
                     if href:
                         book_url = urljoin('https://www.kobo.com', href)
-                        book_url = re.sub(r'https://www\.kobo\.com/hk/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
-                        book_url = re.sub(r'https://www\.kobo\.com/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
+                        book_url = re.sub(r'https://www\\.kobo\\.com/hk/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
+                        book_url = re.sub(r'https://www\\.kobo\\.com/zh/ebook/', 'https://www.kobo.com/tw/zh/ebook/', book_url)
 
                 
 
                 if title and book_url and len(title.strip()) > 0:
-                    days_offset = idx % 7
-                    book_date = article_date + timedelta(days=days_offset)
+                    nt = norm_title(title)
+                    td = title_date_map.get(nt)
+                    if not td:
+                        days_offset = idx % 7
+                        book_date = article_date + timedelta(days=days_offset)
+                    else:
+                        book_date = td
                     # W49 特例：固定至 2025-12-04..2025-12-10
                     if re.search(r'weekly-dd99-2025-w49', article_url):
                         base = date(2025,12,4)
-                        book_date = base + timedelta(days=days_offset)
+                        if not td:
+                            book_date = base + timedelta(days=days_offset)
                     if book_date in assigned_dates:
                         continue
                     assigned_dates.add(book_date)
