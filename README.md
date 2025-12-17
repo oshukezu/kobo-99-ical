@@ -21,3 +21,6 @@ Automatically crawls the Kobo blog’s “Weekly NT$99 Book List” posts, parse
 - 點選 新增日曆 > 訂閱日曆網址
 - 日曆網址：https://calendar.google.com/calendar/ical/kuau2tfjtpndmlg2iequngvec8bpgjs8%40import.calendar.google.com/public/basic.ics
 
+## 注意
+系統仍處於測試階段。內容如有歧異，請務必以 KOBO Blog 為準。 
+NOTICE: This system is under continuous testing. In case of any discrepancies, the KOBO Blog shall prevail.
