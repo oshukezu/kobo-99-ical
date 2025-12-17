@@ -6,7 +6,8 @@ Automatically crawls the Kobo blog’s “Weekly NT$99 Book List” posts, parse
 - Click the gear icon in the top-right corner > Settings
 - In the left sidebar, go to General > Add calendar > From URL
 - Enter the calendar URL
-- Click Add calendar
+- Select "Add calendar" > "From URL"
+- URL: https://calendar.google.com/calendar/ical/kuau2tfjtpndmlg2iequngvec8bpgjs8%40import.calendar.google.com/public/basic.ics
 
 
 # Kobo 99書單 iCal服務 (開發中)
@@ -17,4 +18,6 @@ Automatically crawls the Kobo blog’s “Weekly NT$99 Book List” posts, parse
 - 點選右上角 齒輪 > 設定
 - 左側 一般 > 新增日曆 > 加入日曆網址
 - 輸入 
-- 點選 新增日曆
+- 點選 新增日曆 > 訂閱日曆網址
+- 日曆網址：https://calendar.google.com/calendar/ical/kuau2tfjtpndmlg2iequngvec8bpgjs8%40import.calendar.google.com/public/basic.ics
+
