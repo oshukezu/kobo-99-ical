@@ -2,1242 +2,1235 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:Kobo 99 iCal Generator
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250809
-DESCRIPTION:書名：一個人放鬆按摩術：用手解決身心疲勞、肌膚鬆弛問題\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gInvsH_zTjmPlNYdgPYaZg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
-SUMMARY:99元 - 一個人放鬆按摩術：用手解決身心疲勞、肌膚鬆弛問題
-UID:kobo99--280021200549687067@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/gInvsH_zTjmPlNYdgPYaZg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251024
-DESCRIPTION:書名：人口战略：人口如何影响经济与创新\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eppfb2aVKzeaL4M0OE5ILA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
-SUMMARY:99元 - 人口战略：人口如何影响经济与创新
-UID:kobo99--9177610003322114254@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/eppfb2aVKzeaL4M0OE5ILA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250719
-DESCRIPTION:書名：內臟疲勞修復全書\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/YIvn5VbEyzOsjGYduTK4Tg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
-SUMMARY:99元 - 內臟疲勞修復全書
-UID:kobo99-1059182976772024362@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/YIvn5VbEyzOsjGYduTK4Tg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250722
-DESCRIPTION:書名：找到你的維他命人：人際關係中的痛苦、困惑、空虛，你不必自己承受\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/f7vO6tphbDC9fMV2Ubt2qw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
-SUMMARY:99元 - 找到你的維他命人：人際關係中的痛苦、困惑、空虛，你不必自己承受
-UID:kobo99--2388676651359796675@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/f7vO6tphbDC9fMV2Ubt2qw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251107
-DESCRIPTION:書名：《道德经》智慧100讲\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gDsP92XpSTWG0Vx-7QlL7A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
-SUMMARY:99元 - 《道德经》智慧100讲
-UID:kobo99-2971601473833293182@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/gDsP92XpSTWG0Vx-7QlL7A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250710
-DESCRIPTION:書名：人類何以陷入戰爭：李德哈特的歷史哲學\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/yT7DIrpEzzWV_OamKrpkeg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
-SUMMARY:99元 - 人類何以陷入戰爭：李德哈特的歷史哲學
-UID:kobo99--4036988849876897384@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/yT7DIrpEzzWV_OamKrpkeg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250704
-DESCRIPTION:書名：有数：用冷静的数据思维解复杂的商业问题\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/uLSG8lPdBjya80LPH_C4cw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
-SUMMARY:99元 - 有数：用冷静的数据思维解复杂的商业问题
-UID:kobo99-7526830321755416688@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/uLSG8lPdBjya80LPH_C4cw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251119
-DESCRIPTION:書名：信任練習\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/dO6YmW8buzik74R7no8f9g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 信任練習
-UID:kobo99-4256147397696320882@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/dO6YmW8buzik74R7no8f9g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250825
-DESCRIPTION:書名：精實服務：將精實原則延伸到消費端，全面消除浪費，創造獲利（經典紀念版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Z6ZrQ4i8nju0vVy8k6Lj7Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
-SUMMARY:99元 - 精實服務：將精實原則延伸到消費端，全面消除浪費，創造獲利（經典紀念版）
-UID:kobo99--7876129382227969464@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Z6ZrQ4i8nju0vVy8k6Lj7Q
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251111
-DESCRIPTION:書名：香料(地中海史權威羅傑．克勞利歷史新作)：以摩鹿加群島為中心，見證十六世紀形塑現代世界的權力地圖\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ZcdRFiFGvzug1Ffrea9LjA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
-SUMMARY:99元 - 香料(地中海史權威羅傑．克勞利歷史新作)：以摩鹿加群島為中心，見證十六世紀形塑現代世界的權力地圖
-UID:kobo99--276782852122427453@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ZcdRFiFGvzug1Ffrea9LjA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251125
-DESCRIPTION:書名：知·行：个人、家庭和团队的领导力法则\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/GVILBWTtqzSHh1imKWXiwA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
-SUMMARY:99元 - 知·行：个人、家庭和团队的领导力法则
-UID:kobo99--6241977497353587740@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/GVILBWTtqzSHh1imKWXiwA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250801
-DESCRIPTION:書名：数字疾驰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/we_2TRodFzGSE0gf7KBmzw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
-SUMMARY:99元 - 数字疾驰
-UID:kobo99--2418366816773767388@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/we_2TRodFzGSE0gf7KBmzw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250721
-DESCRIPTION:書名：黑天鵝投資大師們：洞悉極端事件的本質，在混沌時局發現投資機會的那群人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/AwOdDMsu1jqgeHSXRPKBWQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
-SUMMARY:99元 - 黑天鵝投資大師們：洞悉極端事件的本質，在混沌時局發現投資機會的那群人
-UID:kobo99-7643504513667243799@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/AwOdDMsu1jqgeHSXRPKBWQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251219
-DESCRIPTION:書名：能言善道的沙丁魚：來自海洋國度的奧妙故事\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/6CI7JqntdTuYGzvh0kM2QQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
-SUMMARY:99元 - 能言善道的沙丁魚：來自海洋國度的奧妙故事
-UID:kobo99-776585843906776975@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/6CI7JqntdTuYGzvh0kM2QQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250725
-DESCRIPTION:書名：大象的踪迹\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ue6xS0pS0jSHhrXzvfPXAQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
-SUMMARY:99元 - 大象的踪迹
-UID:kobo99--4453201124713498225@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ue6xS0pS0jSHhrXzvfPXAQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250814
-DESCRIPTION:書名：梅西：百轉千變的足球王者\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/cJznFuTSPzmPsaf14mAPAg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - 梅西：百轉千變的足球王者
-UID:kobo99-1330119890036485007@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/cJznFuTSPzmPsaf14mAPAg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250627
-DESCRIPTION:書名：内衣课\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/UJIEcVwl5D-Z3PnZjfEvmw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w26
-SUMMARY:99元 - 内衣课
-UID:kobo99-5983615129078517716@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/UJIEcVwl5D-Z3PnZjfEvmw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251212
-DESCRIPTION:書名：無限競爭，無限痛苦的畸型社會：韓國\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nOgdh_oUdDWDR4A8tbPRXQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
-SUMMARY:99元 - 無限競爭，無限痛苦的畸型社會：韓國
-UID:kobo99--8767167986309460369@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/nOgdh_oUdDWDR4A8tbPRXQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250917
-DESCRIPTION:書名：資料煉金術：開放資料存取權，重燃創新之火\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/4a_zGlgFXzubNMF3qmWCzg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
-SUMMARY:99元 - 資料煉金術：開放資料存取權，重燃創新之火
-UID:kobo99-726012851176567678@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/4a_zGlgFXzubNMF3qmWCzg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251115
-DESCRIPTION:書名：無聊心理學：我們為何無聊？無聊不好嗎？無聊時我們可以做些什麼？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/wt_lAV1CtT6-KSmFUGaVrw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
-SUMMARY:99元 - 無聊心理學：我們為何無聊？無聊不好嗎？無聊時我們可以做些什麼？
-UID:kobo99-3440004995584814065@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/wt_lAV1CtT6-KSmFUGaVrw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251015
-DESCRIPTION:書名：簡單思考：LINE的CEO卸任後第一本工作祕笈\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/lineceo\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
-SUMMARY:99元 - 簡單思考：LINE的CEO卸任後第一本工作祕笈
-UID:kobo99-7914035905461441357@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/lineceo
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250906
-DESCRIPTION:書名：迷霧之子首部曲：最後帝國\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/tSfRgYbwtzGWxEne-NJKWw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
-SUMMARY:99元 - 迷霧之子首部曲：最後帝國
-UID:kobo99--5645060152995270688@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/tSfRgYbwtzGWxEne-NJKWw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250806
-DESCRIPTION:書名：決策的邏輯：行為心理學如何影響我們的選擇？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/-66auZ0f7DyDWvXhl9FIjw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
-SUMMARY:99元 - 決策的邏輯：行為心理學如何影響我們的選擇？
-UID:kobo99--8713073435588486221@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/-66auZ0f7DyDWvXhl9FIjw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250714
-DESCRIPTION:書名：自私的藝術：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/uxuwpc489je3OzmdvfHzcg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
-SUMMARY:99元 - 自私的藝術：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言
-UID:kobo99--5957617057675922270@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/uxuwpc489je3OzmdvfHzcg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250821
-DESCRIPTION:書名：你與世界的10個方程式：把大問題變小問題，用大數據+數學理解現代社會的運作模式\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ZuhsNuXF4TetimatatKBdg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
-SUMMARY:99元 - 你與世界的10個方程式：把大問題變小問題，用大數據+數學理解現代社會的運作模式
-UID:kobo99--4379040410477793912@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ZuhsNuXF4TetimatatKBdg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251025
-DESCRIPTION:書名：吃的營養科學觀【修訂版】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/k465U3-6pDGhBUJAPx63uA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
-SUMMARY:99元 - 吃的營養科學觀【修訂版】
-UID:kobo99--7551937121674159017@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/k465U3-6pDGhBUJAPx63uA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250928
-DESCRIPTION:書名：恐懼境界\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Rqi3IUm8HDO9mN3xMZOCDg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
-SUMMARY:99元 - 恐懼境界
-UID:kobo99-4296103366575136959@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Rqi3IUm8HDO9mN3xMZOCDg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250626
-DESCRIPTION:書名：如果停不下來，就先學會慢下來：52種簡單易行的正念練習，幫你化解壓力，找回專注力〔靜心升級版〕\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gy24Ygm6fzmxDt5Jg-wjlA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w26
-SUMMARY:99元 - 如果停不下來，就先學會慢下來：52種簡單易行的正念練習，幫你化解壓力，找回專注力〔靜心升級版〕
-UID:kobo99-5823854464116990556@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/gy24Ygm6fzmxDt5Jg-wjlA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250709
-DESCRIPTION:書名：閉嘴的藝術：以退為進的刻意沉默，讓你趨吉避凶，家庭與事業如沐春風\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/BvkyQMdYlzSxyNXTtBjnkQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
-SUMMARY:99元 - 閉嘴的藝術：以退為進的刻意沉默，讓你趨吉避凶，家庭與事業如沐春風
-UID:kobo99--1726213033366126046@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/BvkyQMdYlzSxyNXTtBjnkQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250724
-DESCRIPTION:書名：時間最短化，成果最大化的法則：１天安裝１個成功人士的「思維演算法」45天（約1.5月）腦袋將徹底更新！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/toLobO1FkT66MqizsV9NLQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
-SUMMARY:99元 - 時間最短化，成果最大化的法則：１天安裝１個成功人士的「思維演算法」45天（約1.5月）腦袋將徹底更新！
-UID:kobo99-1665895522750708371@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/toLobO1FkT66MqizsV9NLQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250813
-DESCRIPTION:書名：躁鬱之心（最新修訂版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WRV9MMeoLTqKAanfeJMOCw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - 躁鬱之心（最新修訂版）
-UID:kobo99--2332355931741674815@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/WRV9MMeoLTqKAanfeJMOCw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250817
-DESCRIPTION:書名：MBTI，你的職業性格是什麼？（二版）：發現自己的優勢，規劃最適生涯\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/mbti-12\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - MBTI，你的職業性格是什麼？（二版）：發現自己的優勢，規劃最適生涯
-UID:kobo99--3281122824014780061@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/mbti-12
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251128
-DESCRIPTION:書名：味覺獵人：舌尖上的科學與美食癡迷症指南\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/0AAIn1w1kz-yN8W9bSNAbA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
-SUMMARY:99元 - 味覺獵人：舌尖上的科學與美食癡迷症指南
-UID:kobo99--7643028198711908159@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/0AAIn1w1kz-yN8W9bSNAbA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251210
-DESCRIPTION:書名：擊敗渣男！這樣可以告嗎？專業律師教的恐怖情人反擊法\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Tdh8QB2xLjiKVXkr5od2WQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
-SUMMARY:99元 - 擊敗渣男！這樣可以告嗎？專業律師教的恐怖情人反擊法
-UID:kobo99--891201329840388086@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Tdh8QB2xLjiKVXkr5od2WQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251017
-DESCRIPTION:書名：出海：联想全球化20年实战方法论\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/P0sLo-uu9zm5dQTan5I_6w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
-SUMMARY:99元 - 出海：联想全球化20年实战方法论
-UID:kobo99-4823651326340192641@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/P0sLo-uu9zm5dQTan5I_6w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251030
-DESCRIPTION:書名：運氣好的人，原來這樣思考，這樣行動：科學實證，打造強運大腦的「幸者生存」心法\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/PqG0bbS8MDylGGx06pxZWQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
-SUMMARY:99元 - 運氣好的人，原來這樣思考，這樣行動：科學實證，打造強運大腦的「幸者生存」心法
-UID:kobo99--1040121255530906053@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/PqG0bbS8MDylGGx06pxZWQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251214
-DESCRIPTION:書名：會開瓦斯就會煮【續攤】：跟著大象主廚學做「台灣胃」最愛料理，從土雞城、夜市小吃一路吃到居酒屋、涮涮鍋、韓劇名菜！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nh_fVL85xjmjGcS16UuFaQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
-SUMMARY:99元 - 會開瓦斯就會煮【續攤】：跟著大象主廚學做「台灣胃」最愛料理，從土雞城、夜市小吃一路吃到居酒屋、涮涮鍋、韓劇名菜！
-UID:kobo99--9035524036323174180@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/nh_fVL85xjmjGcS16UuFaQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250908
-DESCRIPTION:書名：不懂權謀的人，無法做大事：馬基維利教你如何在職場上出人頭地\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ThRkucWQqDm7cH1bSIk6_g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
-SUMMARY:99元 - 不懂權謀的人，無法做大事：馬基維利教你如何在職場上出人頭地
-UID:kobo99--4460352654063332022@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ThRkucWQqDm7cH1bSIk6_g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251105
-DESCRIPTION:書名：壓力管理大腦使用手冊：科學鍛鍊大腦最佳狀態，高壓下保持清晰思維\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/NL1Su69CnzK17L3-S7qRqw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
-SUMMARY:99元 - 壓力管理大腦使用手冊：科學鍛鍊大腦最佳狀態，高壓下保持清晰思維
-UID:kobo99--7457737961501313071@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/NL1Su69CnzK17L3-S7qRqw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250812
-DESCRIPTION:書名：肥尾效应：前渐进论、认识论和应用\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/5jSfrFdlQzK5Lbq4wEyCpw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - 肥尾效应：前渐进论、认识论和应用
-UID:kobo99--4659078463295822433@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/5jSfrFdlQzK5Lbq4wEyCpw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250915
-DESCRIPTION:書名：什麼是真正的聰明？：了解自己的長處和優勢，將危機變轉機的生存力【全民教育學者齋藤孝的「人生教育」系列vol.2】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vol-2-56\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
-SUMMARY:99元 - 什麼是真正的聰明？：了解自己的長處和優勢，將危機變轉機的生存力【全民教育學者齋藤孝的「人生教育」系列vol.2】
-UID:kobo99--8852109665208754333@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/vol-2-56
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250827
-DESCRIPTION:書名：你今天被騙了嗎?心理師教你破解詐騙伎倆\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_MqYxv0hqT6cxCu3gs_a0A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
-SUMMARY:99元 - 你今天被騙了嗎?心理師教你破解詐騙伎倆
-UID:kobo99--8341143977084383788@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/_MqYxv0hqT6cxCu3gs_a0A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250910
-DESCRIPTION:書名：聯準會到底在做什麼？：資深交易員第一手解析中央銀行怎麼印錢、管錢、花錢，又如何影響你我的口袋\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/RxK1p7ORNzeB0NgxVGhbow\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
-SUMMARY:99元 - 聯準會到底在做什麼？：資深交易員第一手解析中央銀行怎麼印錢、管錢、花錢，又如何影響你我的口袋
-UID:kobo99--7356231230053209350@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/RxK1p7ORNzeB0NgxVGhbow
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250907
-DESCRIPTION:書名：星期天被遺忘的人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/zcsED8eCsDinl5AG7mhS3A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
-SUMMARY:99元 - 星期天被遺忘的人
-UID:kobo99--1923419341708362130@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/zcsED8eCsDinl5AG7mhS3A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251126
-DESCRIPTION:書名：投資的奧義：財經界兩位頂尖思想家，寫給普通投資人的實用理財指南【10周年紀念版】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/M43f2otzzj6cc19T9WRA0Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 投資的奧義：財經界兩位頂尖思想家，寫給普通投資人的實用理財指南【10周年紀念版】
-UID:kobo99-4807027281410516532@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/M43f2otzzj6cc19T9WRA0Q
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250720
-DESCRIPTION:書名：何以為雍正？：從蓄勢隱忍到權力巔峰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ehpL4BKCFjObtaW6_aP52A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
-SUMMARY:99元 - 何以為雍正？：從蓄勢隱忍到權力巔峰
-UID:kobo99-6558167306604800295@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ehpL4BKCFjObtaW6_aP52A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250820
-DESCRIPTION:書名：體內排濕：擺脫精神不振、虛胖水腫、胸悶腹脹、關節痠痛等問題，教你培養百病自癒力\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1ggloqG7bDGc6YXPSyV3pQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - 體內排濕：擺脫精神不振、虛胖水腫、胸悶腹脹、關節痠痛等問題，教你培養百病自癒力
-UID:kobo99--8443662148126534920@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/1ggloqG7bDGc6YXPSyV3pQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250706
-DESCRIPTION:書名：歡笑國度\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/oFqe859WPDC6CAoGm4TgTg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
-SUMMARY:99元 - 歡笑國度
-UID:kobo99-6457236001466992867@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/oFqe859WPDC6CAoGm4TgTg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250918
-DESCRIPTION:書名：睏世代：為何你的孩子總是睡不飽？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/PAH-JkaptDyWEQLA_wV4YQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
-SUMMARY:99元 - 睏世代：為何你的孩子總是睡不飽？
-UID:kobo99-2095977038959667480@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/PAH-JkaptDyWEQLA_wV4YQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250731
-DESCRIPTION:書名：獲利的魔鬼，就躲在細節裡\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/96XieR03lDiJQvQx2eTCHA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
-SUMMARY:99元 - 獲利的魔鬼，就躲在細節裡
-UID:kobo99-2209076804832111676@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/96XieR03lDiJQvQx2eTCHA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250803
-DESCRIPTION:書名：咆哮山莊\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/jN3SO3dQsz-vbnG83btN_w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
-SUMMARY:99元 - 咆哮山莊
-UID:kobo99--3004969111890359208@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/jN3SO3dQsz-vbnG83btN_w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251018
-DESCRIPTION:書名：30個不可不知的細胞免疫處方箋：全面了解細胞、免疫、病毒相關知識，當個聰明的病人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gYosV2a4LTuy2Zj7btCtfQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
-SUMMARY:99元 - 30個不可不知的細胞免疫處方箋：全面了解細胞、免疫、病毒相關知識，當個聰明的病人
-UID:kobo99--3324817796095813579@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/gYosV2a4LTuy2Zj7btCtfQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251109
-DESCRIPTION:書名：再給我一天\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/HkK8OMPT1TqYk3f9gFrsOg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
-SUMMARY:99元 - 再給我一天
-UID:kobo99--5890426643924528247@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/HkK8OMPT1TqYk3f9gFrsOg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250808
-DESCRIPTION:書名：我的1/2抑郁了\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/KyJ_4JLxZDWlZNxk7nE2KA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
-SUMMARY:99元 - 我的1/2抑郁了
-UID:kobo99-1956394455966750352@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/KyJ_4JLxZDWlZNxk7nE2KA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251123
-DESCRIPTION:書名：遺書教我的事\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gHLRl7l5ADqnJDFx8ap3hA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 遺書教我的事
-UID:kobo99-9031248674267876147@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/gHLRl7l5ADqnJDFx8ap3hA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250922
-DESCRIPTION:書名：高效經理人手冊 : 史丹佛商學院最熱門管理課，鍛鍊主管5大卓越執行力\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Bnmb1-TfIDCfF6uUiA6x3w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
-SUMMARY:99元 - 高效經理人手冊 : 史丹佛商學院最熱門管理課，鍛鍊主管5大卓越執行力
-UID:kobo99--3127693850323299696@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Bnmb1-TfIDCfF6uUiA6x3w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251206
-DESCRIPTION:書名：人类吸猫简史\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Y63ro3x4sTWm7YB0UogbRw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
-SUMMARY:99元 - 人类吸猫简史
-UID:kobo99-8372769606941695402@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Y63ro3x4sTWm7YB0UogbRw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250824
-DESCRIPTION:書名：寄生殺人：尼崎連續怪死事件的真相\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/OxYLkDL1HT-URKXD-PNq0w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
-SUMMARY:99元 - 寄生殺人：尼崎連續怪死事件的真相
-UID:kobo99--8006478300668170090@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/OxYLkDL1HT-URKXD-PNq0w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251016
-DESCRIPTION:書名：如何讓人喜歡我\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nBc64-h6yT2-ePd2xUCxEg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
-SUMMARY:99元 - 如何讓人喜歡我
-UID:kobo99--1006413065046734023@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/nBc64-h6yT2-ePd2xUCxEg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251221
-DESCRIPTION:書名：失去貞操的橄欖油：橄欖油的真相與謊言\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eNEr8_msjjKgYREtHXkl6w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
-SUMMARY:99元 - 失去貞操的橄欖油：橄欖油的真相與謊言
-UID:kobo99-9127510192954528050@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/eNEr8_msjjKgYREtHXkl6w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251007
-DESCRIPTION:書名：科學的40堂公開課：從仰望星空到觀察細胞及DNA，從原子結構到宇宙生成，人類對宇宙及生命最深刻的提問\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/40-dna\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
-SUMMARY:99元 - 科學的40堂公開課：從仰望星空到觀察細胞及DNA，從原子結構到宇宙生成，人類對宇宙及生命最深刻的提問
-UID:kobo99-4630684252427946681@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/40-dna
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250810
-DESCRIPTION:書名：美國式正義：公眾與O.J.辛普森的司法對決\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/o-j\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
-SUMMARY:99元 - 美國式正義：公眾與O.J.辛普森的司法對決
-UID:kobo99--3909092830484993168@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/o-j
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250702
-DESCRIPTION:書名：隱形冠軍2.0：中堅企業面對地緣政治的務實佈局，擁抱生態系與永續創新的新策略\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1voqqfJ67TaD8Z8uHnSCfA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
-SUMMARY:99元 - 隱形冠軍2.0：中堅企業面對地緣政治的務實佈局，擁抱生態系與永續創新的新策略
-UID:kobo99--8530066159078492537@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/1voqqfJ67TaD8Z8uHnSCfA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250916
-DESCRIPTION:書名：加密‧解謎‧密碼學：從歷史發展到關鍵應用，有趣得不可思議的密碼研究\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Xd983krfMjOKKgEaCcP-Xg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
-SUMMARY:99元 - 加密‧解謎‧密碼學：從歷史發展到關鍵應用，有趣得不可思議的密碼研究
-UID:kobo99-1368218573777167856@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Xd983krfMjOKKgEaCcP-Xg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251026
-DESCRIPTION:書名：什麼荒謬年代\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/8BTkGy7eGjmZ5eXeMsGi8g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
-SUMMARY:99元 - 什麼荒謬年代
-UID:kobo99-5382548357470774202@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/8BTkGy7eGjmZ5eXeMsGi8g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250712
-DESCRIPTION:書名：你忘了一切，卻沒忘記我：一個腦科學家給母親愛的告白，打破失智者喪失愛與能力的迷思\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/etnLgdrT_jeqab3PvfefdQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
-SUMMARY:99元 - 你忘了一切，卻沒忘記我：一個腦科學家給母親愛的告白，打破失智者喪失愛與能力的迷思
-UID:kobo99-9032640457847693585@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/etnLgdrT_jeqab3PvfefdQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251110
-DESCRIPTION:書名：《大谷翔平：武士初心——2023年WBC世界一、全壘打王&MVP球季、轉戰道奇全紀錄》\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/2023wbc-mvp\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
-SUMMARY:99元 - 《大谷翔平：武士初心——2023年WBC世界一、全壘打王&MVP球季、轉戰道奇全紀錄》
-UID:kobo99--5424774597052162340@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/2023wbc-mvp
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251001
-DESCRIPTION:書名：躍遷：「羅輯思維」最受歡迎的知識大神教你在迷茫時代翻轉人生的5大生存法則！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/riTgOTXTbDKO2EH8Oob1ZQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
-SUMMARY:99元 - 躍遷：「羅輯思維」最受歡迎的知識大神教你在迷茫時代翻轉人生的5大生存法則！
-UID:kobo99--5997135959573171171@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/riTgOTXTbDKO2EH8Oob1ZQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250718
-DESCRIPTION:書名：食托邦 Sitopia：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sitopia-4\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
-SUMMARY:99元 - 食托邦 Sitopia：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】
-UID:kobo99--838074560407499915@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/sitopia-4
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251117
-DESCRIPTION:書名：憤怒經濟學：物價飆升、薪資凍漲、貧富差距惡化，資本主義運作當機如何讓我們感到憤怒？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/-4KN_Mh7yTa3qhbLVe91cg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 憤怒經濟學：物價飆升、薪資凍漲、貧富差距惡化，資本主義運作當機如何讓我們感到憤怒？
-UID:kobo99-8248961698795873760@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/-4KN_Mh7yTa3qhbLVe91cg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250904
-DESCRIPTION:書名：長得好看能當飯吃嗎？：掌握底層邏輯，提升認知高度的33個經濟學常識問答\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/5lPjeS4avjSXiTlqLrdVJQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
-SUMMARY:99元 - 長得好看能當飯吃嗎？：掌握底層邏輯，提升認知高度的33個經濟學常識問答
-UID:kobo99--3186560908174066293@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/5lPjeS4avjSXiTlqLrdVJQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250828
-DESCRIPTION:書名：數位自我：從出生到登出人生，科技如何影響人格發展？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ndAoIIeXLzenY_HOHzim0A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
-SUMMARY:99元 - 數位自我：從出生到登出人生，科技如何影響人格發展？
-UID:kobo99--6566360172659709373@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ndAoIIeXLzenY_HOHzim0A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250926
-DESCRIPTION:書名：食人资本主义\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WgSqs15oLz-LskEaNBujvQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
-SUMMARY:99元 - 食人资本主义
-UID:kobo99--6639029124318195680@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/WgSqs15oLz-LskEaNBujvQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251217
-DESCRIPTION:書名：驢子法則：人生很長，跑得快的不一定笑到最後\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/FT3mdfIkkjq8Bb-riWx8Qg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
-SUMMARY:99元 - 驢子法則：人生很長，跑得快的不一定笑到最後
-UID:kobo99-4351306660893426321@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/FT3mdfIkkjq8Bb-riWx8Qg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250811
-DESCRIPTION:書名：慷慨的感染力：在善良被低估的年代，讓善意泛起漣漪\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nGITrr6eVjK2GouMhsJ3ww\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - 慷慨的感染力：在善良被低估的年代，讓善意泛起漣漪
-UID:kobo99-1595509652688116855@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/nGITrr6eVjK2GouMhsJ3ww
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250930
-DESCRIPTION:書名：我們的行為是怎樣被設計的\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1I7XCd64-DeshmbKS52U4w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
-SUMMARY:99元 - 我們的行為是怎樣被設計的
-UID:kobo99-8841651223123253633@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/1I7XCd64-DeshmbKS52U4w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250703
-DESCRIPTION:書名：為什麼我們不想生：生與不生，哪一種人生選擇更幸福？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/OX-5P4B7kDuPFC8wKA4uwg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
-SUMMARY:99元 - 為什麼我們不想生：生與不生，哪一種人生選擇更幸福？
-UID:kobo99--8191267394931706718@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/OX-5P4B7kDuPFC8wKA4uwg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250713
-DESCRIPTION:書名：血色童話（2022年新版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/TM_uDipYBTip57HiKb5f7A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
-SUMMARY:99元 - 血色童話（2022年新版）
-UID:kobo99-2747262041447619319@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/TM_uDipYBTip57HiKb5f7A
+DTSTART;VALUE=DATE:20251209
+DESCRIPTION:書名：為什麼我們總是相信自己是對的？：不知不覺掉入的101種慣性思考陷阱\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/5VDFlYO39zC8Pqvyc7pvGA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
+SUMMARY:99元 - 為什麼我們總是相信自己是對的？：不知不覺掉入的101種慣性思考陷阱
+UID:kobo99-217085697853701487@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/5VDFlYO39zC8Pqvyc7pvGA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251029
+DESCRIPTION:書名：腐敗：獨裁者與他們的產地。美國《寇克斯評論》2021年最佳書籍！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sg_oH_LrkTyJE1T8KsA29A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
+SUMMARY:99元 - 腐敗：獨裁者與他們的產地。美國《寇克斯評論》2021年最佳書籍！
+UID:kobo99-7583813824233597775@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/sg_oH_LrkTyJE1T8KsA29A
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251103
 DESCRIPTION:書名：隱形冠軍：21世紀最被低估的競爭優勢(暢銷改版)\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/r6fibM6cTTmJh_ZTBNFE2w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
 SUMMARY:99元 - 隱形冠軍：21世紀最被低估的競爭優勢(暢銷改版)
-UID:kobo99-3120660032785342060@kobo-99-ical
+UID:kobo99--4431825246503827032@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/r6fibM6cTTmJh_ZTBNFE2w
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250708
-DESCRIPTION:書名：少了微生物，我們連屁都放不出來（二版）：細菌病毒如何決定人類的生活，以及我們該如何自保？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/N5u8LJ8l1jO7LUVKbz2CjQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
-SUMMARY:99元 - 少了微生物，我們連屁都放不出來（二版）：細菌病毒如何決定人類的生活，以及我們該如何自保？
-UID:kobo99-3420136426456381311@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/N5u8LJ8l1jO7LUVKbz2CjQ
+DTSTART;VALUE=DATE:20251215
+DESCRIPTION:書名：靜能量：找回內在平衡的25個心靈處方\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/45GEYE4dRTCOFAB8Fqt_SQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
+SUMMARY:99元 - 靜能量：找回內在平衡的25個心靈處方
+UID:kobo99-2866241349006493978@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/45GEYE4dRTCOFAB8Fqt_SQ
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251019
-DESCRIPTION:書名：命案現場清潔公司2.0：聽清潔師訴說那些被屍水、血跡、蛆蟲覆蓋的生命故事\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/qMZn0X8tijq_HVDyWZTKFg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
-SUMMARY:99元 - 命案現場清潔公司2.0：聽清潔師訴說那些被屍水、血跡、蛆蟲覆蓋的生命故事
-UID:kobo99-5103390894252120118@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/qMZn0X8tijq_HVDyWZTKFg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250807
-DESCRIPTION:書名：生命最後三通電話，你會打給誰？：及時道謝、道歉、道愛、道別，不負此生【內附天堂筆記本】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WNCPS1TGtzSlb_G1hhtqHQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
-SUMMARY:99元 - 生命最後三通電話，你會打給誰？：及時道謝、道歉、道愛、道別，不負此生【內附天堂筆記本】
-UID:kobo99-307739646203272297@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/WNCPS1TGtzSlb_G1hhtqHQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DESCRIPTION:書名：基姆\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/w80LFUwKUzuEAXu0Bk6Dmw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
-SUMMARY:99元 - 基姆
-UID:kobo99--7729547453763239468@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/w80LFUwKUzuEAXu0Bk6Dmw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250829
-DESCRIPTION:書名：杀人广告\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/KDLBQvR4HjSf5fJtaIo9XQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
-SUMMARY:99元 - 杀人广告
-UID:kobo99-8850134247941747797@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/KDLBQvR4HjSf5fJtaIo9XQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DESCRIPTION:書名：品格優勢：成就孩子「王者之力」，從容應對未來的競爭與機遇\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/wDG3WKkMwzKIiXhX_DGeiQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
-SUMMARY:99元 - 品格優勢：成就孩子「王者之力」，從容應對未來的競爭與機遇
-UID:kobo99-8536148523268634396@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/wDG3WKkMwzKIiXhX_DGeiQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251130
-DESCRIPTION:書名：刻意放鬆：25個壓力調節練習，找回安定的內在\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/4IcASUpRDz2BMJsIXd4vaA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
-SUMMARY:99元 - 刻意放鬆：25個壓力調節練習，找回安定的內在
-UID:kobo99--6887947502496885148@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/4IcASUpRDz2BMJsIXd4vaA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250819
-DESCRIPTION:書名：一起來花蜂！超萌蜂類觀察筆記：泰迪熊蜂不是熊，巧克力地花蜂不能吃，從蜜蜂、隧蜂到切葉蜂，花蜂七大家族明星大集合，蜂功偉業比一比\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/MyCiFVnHKTuUqm9tNi5EqA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
-SUMMARY:99元 - 一起來花蜂！超萌蜂類觀察筆記：泰迪熊蜂不是熊，巧克力地花蜂不能吃，從蜜蜂、隧蜂到切葉蜂，花蜂七大家族明星大集合，蜂功偉業比一比
-UID:kobo99-3300441212077007005@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/MyCiFVnHKTuUqm9tNi5EqA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251116
-DESCRIPTION:書名：輪迴交易現場\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/rBsFRtAikjGvtv_K4TX6UQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
-SUMMARY:99元 - 輪迴交易現場
-UID:kobo99-7930370092213251210@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/rBsFRtAikjGvtv_K4TX6UQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251012
-DESCRIPTION:書名：波西傑克森：烈日星辰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/394KX5_bRzuh7yK81zlXtQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
-SUMMARY:99元 - 波西傑克森：烈日星辰
-UID:kobo99-8528315867503149251@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/394KX5_bRzuh7yK81zlXtQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251113
-DESCRIPTION:書名：我要的新人生\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/dVqKmuwRETCoCQAnDWgEGw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
-SUMMARY:99元 - 我要的新人生
-UID:kobo99--4055265226893411310@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/dVqKmuwRETCoCQAnDWgEGw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250903
-DESCRIPTION:書名：一生都能好好記憶：哈佛神經科學家寫給每個人的大腦記憶全書，遺忘不是敵人，簡單練習，訓練記憶陪你走的更遠\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/bV0JhBzfJjq4OqCsalOGPw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
-SUMMARY:99元 - 一生都能好好記憶：哈佛神經科學家寫給每個人的大腦記憶全書，遺忘不是敵人，簡單練習，訓練記憶陪你走的更遠
-UID:kobo99--2468931322167949680@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/bV0JhBzfJjq4OqCsalOGPw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250726
-DESCRIPTION:書名：巨星天使投資人的誕生：從有錢，變超有錢！好萊塢與體壇如何破解創投密碼，顛覆矽谷\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/QoJhlaLmgDGEeNadBsiOZg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
-SUMMARY:99元 - 巨星天使投資人的誕生：從有錢，變超有錢！好萊塢與體壇如何破解創投密碼，顛覆矽谷
-UID:kobo99--9166085855355624545@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/QoJhlaLmgDGEeNadBsiOZg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250701
-DESCRIPTION:書名：疼痛帝國：薩克勒家族製藥王朝秘史\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vwWhHvlTRjSfRGrlMtWadA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
-SUMMARY:99元 - 疼痛帝國：薩克勒家族製藥王朝秘史
-UID:kobo99--532239482750635969@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/vwWhHvlTRjSfRGrlMtWadA
+DTSTART;VALUE=DATE:20251125
+DESCRIPTION:書名：知·行：个人、家庭和团队的领导力法则\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/GVILBWTtqzSHh1imKWXiwA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
+SUMMARY:99元 - 知·行：个人、家庭和团队的领导力法则
+UID:kobo99--6901265783875102628@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/GVILBWTtqzSHh1imKWXiwA
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251127
 DESCRIPTION:書名：數位監控：我們如何拿回均衡的科技生活\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/59L2S9qFHDWS6dH5YyZXxQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
 SUMMARY:99元 - 數位監控：我們如何拿回均衡的科技生活
-UID:kobo99--4594357087318856437@kobo-99-ical
+UID:kobo99--345583465276603375@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/59L2S9qFHDWS6dH5YyZXxQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250716
+DESCRIPTION:書名：兒子與情人（《查泰萊夫人的情人》作者自傳式小說）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/33Ch1pVppTGnvxPZc2uF8g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
+SUMMARY:99元 - 兒子與情人（《查泰萊夫人的情人》作者自傳式小說）
+UID:kobo99-8801628276943222580@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/33Ch1pVppTGnvxPZc2uF8g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250801
+DESCRIPTION:書名：数字疾驰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/we_2TRodFzGSE0gf7KBmzw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
+SUMMARY:99元 - 数字疾驰
+UID:kobo99-3997154998440951792@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/we_2TRodFzGSE0gf7KBmzw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251001
+DESCRIPTION:書名：躍遷：「羅輯思維」最受歡迎的知識大神教你在迷茫時代翻轉人生的5大生存法則！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/riTgOTXTbDKO2EH8Oob1ZQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
+SUMMARY:99元 - 躍遷：「羅輯思維」最受歡迎的知識大神教你在迷茫時代翻轉人生的5大生存法則！
+UID:kobo99-8113594386047729647@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/riTgOTXTbDKO2EH8Oob1ZQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250807
+DESCRIPTION:書名：生命最後三通電話，你會打給誰？：及時道謝、道歉、道愛、道別，不負此生【內附天堂筆記本】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WNCPS1TGtzSlb_G1hhtqHQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
+SUMMARY:99元 - 生命最後三通電話，你會打給誰？：及時道謝、道歉、道愛、道別，不負此生【內附天堂筆記本】
+UID:kobo99-8243511706325751923@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/WNCPS1TGtzSlb_G1hhtqHQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251105
+DESCRIPTION:書名：壓力管理大腦使用手冊：科學鍛鍊大腦最佳狀態，高壓下保持清晰思維\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/NL1Su69CnzK17L3-S7qRqw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
+SUMMARY:99元 - 壓力管理大腦使用手冊：科學鍛鍊大腦最佳狀態，高壓下保持清晰思維
+UID:kobo99-7589573111620922963@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/NL1Su69CnzK17L3-S7qRqw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250927
+DESCRIPTION:書名：烏合之眾：為什麼「我們」會變得瘋狂、盲目、衝動？讓你看透群眾心理的第一書\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/2dAORxI0rDKivGvo0Tu6rA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
+SUMMARY:99元 - 烏合之眾：為什麼「我們」會變得瘋狂、盲目、衝動？讓你看透群眾心理的第一書
+UID:kobo99--8306866245849760852@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/2dAORxI0rDKivGvo0Tu6rA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250920
+DESCRIPTION:書名：好好休息：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sy-vx2dioDS-BozkZdsS5w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
+SUMMARY:99元 - 好好休息：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法
+UID:kobo99--8271078636563095533@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/sy-vx2dioDS-BozkZdsS5w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251007
+DESCRIPTION:書名：科學的40堂公開課：從仰望星空到觀察細胞及DNA，從原子結構到宇宙生成，人類對宇宙及生命最深刻的提問\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/40-dna\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
+SUMMARY:99元 - 科學的40堂公開課：從仰望星空到觀察細胞及DNA，從原子結構到宇宙生成，人類對宇宙及生命最深刻的提問
+UID:kobo99-3124719645429771477@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/40-dna
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251117
+DESCRIPTION:書名：憤怒經濟學：物價飆升、薪資凍漲、貧富差距惡化，資本主義運作當機如何讓我們感到憤怒？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/-4KN_Mh7yTa3qhbLVe91cg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 憤怒經濟學：物價飆升、薪資凍漲、貧富差距惡化，資本主義運作當機如何讓我們感到憤怒？
+UID:kobo99-6291847835212476644@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/-4KN_Mh7yTa3qhbLVe91cg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251126
+DESCRIPTION:書名：投資的奧義：財經界兩位頂尖思想家，寫給普通投資人的實用理財指南【10周年紀念版】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/M43f2otzzj6cc19T9WRA0Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 投資的奧義：財經界兩位頂尖思想家，寫給普通投資人的實用理財指南【10周年紀念版】
+UID:kobo99--1621717421828696682@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/M43f2otzzj6cc19T9WRA0Q
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251109
+DESCRIPTION:書名：再給我一天\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/HkK8OMPT1TqYk3f9gFrsOg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
+SUMMARY:99元 - 再給我一天
+UID:kobo99-7098265066637023209@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/HkK8OMPT1TqYk3f9gFrsOg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250627
+DESCRIPTION:書名：内衣课\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/UJIEcVwl5D-Z3PnZjfEvmw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w26
+SUMMARY:99元 - 内衣课
+UID:kobo99-5098061593872689919@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/UJIEcVwl5D-Z3PnZjfEvmw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251123
+DESCRIPTION:書名：遺書教我的事\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gHLRl7l5ADqnJDFx8ap3hA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 遺書教我的事
+UID:kobo99--9159895292727833728@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/gHLRl7l5ADqnJDFx8ap3hA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251030
+DESCRIPTION:書名：運氣好的人，原來這樣思考，這樣行動：科學實證，打造強運大腦的「幸者生存」心法\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/PqG0bbS8MDylGGx06pxZWQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
+SUMMARY:99元 - 運氣好的人，原來這樣思考，這樣行動：科學實證，打造強運大腦的「幸者生存」心法
+UID:kobo99-6456647793663522723@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/PqG0bbS8MDylGGx06pxZWQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250904
+DESCRIPTION:書名：長得好看能當飯吃嗎？：掌握底層邏輯，提升認知高度的33個經濟學常識問答\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/5lPjeS4avjSXiTlqLrdVJQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
+SUMMARY:99元 - 長得好看能當飯吃嗎？：掌握底層邏輯，提升認知高度的33個經濟學常識問答
+UID:kobo99--9055999851214876819@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/5lPjeS4avjSXiTlqLrdVJQ
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251208
 DESCRIPTION:書名：窒息\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/7paW12jK9DGNbOXNOduV-w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
 SUMMARY:99元 - 窒息
-UID:kobo99--1334880001239821996@kobo-99-ical
+UID:kobo99-7078320669861497373@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/7paW12jK9DGNbOXNOduV-w
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250929
 DESCRIPTION:書名：40%的工作沒意義:為什麼還搶著做？論狗屁工作的出現與勞動價值的再思\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/5PVX81QeqjSLKYu2rCYV1g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
 SUMMARY:99元 - 40%的工作沒意義:為什麼還搶著做？論狗屁工作的出現與勞動價值的再思
-UID:kobo99--6576397811556405738@kobo-99-ical
+UID:kobo99-7121823105034423164@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/5PVX81QeqjSLKYu2rCYV1g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250717
-DESCRIPTION:書名：人的心：耶魯大學最受歡迎的心理學公開課，探索人性的心智旅程\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/xrcFUsVVDTiiQth47vpfIg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
-SUMMARY:99元 - 人的心：耶魯大學最受歡迎的心理學公開課，探索人性的心智旅程
-UID:kobo99-1384887704438252875@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/xrcFUsVVDTiiQth47vpfIg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251011
-DESCRIPTION:書名：憤世媽媽\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Al0fz5jCSDet9NZ2Ed0ufg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
-SUMMARY:99元 - 憤世媽媽
-UID:kobo99-7138074922774016155@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Al0fz5jCSDet9NZ2Ed0ufg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250629
-DESCRIPTION:書名：九龍城寨（電影《九龍城寨之圍城》原著小說電影海報書衣版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/aqhk_ntTyjOGA7Wq6vUhXg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w26
-SUMMARY:99元 - 九龍城寨（電影《九龍城寨之圍城》原著小說電影海報書衣版）
-UID:kobo99-1901585623926536462@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/aqhk_ntTyjOGA7Wq6vUhXg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251005
-DESCRIPTION:書名：布魯克林有棵樹【出版80週年紀念版】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/tChZ843G4zCyQknaZukpPQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
-SUMMARY:99元 - 布魯克林有棵樹【出版80週年紀念版】
-UID:kobo99--1664761582922333732@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/tChZ843G4zCyQknaZukpPQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251027
-DESCRIPTION:書名：你相信，所以你成功：全球頂尖的成功學大師教你克服懷疑，重塑人生，釋放潛能\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/654KOaJd8jipePEEQByfaA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
-SUMMARY:99元 - 你相信，所以你成功：全球頂尖的成功學大師教你克服懷疑，重塑人生，釋放潛能
-UID:kobo99-8551076794243956981@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/654KOaJd8jipePEEQByfaA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250831
-DESCRIPTION:書名：颶光典籍首部曲：王者之路．上冊\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/CkETD3f9aTqPzqIZsoxnoA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
-SUMMARY:99元 - 颶光典籍首部曲：王者之路．上冊
-UID:kobo99--1044663145140863877@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/CkETD3f9aTqPzqIZsoxnoA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251203
-DESCRIPTION:書名：雖然會胖，但還是想一個人吃完半半炸雞再睡【夜食症候群的深夜飢餓告白】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nx8im2uocjOpfSChN5Fkdg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
-SUMMARY:99元 - 雖然會胖，但還是想一個人吃完半半炸雞再睡【夜食症候群的深夜飢餓告白】
-UID:kobo99--7474811337451250265@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/nx8im2uocjOpfSChN5Fkdg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250925
-DESCRIPTION:書名：職場裡為什麼不能有話直說？：清晰表達的五個原則\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Xxv1Iw__rjWdG7mR18cUTA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
-SUMMARY:99元 - 職場裡為什麼不能有話直說？：清晰表達的五個原則
-UID:kobo99--4873697093417108701@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Xxv1Iw__rjWdG7mR18cUTA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250628
-DESCRIPTION:書名：允許自己變有錢\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/A7ijhGAsJTm2nqou5sIWDQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w26
-SUMMARY:99元 - 允許自己變有錢
-UID:kobo99-2834582883430885998@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/A7ijhGAsJTm2nqou5sIWDQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250728
-DESCRIPTION:書名：人性賽局：哈佛大學最重要的行為經濟學課，驚人「隱藏賽局」完美解釋非理性行為\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/GWgOZ3TGzjKXXrGQb_5bdA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
-SUMMARY:99元 - 人性賽局：哈佛大學最重要的行為經濟學課，驚人「隱藏賽局」完美解釋非理性行為
-UID:kobo99--7604490661724670211@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/GWgOZ3TGzjKXXrGQb_5bdA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250911
-DESCRIPTION:書名：麥肯錫主管意見回饋術：一流顧問都在用的精準傳達技巧，避免誤解、幫助團隊快速調整工作狀態，還能留住人才\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/t8P4PX_gdDiZ5Act03hnXA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
-SUMMARY:99元 - 麥肯錫主管意見回饋術：一流顧問都在用的精準傳達技巧，避免誤解、幫助團隊快速調整工作狀態，還能留住人才
-UID:kobo99--2035542927621908286@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/t8P4PX_gdDiZ5Act03hnXA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251008
-DESCRIPTION:書名：在你開口之前：直擊完美講稿內幕，紐約最夯演講撰稿師的零失誤戰略大公開\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/FbFtZ1OpRTG0t0W6FY8JAA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
-SUMMARY:99元 - 在你開口之前：直擊完美講稿內幕，紐約最夯演講撰稿師的零失誤戰略大公開
-UID:kobo99-4667961696393330331@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/FbFtZ1OpRTG0t0W6FY8JAA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250826
-DESCRIPTION:書名：我擁群像：栽進體內的微米宇宙，看生物如何與看不見的微生物互相算計、威脅、合作、保護，塑造大自然的全貌\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1eMHkO3dcTiHvrHp9gLDaA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
-SUMMARY:99元 - 我擁群像：栽進體內的微米宇宙，看生物如何與看不見的微生物互相算計、威脅、合作、保護，塑造大自然的全貌
-UID:kobo99--680014224029580513@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/1eMHkO3dcTiHvrHp9gLDaA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250905
-DESCRIPTION:書名：梦境收割者\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/rPDdKvaMJTy0-Q8dEFsRjQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
-SUMMARY:99元 - 梦境收割者
-UID:kobo99-4490106081921620339@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/rPDdKvaMJTy0-Q8dEFsRjQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251120
-DESCRIPTION:書名：麥肯錫認證的執行長思維：Google、Netflix、Sony、微軟、樂高……67位全球頂尖CEO的卓越之道【全球第一顧問公司麥肯錫官方最新力作．隨書附「卓越CEO的高效工具」】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/google-netflix-sony-67ceo-ceo\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 麥肯錫認證的執行長思維：Google、Netflix、Sony、微軟、樂高……67位全球頂尖CEO的卓越之道【全球第一顧問公司麥肯錫官方最新力作．隨書附「卓越CEO的高效工具」】
-UID:kobo99-7271280885472107098@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/google-netflix-sony-67ceo-ceo
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251112
-DESCRIPTION:書名：測試：死後生命的世界與終極驗證（法國長銷30萬冊靈性經典）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/waqefSDh0TaIhsHjKaTumQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
-SUMMARY:99元 - 測試：死後生命的世界與終極驗證（法國長銷30萬冊靈性經典）
-UID:kobo99-7412957389034810330@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/waqefSDh0TaIhsHjKaTumQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251020
-DESCRIPTION:書名：一流的人如何擁有動態穩定力：培養變通思維，調整期待，修復不確定性帶來的震盪，隨變動而更高效強大\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sBoBBuPZjzGWbH8pP_UbkA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
-SUMMARY:99元 - 一流的人如何擁有動態穩定力：培養變通思維，調整期待，修復不確定性帶來的震盪，隨變動而更高效強大
-UID:kobo99--8141248675544738420@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/sBoBBuPZjzGWbH8pP_UbkA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250729
-DESCRIPTION:書名：螞蟻螞蟻：螞蟻大師威爾森與霍德伯勒的科學探索之旅（特別收錄螞蟻專家林宗岐教授編寫的〈台灣家屋螞蟻圖鑑〉）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_OKgiH658jyLMleTOQD91A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
-SUMMARY:99元 - 螞蟻螞蟻：螞蟻大師威爾森與霍德伯勒的科學探索之旅（特別收錄螞蟻專家林宗岐教授編寫的〈台灣家屋螞蟻圖鑑〉）
-UID:kobo99-1747931109387251096@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/_OKgiH658jyLMleTOQD91A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250920
-DESCRIPTION:書名：好好休息：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sy-vx2dioDS-BozkZdsS5w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
-SUMMARY:99元 - 好好休息：心不累、身體不疲憊、大腦不報廢的好眠人生實踐法
-UID:kobo99--2755744533870642822@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/sy-vx2dioDS-BozkZdsS5w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251021
-DESCRIPTION:書名：雞冠天下：一部自然史，雞如何壯闊世界，和人類共創文明\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/t8t2jN9HvjyKTpJ4DpOp9g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
-SUMMARY:99元 - 雞冠天下：一部自然史，雞如何壯闊世界，和人類共創文明
-UID:kobo99-92710009553052374@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/t8t2jN9HvjyKTpJ4DpOp9g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250727
-DESCRIPTION:書名：一個人的聖經\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/tG0fdBSIbjC4zvdLPcBT4A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
-SUMMARY:99元 - 一個人的聖經
-UID:kobo99-7128601047493317234@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/tG0fdBSIbjC4zvdLPcBT4A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250823
-DESCRIPTION:書名：FUN的力量：釋放「快樂」的強大能量，讓自己輕鬆幸福，成為有趣的人，整個人活了過來\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/fun-8\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
-SUMMARY:99元 - FUN的力量：釋放「快樂」的強大能量，讓自己輕鬆幸福，成為有趣的人，整個人活了過來
-UID:kobo99--6818419420123200422@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/fun-8
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250730
-DESCRIPTION:書名：什麼才是經營最難的事：矽谷創投天王告訴你真實的管理智慧\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/NmPadzDBkTOsPvgiu73czQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
-SUMMARY:99元 - 什麼才是經營最難的事：矽谷創投天王告訴你真實的管理智慧
-UID:kobo99-7795188841725106865@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/NmPadzDBkTOsPvgiu73czQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251029
-DESCRIPTION:書名：腐敗：獨裁者與他們的產地。美國《寇克斯評論》2021年最佳書籍！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sg_oH_LrkTyJE1T8KsA29A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
-SUMMARY:99元 - 腐敗：獨裁者與他們的產地。美國《寇克斯評論》2021年最佳書籍！
-UID:kobo99-6636210136207261946@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/sg_oH_LrkTyJE1T8KsA29A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251216
-DESCRIPTION:書名：練喉嚨：不想死，就不能讓喉嚨老化！日本耳鼻喉名醫獨家傳授讓喉嚨返老還童的「喉嚨體操」，每天5分鐘，延命10年！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eaiFsWqAxjKeUzUXhhDZcQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
-SUMMARY:99元 - 練喉嚨：不想死，就不能讓喉嚨老化！日本耳鼻喉名醫獨家傳授讓喉嚨返老還童的「喉嚨體操」，每天5分鐘，延命10年！
-UID:kobo99--6912689985301016498@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/eaiFsWqAxjKeUzUXhhDZcQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250830
-DESCRIPTION:書名：《大規模領導力：麥肯錫領導力聖經\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ch2N8tfCCDK0zOoO4DR0-g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
-SUMMARY:99元 - 《大規模領導力：麥肯錫領導力聖經
-UID:kobo99--4421424844262268884@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ch2N8tfCCDK0zOoO4DR0-g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251121
-DESCRIPTION:書名：借錢：從利息、債務到金融商品，2000年的演變真貌\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nhW4Ja-vcjmrPn8sTMHh1A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 借錢：從利息、債務到金融商品，2000年的演變真貌
-UID:kobo99--6527597367842165455@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/nhW4Ja-vcjmrPn8sTMHh1A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250901
-DESCRIPTION:書名：超級感官：人類的32種感覺和運用技巧\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/uXveFm2gEDyuQ8xZgWjAbQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
-SUMMARY:99元 - 超級感官：人類的32種感覺和運用技巧
-UID:kobo99--7715132534614721789@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/uXveFm2gEDyuQ8xZgWjAbQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251215
-DESCRIPTION:書名：靜能量：找回內在平衡的25個心靈處方\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/45GEYE4dRTCOFAB8Fqt_SQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
-SUMMARY:99元 - 靜能量：找回內在平衡的25個心靈處方
-UID:kobo99-4212944058421785171@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/45GEYE4dRTCOFAB8Fqt_SQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250711
-DESCRIPTION:書名：别害怕冲突\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/RTHraD0FHjusRoZvuyK7Xg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
-SUMMARY:99元 - 别害怕冲突
-UID:kobo99-8397694985140924975@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/RTHraD0FHjusRoZvuyK7Xg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251124
-DESCRIPTION:書名：破壞性競爭：Apple vs. BlackBerry，H&M vs. ZARA，Bumble vs. Tinder，看巨頭爭霸如何鞏固優勢、瓜分市場！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/apple-vs-blackberry-h-m-vs-zara-bumble-vs-tinder\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
-SUMMARY:99元 - 破壞性競爭：Apple vs. BlackBerry，H&M vs. ZARA，Bumble vs. Tinder，看巨頭爭霸如何鞏固優勢、瓜分市場！
-UID:kobo99-5938957439304829726@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/apple-vs-blackberry-h-m-vs-zara-bumble-vs-tinder
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250816
-DESCRIPTION:書名：好人總是自以為是：政治與宗教如何將我們四分五裂（長銷經典紀念版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Hho7mQ0dgjGM4FBrqyOb4A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - 好人總是自以為是：政治與宗教如何將我們四分五裂（長銷經典紀念版）
-UID:kobo99-5386268801729137802@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/Hho7mQ0dgjGM4FBrqyOb4A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250716
-DESCRIPTION:書名：兒子與情人（《查泰萊夫人的情人》作者自傳式小說）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/33Ch1pVppTGnvxPZc2uF8g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
-SUMMARY:99元 - 兒子與情人（《查泰萊夫人的情人》作者自傳式小說）
-UID:kobo99--8962552127420066538@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/33Ch1pVppTGnvxPZc2uF8g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250902
-DESCRIPTION:書名：奇幻熊在網路釣魚：為何網際網路如此脆弱？駭客如何利用人性竊取機密，以及我們如何更安全\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/7Thc77w0azWXhAjrztn20Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
-SUMMARY:99元 - 奇幻熊在網路釣魚：為何網際網路如此脆弱？駭客如何利用人性竊取機密，以及我們如何更安全
-UID:kobo99--5764335255557740554@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/7Thc77w0azWXhAjrztn20Q
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250921
-DESCRIPTION:書名：麥迪遜之橋（復刻經典 愛藏版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/c4-gmjtsFzCtvk7JKk4kTQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
-SUMMARY:99元 - 麥迪遜之橋（復刻經典 愛藏版）
-UID:kobo99--1930684793001764857@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/c4-gmjtsFzCtvk7JKk4kTQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251101
-DESCRIPTION:書名：用寫的冥想法：寫下不安，問題就會從「該怎麼辦」變「就這樣辦」。每天15分鐘情感筆記，超過五萬人證實有效！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/dh7lhBlIRjCNblI3Odc34Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
-SUMMARY:99元 - 用寫的冥想法：寫下不安，問題就會從「該怎麼辦」變「就這樣辦」。每天15分鐘情感筆記，超過五萬人證實有效！
-UID:kobo99-2370855913728547110@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/dh7lhBlIRjCNblI3Odc34Q
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251108
-DESCRIPTION:書名：說話的本質：好好傾聽、用心說話，話術只是技巧，內涵才能打動人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_Le0dnLnHDK-zVlIW6CDyA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
-SUMMARY:99元 - 說話的本質：好好傾聽、用心說話，話術只是技巧，內涵才能打動人
-UID:kobo99--3205789367205513286@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/_Le0dnLnHDK-zVlIW6CDyA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250909
-DESCRIPTION:書名：黑洞簡史：從奇異點到重力波，愛因斯坦到霍金，清晰解析困擾物理界300年的神秘天體\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/EjaCAthrIzyOV-_TPcJpCw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
-SUMMARY:99元 - 黑洞簡史：從奇異點到重力波，愛因斯坦到霍金，清晰解析困擾物理界300年的神秘天體
-UID:kobo99-6081680434881112289@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/EjaCAthrIzyOV-_TPcJpCw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250802
-DESCRIPTION:書名：敏感得剛剛好：高敏感族情緒整理術！撕下「情緒化」、「難相處」的標籤，讓憤怒、悲傷、嫉妒、焦慮不再破壞你的人際關係！暢銷話題書《高敏感是種天賦》情緒管理篇！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eS2EndEX0T-Tof94OyFW6g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
-SUMMARY:99元 - 敏感得剛剛好：高敏感族情緒整理術！撕下「情緒化」、「難相處」的標籤，讓憤怒、悲傷、嫉妒、焦慮不再破壞你的人際關係！暢銷話題書《高敏感是種天賦》情緒管理篇！
-UID:kobo99--7828828656725176633@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/eS2EndEX0T-Tof94OyFW6g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251205
-DESCRIPTION:書名：發現天賦之旅\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/jmt7zZmPWTStBjCtzEn3eg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
-SUMMARY:99元 - 發現天賦之旅
-UID:kobo99-3641253388061929075@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/jmt7zZmPWTStBjCtzEn3eg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251003
-DESCRIPTION:書名：第三层大脑：脑机接口破解人类进化密码\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/hHPTrjkHMjWqfJstPe7zFg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
-SUMMARY:99元 - 第三层大脑：脑机接口破解人类进化密码
-UID:kobo99-7901351639137418162@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/hHPTrjkHMjWqfJstPe7zFg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250822
-DESCRIPTION:書名：长寿：当人类不再衰老\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/yHcoaXch6zO-zxMhbZetqg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
-SUMMARY:99元 - 长寿：当人类不再衰老
-UID:kobo99-3191281625867608897@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/yHcoaXch6zO-zxMhbZetqg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251211
-DESCRIPTION:書名：月亮金星行運全書：家庭、情感與金錢的命運時刻\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/RR49TvPmozabSNHBUArqpw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
-SUMMARY:99元 - 月亮金星行運全書：家庭、情感與金錢的命運時刻
-UID:kobo99--2679555957346565747@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/RR49TvPmozabSNHBUArqpw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251006
-DESCRIPTION:書名：心理摩擦力：為何人們抗拒改變？不是你不努力，是你不懂人性阻力\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WPsw_5m2qTm4Wn0UZmz2jA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
-SUMMARY:99元 - 心理摩擦力：為何人們抗拒改變？不是你不努力，是你不懂人性阻力
-UID:kobo99-4618296137451247009@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/WPsw_5m2qTm4Wn0UZmz2jA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251009
-DESCRIPTION:書名：人生難題，心理學都有解方：探究底層思維，提升心理智商，做出最佳決定的54種成功策略\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/DVdU2ADUwD-Zb5RiOYPbuA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
-SUMMARY:99元 - 人生難題，心理學都有解方：探究底層思維，提升心理智商，做出最佳決定的54種成功策略
-UID:kobo99-8708668139730394037@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/DVdU2ADUwD-Zb5RiOYPbuA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251104
-DESCRIPTION:書名：魚，什麼都知道：一窺我們水中夥伴的內在生活\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/s8wxFM0rDjmorM2a57iRIg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
-SUMMARY:99元 - 魚，什麼都知道：一窺我們水中夥伴的內在生活
-UID:kobo99-3156467456551304507@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/s8wxFM0rDjmorM2a57iRIg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251102
-DESCRIPTION:書名：親愛的不完美人生\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/cwoMeopa8Ta88j0fO0Xwyg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
-SUMMARY:99元 - 親愛的不完美人生
-UID:kobo99--2899248846134864967@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/cwoMeopa8Ta88j0fO0Xwyg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250630
-DESCRIPTION:書名：人工智慧最後的祕密：權力、政治、人類的代價，科技產業和國家機器如何聯手打造AI神話？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ai-93\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
-SUMMARY:99元 - 人工智慧最後的祕密：權力、政治、人類的代價，科技產業和國家機器如何聯手打造AI神話？
-UID:kobo99-2840947399836982837@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ai-93
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250715
-DESCRIPTION:書名：心智社会：我们的认识决定了我们的世界\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ipyOeOU91T2xWLBgNVhcsA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
-SUMMARY:99元 - 心智社会：我们的认识决定了我们的世界
-UID:kobo99-6943633845917787537@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ipyOeOU91T2xWLBgNVhcsA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250914
-DESCRIPTION:書名：兩分銅幣（亂步復刻經典紀念版‧中村明日美子獨家書衣）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/xRJ0w_XPGT2yq5FmZzmGPw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
-SUMMARY:99元 - 兩分銅幣（亂步復刻經典紀念版‧中村明日美子獨家書衣）
-UID:kobo99-7482998719678695642@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/xRJ0w_XPGT2yq5FmZzmGPw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251114
-DESCRIPTION:書名：我在小米做爆品：让用户觉得聪明的产品才是好产品\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_M7TJG1OpjuKAS7ocIspeA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
-SUMMARY:99元 - 我在小米做爆品：让用户觉得聪明的产品才是好产品
-UID:kobo99--5551282853459824540@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/_M7TJG1OpjuKAS7ocIspeA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251220
-DESCRIPTION:書名：犯罪人格剖繪檔案（增訂版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/pEmgMQIhjj2GVTPyWaOwLg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
-SUMMARY:99元 - 犯罪人格剖繪檔案（增訂版）
-UID:kobo99--4923314179523735435@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/pEmgMQIhjj2GVTPyWaOwLg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251106
-DESCRIPTION:書名：控告婚姻：妻子的起訴書\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/06PS_wqd7z2iB6f88XXnng\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
-SUMMARY:99元 - 控告婚姻：妻子的起訴書
-UID:kobo99--805857321123665835@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/06PS_wqd7z2iB6f88XXnng
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251122
-DESCRIPTION:書名：《增強你的感恩力！用正面吸引力顯化美好生活》由 史考特．艾倫\, Scott Allan◎著\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/TkbIEzs5fTuUbdlTuCOw0w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 《增強你的感恩力！用正面吸引力顯化美好生活》由 史考特．艾倫\, Scott Allan◎著
-UID:kobo99--5658797309472379861@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/TkbIEzs5fTuUbdlTuCOw0w
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250913
-DESCRIPTION:書名：奇蹟\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/oLxifQh5JjKJutNbyI-jBg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
-SUMMARY:99元 - 奇蹟
-UID:kobo99-2909480065812599685@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/oLxifQh5JjKJutNbyI-jBg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251002
-DESCRIPTION:書名：蹚渾水的理由\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/UF3miQ5UBTGoNrNUl-gkag\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
-SUMMARY:99元 - 蹚渾水的理由
-UID:kobo99-8477123126916397716@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/UF3miQ5UBTGoNrNUl-gkag
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251010
-DESCRIPTION:書名：司马懿讲三国\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/3S9oueescTS1cFbAZUwk0A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
-SUMMARY:99元 - 司马懿讲三国
-UID:kobo99-7100610750951033668@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/3S9oueescTS1cFbAZUwk0A
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251022
-DESCRIPTION:書名：當你愛的人有成人過動症\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vcnPZhpFgD2CMiPynXV8eA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
-SUMMARY:99元 - 當你愛的人有成人過動症
-UID:kobo99-909784198125105336@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/vcnPZhpFgD2CMiPynXV8eA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250919
-DESCRIPTION:書名：升维：不确定时代的决策博弈\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/QHKLK4EMqjOlC2Gb1Bcl-g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
-SUMMARY:99元 - 升维：不确定时代的决策博弈
-UID:kobo99-5104622027261308848@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/QHKLK4EMqjOlC2Gb1Bcl-g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250707
-DESCRIPTION:書名：為什麼我們會被騙？：破解金錢騙局、假新聞、政治謊言背後的詐騙機制\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vAdclNy77TuklB244iJNOw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
-SUMMARY:99元 - 為什麼我們會被騙？：破解金錢騙局、假新聞、政治謊言背後的詐騙機制
-UID:kobo99--9217125748182856116@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/vAdclNy77TuklB244iJNOw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250924
-DESCRIPTION:書名：顛峰心智：每天練習12分鐘，毫不費力，攀上專注力高峰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/hH49Ha1COTyrpn7GsKf70g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
-SUMMARY:99元 - 顛峰心智：每天練習12分鐘，毫不費力，攀上專注力高峰
-UID:kobo99-7610667577905933999@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/hH49Ha1COTyrpn7GsKf70g
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251031
-DESCRIPTION:書名：说谎心理学教程\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/-aGoOFOiHDm8JqoCkeYWiQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
-SUMMARY:99元 - 说谎心理学教程
-UID:kobo99--4691437065348106411@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/-aGoOFOiHDm8JqoCkeYWiQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251028
-DESCRIPTION:書名：大腦、演化、人：是什麼關鍵，造就如此奇妙的人類？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/0HX7vZNY5jWOM4jvEUeugQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
-SUMMARY:99元 - 大腦、演化、人：是什麼關鍵，造就如此奇妙的人類？
-UID:kobo99-8688797811678514874@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/0HX7vZNY5jWOM4jvEUeugQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251118
-DESCRIPTION:書名：价值捕手\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ZHoAW1-xqDa7Fv2UmynphA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
-SUMMARY:99元 - 价值捕手
-UID:kobo99--1492624577838535682@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/ZHoAW1-xqDa7Fv2UmynphA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250705
-DESCRIPTION:書名：內在思考的覺醒：認識問題、疾病的主因，觀察事實，眼觀八方，成為能真正獨立思考的人！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/C8VyJl5xUDKNffk0mSw7Bw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
-SUMMARY:99元 - 內在思考的覺醒：認識問題、疾病的主因，觀察事實，眼觀八方，成為能真正獨立思考的人！
-UID:kobo99-8275876821793214618@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/C8VyJl5xUDKNffk0mSw7Bw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251023
-DESCRIPTION:書名：嫁禍、驅逐、大屠殺：求生存的猶太歷史\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/LtW5zBnH8D2ZWuV8-3fquQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
-SUMMARY:99元 - 嫁禍、驅逐、大屠殺：求生存的猶太歷史
-UID:kobo99-130946675698408183@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/LtW5zBnH8D2ZWuV8-3fquQ
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251209
-DESCRIPTION:書名：為什麼我們總是相信自己是對的？：不知不覺掉入的101種慣性思考陷阱\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/5VDFlYO39zC8Pqvyc7pvGA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
-SUMMARY:99元 - 為什麼我們總是相信自己是對的？：不知不覺掉入的101種慣性思考陷阱
-UID:kobo99--8609665125281986815@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/5VDFlYO39zC8Pqvyc7pvGA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251129
-DESCRIPTION:書名：多重宇宙、平行世界是可能的嗎？：一本理科小白也會邊看邊笑的量子力學入門\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/N6b0skWMiTqsbRYXzR9EOg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
-SUMMARY:99元 - 多重宇宙、平行世界是可能的嗎？：一本理科小白也會邊看邊笑的量子力學入門
-UID:kobo99--1678442202640402707@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/N6b0skWMiTqsbRYXzR9EOg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250815
-DESCRIPTION:書名：憂鬱與發炎的大腦：改善憂鬱症狀，從平衡免疫系統，降低發炎開始\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/aQJz18CoXjeuzf2tBDuYCA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
-SUMMARY:99元 - 憂鬱與發炎的大腦：改善憂鬱症狀，從平衡免疫系統，降低發炎開始
-UID:kobo99--599955033984608709@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/aQJz18CoXjeuzf2tBDuYCA
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250923
-DESCRIPTION:書名：與達爾文共進晚餐：演化如何造就美食，食物又如何形塑人類的演化\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sCdfMwnaKjmOAtWXccf7ng\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
-SUMMARY:99元 - 與達爾文共進晚餐：演化如何造就美食，食物又如何形塑人類的演化
-UID:kobo99-168653094586628188@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/sCdfMwnaKjmOAtWXccf7ng
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251013
-DESCRIPTION:書名：柏格效應：指數型基金教父約翰．柏格和他的先鋒集團如何改變華爾街的遊戲規則。\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sHEPQSBX6zCqNBVC9Zum9Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
-SUMMARY:99元 - 柏格效應：指數型基金教父約翰．柏格和他的先鋒集團如何改變華爾街的遊戲規則。
-UID:kobo99--3029047616216234730@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/sHEPQSBX6zCqNBVC9Zum9Q
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251014
-DESCRIPTION:書名：犯罪心理剖繪檔案\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/iOGW1UaJ6zCBjk-QY-hzBw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
-SUMMARY:99元 - 犯罪心理剖繪檔案
-UID:kobo99--570181433183268300@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/iOGW1UaJ6zCBjk-QY-hzBw
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251204
-DESCRIPTION:書名：普丁的復仇：威脅全世界的俄羅斯政權是如何形成的\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/0zA7zCvrdTaEfpxD0GaYEg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
-SUMMARY:99元 - 普丁的復仇：威脅全世界的俄羅斯政權是如何形成的
-UID:kobo99-6760362067086302392@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/0zA7zCvrdTaEfpxD0GaYEg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250912
-DESCRIPTION:書名：从自察到自救：别让情绪偷走你的人生\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/lMrRS5DIQjGwANVNLxAYfg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
-SUMMARY:99元 - 从自察到自救：别让情绪偷走你的人生
-UID:kobo99-938845009711328377@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/lMrRS5DIQjGwANVNLxAYfg
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251218
-DESCRIPTION:書名：進擊：未來社會的九大生存法則\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/wOj94FycMjWKF0wF1ylnew\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
-SUMMARY:99元 - 進擊：未來社會的九大生存法則
-UID:kobo99-8332342833500383946@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/wOj94FycMjWKF0wF1ylnew
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250723
 DESCRIPTION:書名：8‧1‧3之謎(新版)\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Uzy3UCEpLzOhHktvMyuecQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
 SUMMARY:99元 - 8‧1‧3之謎(新版)
-UID:kobo99-9032785639480385573@kobo-99-ical
+UID:kobo99--7389583142936396854@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/Uzy3UCEpLzOhHktvMyuecQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250910
+DESCRIPTION:書名：聯準會到底在做什麼？：資深交易員第一手解析中央銀行怎麼印錢、管錢、花錢，又如何影響你我的口袋\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/RxK1p7ORNzeB0NgxVGhbow\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
+SUMMARY:99元 - 聯準會到底在做什麼？：資深交易員第一手解析中央銀行怎麼印錢、管錢、花錢，又如何影響你我的口袋
+UID:kobo99-2967671865267697339@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/RxK1p7ORNzeB0NgxVGhbow
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250818
 DESCRIPTION:書名：收穫心態：跳脫滿分思維，當下成功和幸福，由你決定\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/7wG6GBb9_T6IBA8trBimGQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
 SUMMARY:99元 - 收穫心態：跳脫滿分思維，當下成功和幸福，由你決定
-UID:kobo99-469983419576987575@kobo-99-ical
+UID:kobo99-4067218877936154800@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/7wG6GBb9_T6IBA8trBimGQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250825
+DESCRIPTION:書名：精實服務：將精實原則延伸到消費端，全面消除浪費，創造獲利（經典紀念版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Z6ZrQ4i8nju0vVy8k6Lj7Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
+SUMMARY:99元 - 精實服務：將精實原則延伸到消費端，全面消除浪費，創造獲利（經典紀念版）
+UID:kobo99-5519278100244478815@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Z6ZrQ4i8nju0vVy8k6Lj7Q
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250828
+DESCRIPTION:書名：數位自我：從出生到登出人生，科技如何影響人格發展？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ndAoIIeXLzenY_HOHzim0A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
+SUMMARY:99元 - 數位自我：從出生到登出人生，科技如何影響人格發展？
+UID:kobo99--3222395972418702225@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ndAoIIeXLzenY_HOHzim0A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251005
+DESCRIPTION:書名：布魯克林有棵樹【出版80週年紀念版】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/tChZ843G4zCyQknaZukpPQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
+SUMMARY:99元 - 布魯克林有棵樹【出版80週年紀念版】
+UID:kobo99--2566475057036924354@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/tChZ843G4zCyQknaZukpPQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251024
+DESCRIPTION:書名：人口战略：人口如何影响经济与创新\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eppfb2aVKzeaL4M0OE5ILA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
+SUMMARY:99元 - 人口战略：人口如何影响经济与创新
+UID:kobo99--3333095067405952670@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/eppfb2aVKzeaL4M0OE5ILA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251221
+DESCRIPTION:書名：失去貞操的橄欖油：橄欖油的真相與謊言\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eNEr8_msjjKgYREtHXkl6w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
+SUMMARY:99元 - 失去貞操的橄欖油：橄欖油的真相與謊言
+UID:kobo99--4865062710630866220@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/eNEr8_msjjKgYREtHXkl6w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251118
+DESCRIPTION:書名：价值捕手\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ZHoAW1-xqDa7Fv2UmynphA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 价值捕手
+UID:kobo99--8090239174689237950@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ZHoAW1-xqDa7Fv2UmynphA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251031
+DESCRIPTION:書名：说谎心理学教程\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/-aGoOFOiHDm8JqoCkeYWiQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
+SUMMARY:99元 - 说谎心理学教程
+UID:kobo99--6336547841455533607@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/-aGoOFOiHDm8JqoCkeYWiQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250812
+DESCRIPTION:書名：肥尾效应：前渐进论、认识论和应用\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/5jSfrFdlQzK5Lbq4wEyCpw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - 肥尾效应：前渐进论、认识论和应用
+UID:kobo99--5646206568311340311@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/5jSfrFdlQzK5Lbq4wEyCpw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251214
+DESCRIPTION:書名：會開瓦斯就會煮【續攤】：跟著大象主廚學做「台灣胃」最愛料理，從土雞城、夜市小吃一路吃到居酒屋、涮涮鍋、韓劇名菜！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nh_fVL85xjmjGcS16UuFaQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
+SUMMARY:99元 - 會開瓦斯就會煮【續攤】：跟著大象主廚學做「台灣胃」最愛料理，從土雞城、夜市小吃一路吃到居酒屋、涮涮鍋、韓劇名菜！
+UID:kobo99--3914000605698003387@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/nh_fVL85xjmjGcS16UuFaQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251028
+DESCRIPTION:書名：大腦、演化、人：是什麼關鍵，造就如此奇妙的人類？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/0HX7vZNY5jWOM4jvEUeugQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
+SUMMARY:99元 - 大腦、演化、人：是什麼關鍵，造就如此奇妙的人類？
+UID:kobo99--6071266333126431685@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/0HX7vZNY5jWOM4jvEUeugQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250702
+DESCRIPTION:書名：隱形冠軍2.0：中堅企業面對地緣政治的務實佈局，擁抱生態系與永續創新的新策略\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1voqqfJ67TaD8Z8uHnSCfA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
+SUMMARY:99元 - 隱形冠軍2.0：中堅企業面對地緣政治的務實佈局，擁抱生態系與永續創新的新策略
+UID:kobo99--7574370098044972972@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/1voqqfJ67TaD8Z8uHnSCfA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251102
+DESCRIPTION:書名：親愛的不完美人生\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/cwoMeopa8Ta88j0fO0Xwyg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
+SUMMARY:99元 - 親愛的不完美人生
+UID:kobo99-8345151019994565707@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/cwoMeopa8Ta88j0fO0Xwyg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250731
+DESCRIPTION:書名：獲利的魔鬼，就躲在細節裡\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/96XieR03lDiJQvQx2eTCHA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
+SUMMARY:99元 - 獲利的魔鬼，就躲在細節裡
+UID:kobo99--5406329930106021459@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/96XieR03lDiJQvQx2eTCHA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250629
+DESCRIPTION:書名：九龍城寨（電影《九龍城寨之圍城》原著小說電影海報書衣版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/aqhk_ntTyjOGA7Wq6vUhXg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w26
+SUMMARY:99元 - 九龍城寨（電影《九龍城寨之圍城》原著小說電影海報書衣版）
+UID:kobo99--8837943569886703626@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/aqhk_ntTyjOGA7Wq6vUhXg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250914
+DESCRIPTION:書名：兩分銅幣（亂步復刻經典紀念版‧中村明日美子獨家書衣）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/xRJ0w_XPGT2yq5FmZzmGPw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
+SUMMARY:99元 - 兩分銅幣（亂步復刻經典紀念版‧中村明日美子獨家書衣）
+UID:kobo99-657332139854148098@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/xRJ0w_XPGT2yq5FmZzmGPw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251021
+DESCRIPTION:書名：雞冠天下：一部自然史，雞如何壯闊世界，和人類共創文明\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/t8t2jN9HvjyKTpJ4DpOp9g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
+SUMMARY:99元 - 雞冠天下：一部自然史，雞如何壯闊世界，和人類共創文明
+UID:kobo99-6758258896196565394@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/t8t2jN9HvjyKTpJ4DpOp9g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250808
+DESCRIPTION:書名：我的1/2抑郁了\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/KyJ_4JLxZDWlZNxk7nE2KA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
+SUMMARY:99元 - 我的1/2抑郁了
+UID:kobo99-4148889438289792735@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/KyJ_4JLxZDWlZNxk7nE2KA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251010
+DESCRIPTION:書名：司马懿讲三国\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/3S9oueescTS1cFbAZUwk0A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
+SUMMARY:99元 - 司马懿讲三国
+UID:kobo99--8105480930543938799@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/3S9oueescTS1cFbAZUwk0A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250925
+DESCRIPTION:書名：職場裡為什麼不能有話直說？：清晰表達的五個原則\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Xxv1Iw__rjWdG7mR18cUTA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
+SUMMARY:99元 - 職場裡為什麼不能有話直說？：清晰表達的五個原則
+UID:kobo99--4706130200794357895@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Xxv1Iw__rjWdG7mR18cUTA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251124
+DESCRIPTION:書名：破壞性競爭：Apple vs. BlackBerry，H&M vs. ZARA，Bumble vs. Tinder，看巨頭爭霸如何鞏固優勢、瓜分市場！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/apple-vs-blackberry-h-m-vs-zara-bumble-vs-tinder\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
+SUMMARY:99元 - 破壞性競爭：Apple vs. BlackBerry，H&M vs. ZARA，Bumble vs. Tinder，看巨頭爭霸如何鞏固優勢、瓜分市場！
+UID:kobo99--172272331979808090@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/apple-vs-blackberry-h-m-vs-zara-bumble-vs-tinder
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251216
+DESCRIPTION:書名：練喉嚨：不想死，就不能讓喉嚨老化！日本耳鼻喉名醫獨家傳授讓喉嚨返老還童的「喉嚨體操」，每天5分鐘，延命10年！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eaiFsWqAxjKeUzUXhhDZcQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
+SUMMARY:99元 - 練喉嚨：不想死，就不能讓喉嚨老化！日本耳鼻喉名醫獨家傳授讓喉嚨返老還童的「喉嚨體操」，每天5分鐘，延命10年！
+UID:kobo99-704297026515800485@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/eaiFsWqAxjKeUzUXhhDZcQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251006
+DESCRIPTION:書名：心理摩擦力：為何人們抗拒改變？不是你不努力，是你不懂人性阻力\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WPsw_5m2qTm4Wn0UZmz2jA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
+SUMMARY:99元 - 心理摩擦力：為何人們抗拒改變？不是你不努力，是你不懂人性阻力
+UID:kobo99-4178743036283299007@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/WPsw_5m2qTm4Wn0UZmz2jA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250630
+DESCRIPTION:書名：人工智慧最後的祕密：權力、政治、人類的代價，科技產業和國家機器如何聯手打造AI神話？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ai-93\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
+SUMMARY:99元 - 人工智慧最後的祕密：權力、政治、人類的代價，科技產業和國家機器如何聯手打造AI神話？
+UID:kobo99--6908001926457692974@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ai-93
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251219
+DESCRIPTION:書名：能言善道的沙丁魚：來自海洋國度的奧妙故事\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/6CI7JqntdTuYGzvh0kM2QQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
+SUMMARY:99元 - 能言善道的沙丁魚：來自海洋國度的奧妙故事
+UID:kobo99-4143709403187403943@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/6CI7JqntdTuYGzvh0kM2QQ
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250805
 DESCRIPTION:書名：AI世代的創意教養：以色列教育專家全新未來人才培育提案\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ai-130\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
 SUMMARY:99元 - AI世代的創意教養：以色列教育專家全新未來人才培育提案
-UID:kobo99-8873991795430380109@kobo-99-ical
+UID:kobo99--5546125590541829694@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/ai-130
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250927
-DESCRIPTION:書名：烏合之眾：為什麼「我們」會變得瘋狂、盲目、衝動？讓你看透群眾心理的第一書\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/2dAORxI0rDKivGvo0Tu6rA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
-SUMMARY:99元 - 烏合之眾：為什麼「我們」會變得瘋狂、盲目、衝動？讓你看透群眾心理的第一書
-UID:kobo99-7108344444229712525@kobo-99-ical
-URL:https://www.kobo.com/tw/zh/ebook/2dAORxI0rDKivGvo0Tu6rA
+DTSTART;VALUE=DATE:20251204
+DESCRIPTION:書名：普丁的復仇：威脅全世界的俄羅斯政權是如何形成的\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/0zA7zCvrdTaEfpxD0GaYEg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
+SUMMARY:99元 - 普丁的復仇：威脅全世界的俄羅斯政權是如何形成的
+UID:kobo99--1295154297198607378@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/0zA7zCvrdTaEfpxD0GaYEg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250822
+DESCRIPTION:書名：长寿：当人类不再衰老\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/yHcoaXch6zO-zxMhbZetqg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
+SUMMARY:99元 - 长寿：当人类不再衰老
+UID:kobo99--8808082566878840799@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/yHcoaXch6zO-zxMhbZetqg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251110
+DESCRIPTION:書名：《大谷翔平：武士初心——2023年WBC世界一、全壘打王&MVP球季、轉戰道奇全紀錄》\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/2023wbc-mvp\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
+SUMMARY:99元 - 《大谷翔平：武士初心——2023年WBC世界一、全壘打王&MVP球季、轉戰道奇全紀錄》
+UID:kobo99-4548509385381151257@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/2023wbc-mvp
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250811
+DESCRIPTION:書名：慷慨的感染力：在善良被低估的年代，讓善意泛起漣漪\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nGITrr6eVjK2GouMhsJ3ww\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - 慷慨的感染力：在善良被低估的年代，讓善意泛起漣漪
+UID:kobo99-4570975118776038005@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/nGITrr6eVjK2GouMhsJ3ww
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251128
+DESCRIPTION:書名：味覺獵人：舌尖上的科學與美食癡迷症指南\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/0AAIn1w1kz-yN8W9bSNAbA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
+SUMMARY:99元 - 味覺獵人：舌尖上的科學與美食癡迷症指南
+UID:kobo99--683853096559538234@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/0AAIn1w1kz-yN8W9bSNAbA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251101
+DESCRIPTION:書名：用寫的冥想法：寫下不安，問題就會從「該怎麼辦」變「就這樣辦」。每天15分鐘情感筆記，超過五萬人證實有效！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/dh7lhBlIRjCNblI3Odc34Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
+SUMMARY:99元 - 用寫的冥想法：寫下不安，問題就會從「該怎麼辦」變「就這樣辦」。每天15分鐘情感筆記，超過五萬人證實有效！
+UID:kobo99-3091730069918724862@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/dh7lhBlIRjCNblI3Odc34Q
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251129
+DESCRIPTION:書名：多重宇宙、平行世界是可能的嗎？：一本理科小白也會邊看邊笑的量子力學入門\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/N6b0skWMiTqsbRYXzR9EOg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
+SUMMARY:99元 - 多重宇宙、平行世界是可能的嗎？：一本理科小白也會邊看邊笑的量子力學入門
+UID:kobo99--6845078187163267548@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/N6b0skWMiTqsbRYXzR9EOg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251107
+DESCRIPTION:書名：《道德经》智慧100讲\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gDsP92XpSTWG0Vx-7QlL7A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
+SUMMARY:99元 - 《道德经》智慧100讲
+UID:kobo99-2333726235758889121@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/gDsP92XpSTWG0Vx-7QlL7A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251212
+DESCRIPTION:書名：無限競爭，無限痛苦的畸型社會：韓國\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nOgdh_oUdDWDR4A8tbPRXQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
+SUMMARY:99元 - 無限競爭，無限痛苦的畸型社會：韓國
+UID:kobo99--3946869086644563364@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/nOgdh_oUdDWDR4A8tbPRXQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250720
+DESCRIPTION:書名：何以為雍正？：從蓄勢隱忍到權力巔峰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ehpL4BKCFjObtaW6_aP52A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
+SUMMARY:99元 - 何以為雍正？：從蓄勢隱忍到權力巔峰
+UID:kobo99--3525732406290806821@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ehpL4BKCFjObtaW6_aP52A
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250804
 DESCRIPTION:書名：金錢的價值：英國知名投資Podcaster教你如何在越來越複雜的金融世界中，找出創造財富的法則\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/podcaster\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
 SUMMARY:99元 - 金錢的價值：英國知名投資Podcaster教你如何在越來越複雜的金融世界中，找出創造財富的法則
-UID:kobo99-3711530205183135944@kobo-99-ical
+UID:kobo99--4558126511448449192@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/podcaster
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250717
+DESCRIPTION:書名：人的心：耶魯大學最受歡迎的心理學公開課，探索人性的心智旅程\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/xrcFUsVVDTiiQth47vpfIg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
+SUMMARY:99元 - 人的心：耶魯大學最受歡迎的心理學公開課，探索人性的心智旅程
+UID:kobo99-7078387134257282344@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/xrcFUsVVDTiiQth47vpfIg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250802
+DESCRIPTION:書名：敏感得剛剛好：高敏感族情緒整理術！撕下「情緒化」、「難相處」的標籤，讓憤怒、悲傷、嫉妒、焦慮不再破壞你的人際關係！暢銷話題書《高敏感是種天賦》情緒管理篇！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/eS2EndEX0T-Tof94OyFW6g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
+SUMMARY:99元 - 敏感得剛剛好：高敏感族情緒整理術！撕下「情緒化」、「難相處」的標籤，讓憤怒、悲傷、嫉妒、焦慮不再破壞你的人際關係！暢銷話題書《高敏感是種天賦》情緒管理篇！
+UID:kobo99--3876056585237454935@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/eS2EndEX0T-Tof94OyFW6g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250704
+DESCRIPTION:書名：有数：用冷静的数据思维解复杂的商业问题\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/uLSG8lPdBjya80LPH_C4cw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
+SUMMARY:99元 - 有数：用冷静的数据思维解复杂的商业问题
+UID:kobo99--58329061218006726@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/uLSG8lPdBjya80LPH_C4cw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250707
+DESCRIPTION:書名：為什麼我們會被騙？：破解金錢騙局、假新聞、政治謊言背後的詐騙機制\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vAdclNy77TuklB244iJNOw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
+SUMMARY:99元 - 為什麼我們會被騙？：破解金錢騙局、假新聞、政治謊言背後的詐騙機制
+UID:kobo99-6824180165971555608@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/vAdclNy77TuklB244iJNOw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250726
+DESCRIPTION:書名：巨星天使投資人的誕生：從有錢，變超有錢！好萊塢與體壇如何破解創投密碼，顛覆矽谷\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/QoJhlaLmgDGEeNadBsiOZg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
+SUMMARY:99元 - 巨星天使投資人的誕生：從有錢，變超有錢！好萊塢與體壇如何破解創投密碼，顛覆矽谷
+UID:kobo99--6589783252430875040@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/QoJhlaLmgDGEeNadBsiOZg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251008
+DESCRIPTION:書名：在你開口之前：直擊完美講稿內幕，紐約最夯演講撰稿師的零失誤戰略大公開\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/FbFtZ1OpRTG0t0W6FY8JAA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
+SUMMARY:99元 - 在你開口之前：直擊完美講稿內幕，紐約最夯演講撰稿師的零失誤戰略大公開
+UID:kobo99-8868064015391415554@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/FbFtZ1OpRTG0t0W6FY8JAA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250913
+DESCRIPTION:書名：奇蹟\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/oLxifQh5JjKJutNbyI-jBg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
+SUMMARY:99元 - 奇蹟
+UID:kobo99-3668595105314664483@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/oLxifQh5JjKJutNbyI-jBg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251211
+DESCRIPTION:書名：月亮金星行運全書：家庭、情感與金錢的命運時刻\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/RR49TvPmozabSNHBUArqpw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
+SUMMARY:99元 - 月亮金星行運全書：家庭、情感與金錢的命運時刻
+UID:kobo99-8513401395302048527@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/RR49TvPmozabSNHBUArqpw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250827
+DESCRIPTION:書名：你今天被騙了嗎?心理師教你破解詐騙伎倆\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_MqYxv0hqT6cxCu3gs_a0A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
+SUMMARY:99元 - 你今天被騙了嗎?心理師教你破解詐騙伎倆
+UID:kobo99--8708956707103884816@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/_MqYxv0hqT6cxCu3gs_a0A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250924
+DESCRIPTION:書名：顛峰心智：每天練習12分鐘，毫不費力，攀上專注力高峰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/hH49Ha1COTyrpn7GsKf70g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
+SUMMARY:99元 - 顛峰心智：每天練習12分鐘，毫不費力，攀上專注力高峰
+UID:kobo99--6936708122755630775@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/hH49Ha1COTyrpn7GsKf70g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250906
+DESCRIPTION:書名：迷霧之子首部曲：最後帝國\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/tSfRgYbwtzGWxEne-NJKWw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
+SUMMARY:99元 - 迷霧之子首部曲：最後帝國
+UID:kobo99-4612450916558103295@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/tSfRgYbwtzGWxEne-NJKWw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251002
+DESCRIPTION:書名：蹚渾水的理由\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/UF3miQ5UBTGoNrNUl-gkag\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
+SUMMARY:99元 - 蹚渾水的理由
+UID:kobo99--1558042183260074369@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/UF3miQ5UBTGoNrNUl-gkag
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250922
+DESCRIPTION:書名：高效經理人手冊 : 史丹佛商學院最熱門管理課，鍛鍊主管5大卓越執行力\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Bnmb1-TfIDCfF6uUiA6x3w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
+SUMMARY:99元 - 高效經理人手冊 : 史丹佛商學院最熱門管理課，鍛鍊主管5大卓越執行力
+UID:kobo99-334033431123643329@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Bnmb1-TfIDCfF6uUiA6x3w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251011
+DESCRIPTION:書名：憤世媽媽\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Al0fz5jCSDet9NZ2Ed0ufg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
+SUMMARY:99元 - 憤世媽媽
+UID:kobo99-7887915097178311133@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Al0fz5jCSDet9NZ2Ed0ufg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250715
+DESCRIPTION:書名：心智社会：我们的认识决定了我们的世界\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ipyOeOU91T2xWLBgNVhcsA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
+SUMMARY:99元 - 心智社会：我们的认识决定了我们的世界
+UID:kobo99--216704519258733346@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ipyOeOU91T2xWLBgNVhcsA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251025
+DESCRIPTION:書名：吃的營養科學觀【修訂版】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/k465U3-6pDGhBUJAPx63uA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
+SUMMARY:99元 - 吃的營養科學觀【修訂版】
+UID:kobo99--8857963762912980477@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/k465U3-6pDGhBUJAPx63uA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250820
+DESCRIPTION:書名：體內排濕：擺脫精神不振、虛胖水腫、胸悶腹脹、關節痠痛等問題，教你培養百病自癒力\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1ggloqG7bDGc6YXPSyV3pQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - 體內排濕：擺脫精神不振、虛胖水腫、胸悶腹脹、關節痠痛等問題，教你培養百病自癒力
+UID:kobo99-4753801606801752863@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/1ggloqG7bDGc6YXPSyV3pQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250728
+DESCRIPTION:書名：人性賽局：哈佛大學最重要的行為經濟學課，驚人「隱藏賽局」完美解釋非理性行為\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/GWgOZ3TGzjKXXrGQb_5bdA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
+SUMMARY:99元 - 人性賽局：哈佛大學最重要的行為經濟學課，驚人「隱藏賽局」完美解釋非理性行為
+UID:kobo99-5881718394493580891@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/GWgOZ3TGzjKXXrGQb_5bdA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250806
+DESCRIPTION:書名：決策的邏輯：行為心理學如何影響我們的選擇？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/-66auZ0f7DyDWvXhl9FIjw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
+SUMMARY:99元 - 決策的邏輯：行為心理學如何影響我們的選擇？
+UID:kobo99--1003171073869073638@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/-66auZ0f7DyDWvXhl9FIjw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250714
+DESCRIPTION:書名：自私的藝術：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/uxuwpc489je3OzmdvfHzcg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
+SUMMARY:99元 - 自私的藝術：快樂有理，自私無罪！別再讓「過度妥協」控制你的餘生，美國心理學權威給無私好人的50個自救箴言
+UID:kobo99-2349150742082053684@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/uxuwpc489je3OzmdvfHzcg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250721
+DESCRIPTION:書名：黑天鵝投資大師們：洞悉極端事件的本質，在混沌時局發現投資機會的那群人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/AwOdDMsu1jqgeHSXRPKBWQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
+SUMMARY:99元 - 黑天鵝投資大師們：洞悉極端事件的本質，在混沌時局發現投資機會的那群人
+UID:kobo99--3919128873888647664@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/AwOdDMsu1jqgeHSXRPKBWQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250903
+DESCRIPTION:書名：一生都能好好記憶：哈佛神經科學家寫給每個人的大腦記憶全書，遺忘不是敵人，簡單練習，訓練記憶陪你走的更遠\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/bV0JhBzfJjq4OqCsalOGPw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
+SUMMARY:99元 - 一生都能好好記憶：哈佛神經科學家寫給每個人的大腦記憶全書，遺忘不是敵人，簡單練習，訓練記憶陪你走的更遠
+UID:kobo99--1033681308045452870@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/bV0JhBzfJjq4OqCsalOGPw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250701
+DESCRIPTION:書名：疼痛帝國：薩克勒家族製藥王朝秘史\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vwWhHvlTRjSfRGrlMtWadA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
+SUMMARY:99元 - 疼痛帝國：薩克勒家族製藥王朝秘史
+UID:kobo99-1278049072110992375@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/vwWhHvlTRjSfRGrlMtWadA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251121
+DESCRIPTION:書名：借錢：從利息、債務到金融商品，2000年的演變真貌\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nhW4Ja-vcjmrPn8sTMHh1A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 借錢：從利息、債務到金融商品，2000年的演變真貌
+UID:kobo99-6416835826029278398@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/nhW4Ja-vcjmrPn8sTMHh1A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251217
+DESCRIPTION:書名：驢子法則：人生很長，跑得快的不一定笑到最後\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/FT3mdfIkkjq8Bb-riWx8Qg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
+SUMMARY:99元 - 驢子法則：人生很長，跑得快的不一定笑到最後
+UID:kobo99-3574461165132336701@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/FT3mdfIkkjq8Bb-riWx8Qg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250810
+DESCRIPTION:書名：美國式正義：公眾與O.J.辛普森的司法對決\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/o-j\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
+SUMMARY:99元 - 美國式正義：公眾與O.J.辛普森的司法對決
+UID:kobo99--1514394965176788421@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/o-j
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250722
+DESCRIPTION:書名：找到你的維他命人：人際關係中的痛苦、困惑、空虛，你不必自己承受\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/f7vO6tphbDC9fMV2Ubt2qw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
+SUMMARY:99元 - 找到你的維他命人：人際關係中的痛苦、困惑、空虛，你不必自己承受
+UID:kobo99--6949516547642055859@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/f7vO6tphbDC9fMV2Ubt2qw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251108
+DESCRIPTION:書名：說話的本質：好好傾聽、用心說話，話術只是技巧，內涵才能打動人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_Le0dnLnHDK-zVlIW6CDyA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
+SUMMARY:99元 - 說話的本質：好好傾聽、用心說話，話術只是技巧，內涵才能打動人
+UID:kobo99--1851838494914189901@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/_Le0dnLnHDK-zVlIW6CDyA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251003
+DESCRIPTION:書名：第三层大脑：脑机接口破解人类进化密码\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/hHPTrjkHMjWqfJstPe7zFg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
+SUMMARY:99元 - 第三层大脑：脑机接口破解人类进化密码
+UID:kobo99--6215067666775389103@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/hHPTrjkHMjWqfJstPe7zFg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251120
+DESCRIPTION:書名：麥肯錫認證的執行長思維：Google、Netflix、Sony、微軟、樂高……67位全球頂尖CEO的卓越之道【全球第一顧問公司麥肯錫官方最新力作．隨書附「卓越CEO的高效工具」】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/google-netflix-sony-67ceo-ceo\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 麥肯錫認證的執行長思維：Google、Netflix、Sony、微軟、樂高……67位全球頂尖CEO的卓越之道【全球第一顧問公司麥肯錫官方最新力作．隨書附「卓越CEO的高效工具」】
+UID:kobo99--7881881676168406542@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/google-netflix-sony-67ceo-ceo
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251119
+DESCRIPTION:書名：信任練習\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/dO6YmW8buzik74R7no8f9g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 信任練習
+UID:kobo99--1744542372537771332@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/dO6YmW8buzik74R7no8f9g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251116
+DESCRIPTION:書名：輪迴交易現場\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/rBsFRtAikjGvtv_K4TX6UQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
+SUMMARY:99元 - 輪迴交易現場
+UID:kobo99-4671832638614512019@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/rBsFRtAikjGvtv_K4TX6UQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251017
+DESCRIPTION:書名：出海：联想全球化20年实战方法论\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/P0sLo-uu9zm5dQTan5I_6w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
+SUMMARY:99元 - 出海：联想全球化20年实战方法论
+UID:kobo99--2992732429773529026@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/P0sLo-uu9zm5dQTan5I_6w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251206
+DESCRIPTION:書名：人类吸猫简史\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Y63ro3x4sTWm7YB0UogbRw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
+SUMMARY:99元 - 人类吸猫简史
+UID:kobo99--5607882553440712089@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Y63ro3x4sTWm7YB0UogbRw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250915
+DESCRIPTION:書名：什麼是真正的聰明？：了解自己的長處和優勢，將危機變轉機的生存力【全民教育學者齋藤孝的「人生教育」系列vol.2】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vol-2-56\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
+SUMMARY:99元 - 什麼是真正的聰明？：了解自己的長處和優勢，將危機變轉機的生存力【全民教育學者齋藤孝的「人生教育」系列vol.2】
+UID:kobo99-6177123613524215304@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/vol-2-56
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250819
+DESCRIPTION:書名：一起來花蜂！超萌蜂類觀察筆記：泰迪熊蜂不是熊，巧克力地花蜂不能吃，從蜜蜂、隧蜂到切葉蜂，花蜂七大家族明星大集合，蜂功偉業比一比\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/MyCiFVnHKTuUqm9tNi5EqA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
+SUMMARY:99元 - 一起來花蜂！超萌蜂類觀察筆記：泰迪熊蜂不是熊，巧克力地花蜂不能吃，從蜜蜂、隧蜂到切葉蜂，花蜂七大家族明星大集合，蜂功偉業比一比
+UID:kobo99--7034265413084927375@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/MyCiFVnHKTuUqm9tNi5EqA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250918
+DESCRIPTION:書名：睏世代：為何你的孩子總是睡不飽？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/PAH-JkaptDyWEQLA_wV4YQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
+SUMMARY:99元 - 睏世代：為何你的孩子總是睡不飽？
+UID:kobo99--7344909483856107340@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/PAH-JkaptDyWEQLA_wV4YQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251027
+DESCRIPTION:書名：你相信，所以你成功：全球頂尖的成功學大師教你克服懷疑，重塑人生，釋放潛能\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/654KOaJd8jipePEEQByfaA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w44
+SUMMARY:99元 - 你相信，所以你成功：全球頂尖的成功學大師教你克服懷疑，重塑人生，釋放潛能
+UID:kobo99-4711884829550600321@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/654KOaJd8jipePEEQByfaA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250917
+DESCRIPTION:書名：資料煉金術：開放資料存取權，重燃創新之火\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/4a_zGlgFXzubNMF3qmWCzg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
+SUMMARY:99元 - 資料煉金術：開放資料存取權，重燃創新之火
+UID:kobo99-4349544078278564657@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/4a_zGlgFXzubNMF3qmWCzg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250907
+DESCRIPTION:書名：星期天被遺忘的人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/zcsED8eCsDinl5AG7mhS3A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
+SUMMARY:99元 - 星期天被遺忘的人
+UID:kobo99--6384175842515230370@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/zcsED8eCsDinl5AG7mhS3A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250730
+DESCRIPTION:書名：什麼才是經營最難的事：矽谷創投天王告訴你真實的管理智慧\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/NmPadzDBkTOsPvgiu73czQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
+SUMMARY:99元 - 什麼才是經營最難的事：矽谷創投天王告訴你真實的管理智慧
+UID:kobo99--1901413125311060881@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/NmPadzDBkTOsPvgiu73czQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250823
+DESCRIPTION:書名：FUN的力量：釋放「快樂」的強大能量，讓自己輕鬆幸福，成為有趣的人，整個人活了過來\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/fun-8\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
+SUMMARY:99元 - FUN的力量：釋放「快樂」的強大能量，讓自己輕鬆幸福，成為有趣的人，整個人活了過來
+UID:kobo99-1637001048535247120@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/fun-8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250911
+DESCRIPTION:書名：麥肯錫主管意見回饋術：一流顧問都在用的精準傳達技巧，避免誤解、幫助團隊快速調整工作狀態，還能留住人才\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/t8P4PX_gdDiZ5Act03hnXA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
+SUMMARY:99元 - 麥肯錫主管意見回饋術：一流顧問都在用的精準傳達技巧，避免誤解、幫助團隊快速調整工作狀態，還能留住人才
+UID:kobo99--8502255570894737327@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/t8P4PX_gdDiZ5Act03hnXA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251015
+DESCRIPTION:書名：簡單思考：LINE的CEO卸任後第一本工作祕笈\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/lineceo\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
+SUMMARY:99元 - 簡單思考：LINE的CEO卸任後第一本工作祕笈
+UID:kobo99--2860332675964562208@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/lineceo
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250705
+DESCRIPTION:書名：內在思考的覺醒：認識問題、疾病的主因，觀察事實，眼觀八方，成為能真正獨立思考的人！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/C8VyJl5xUDKNffk0mSw7Bw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
+SUMMARY:99元 - 內在思考的覺醒：認識問題、疾病的主因，觀察事實，眼觀八方，成為能真正獨立思考的人！
+UID:kobo99-3604446874090883505@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/C8VyJl5xUDKNffk0mSw7Bw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250712
+DESCRIPTION:書名：你忘了一切，卻沒忘記我：一個腦科學家給母親愛的告白，打破失智者喪失愛與能力的迷思\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/etnLgdrT_jeqab3PvfefdQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
+SUMMARY:99元 - 你忘了一切，卻沒忘記我：一個腦科學家給母親愛的告白，打破失智者喪失愛與能力的迷思
+UID:kobo99-2655162299643977987@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/etnLgdrT_jeqab3PvfefdQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250708
+DESCRIPTION:書名：少了微生物，我們連屁都放不出來（二版）：細菌病毒如何決定人類的生活，以及我們該如何自保？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/N5u8LJ8l1jO7LUVKbz2CjQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
+SUMMARY:99元 - 少了微生物，我們連屁都放不出來（二版）：細菌病毒如何決定人類的生活，以及我們該如何自保？
+UID:kobo99-807136229078658863@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/N5u8LJ8l1jO7LUVKbz2CjQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250817
+DESCRIPTION:書名：MBTI，你的職業性格是什麼？（二版）：發現自己的優勢，規劃最適生涯\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/mbti-12\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - MBTI，你的職業性格是什麼？（二版）：發現自己的優勢，規劃最適生涯
+UID:kobo99-637216023445694040@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/mbti-12
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251018
+DESCRIPTION:書名：30個不可不知的細胞免疫處方箋：全面了解細胞、免疫、病毒相關知識，當個聰明的病人\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gYosV2a4LTuy2Zj7btCtfQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
+SUMMARY:99元 - 30個不可不知的細胞免疫處方箋：全面了解細胞、免疫、病毒相關知識，當個聰明的病人
+UID:kobo99--5248935059449631517@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/gYosV2a4LTuy2Zj7btCtfQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251113
+DESCRIPTION:書名：我要的新人生\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/dVqKmuwRETCoCQAnDWgEGw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
+SUMMARY:99元 - 我要的新人生
+UID:kobo99--3265345714393976301@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/dVqKmuwRETCoCQAnDWgEGw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250905
+DESCRIPTION:書名：梦境收割者\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/rPDdKvaMJTy0-Q8dEFsRjQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
+SUMMARY:99元 - 梦境收割者
+UID:kobo99-7403460904474095384@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/rPDdKvaMJTy0-Q8dEFsRjQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251218
+DESCRIPTION:書名：進擊：未來社會的九大生存法則\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/wOj94FycMjWKF0wF1ylnew\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
+SUMMARY:99元 - 進擊：未來社會的九大生存法則
+UID:kobo99-2147268827671737901@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/wOj94FycMjWKF0wF1ylnew
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250814
+DESCRIPTION:書名：梅西：百轉千變的足球王者\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/cJznFuTSPzmPsaf14mAPAg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - 梅西：百轉千變的足球王者
+UID:kobo99--650123250795001208@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/cJznFuTSPzmPsaf14mAPAg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250926
+DESCRIPTION:書名：食人资本主义\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WgSqs15oLz-LskEaNBujvQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
+SUMMARY:99元 - 食人资本主义
+UID:kobo99-7094399738187650936@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/WgSqs15oLz-LskEaNBujvQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251213
+DESCRIPTION:書名：基姆\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/w80LFUwKUzuEAXu0Bk6Dmw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w50
+SUMMARY:99元 - 基姆
+UID:kobo99-6848311493476498840@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/w80LFUwKUzuEAXu0Bk6Dmw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251022
+DESCRIPTION:書名：當你愛的人有成人過動症\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/vcnPZhpFgD2CMiPynXV8eA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
+SUMMARY:99元 - 當你愛的人有成人過動症
+UID:kobo99--4206637397750355414@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/vcnPZhpFgD2CMiPynXV8eA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250813
+DESCRIPTION:書名：躁鬱之心（最新修訂版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/WRV9MMeoLTqKAanfeJMOCw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - 躁鬱之心（最新修訂版）
+UID:kobo99--4414396554083821850@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/WRV9MMeoLTqKAanfeJMOCw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250718
+DESCRIPTION:書名：食托邦 Sitopia：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sitopia-4\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
+SUMMARY:99元 - 食托邦 Sitopia：一餐一世界！有意識的選擇吃，用美味打造永續未來【飲食與人文新經典】
+UID:kobo99-683820450807040928@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/sitopia-4
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250908
+DESCRIPTION:書名：不懂權謀的人，無法做大事：馬基維利教你如何在職場上出人頭地\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ThRkucWQqDm7cH1bSIk6_g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
+SUMMARY:99元 - 不懂權謀的人，無法做大事：馬基維利教你如何在職場上出人頭地
+UID:kobo99-3060443047942934460@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ThRkucWQqDm7cH1bSIk6_g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DESCRIPTION:書名：品格優勢：成就孩子「王者之力」，從容應對未來的競爭與機遇\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/wDG3WKkMwzKIiXhX_DGeiQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
+SUMMARY:99元 - 品格優勢：成就孩子「王者之力」，從容應對未來的競爭與機遇
+UID:kobo99--5090799470299325381@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/wDG3WKkMwzKIiXhX_DGeiQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250923
+DESCRIPTION:書名：與達爾文共進晚餐：演化如何造就美食，食物又如何形塑人類的演化\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sCdfMwnaKjmOAtWXccf7ng\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
+SUMMARY:99元 - 與達爾文共進晚餐：演化如何造就美食，食物又如何形塑人類的演化
+UID:kobo99--3300636812384025137@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/sCdfMwnaKjmOAtWXccf7ng
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251130
+DESCRIPTION:書名：刻意放鬆：25個壓力調節練習，找回安定的內在\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/4IcASUpRDz2BMJsIXd4vaA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
+SUMMARY:99元 - 刻意放鬆：25個壓力調節練習，找回安定的內在
+UID:kobo99--928699980127579985@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/4IcASUpRDz2BMJsIXd4vaA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250916
+DESCRIPTION:書名：加密‧解謎‧密碼學：從歷史發展到關鍵應用，有趣得不可思議的密碼研究\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Xd983krfMjOKKgEaCcP-Xg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
+SUMMARY:99元 - 加密‧解謎‧密碼學：從歷史發展到關鍵應用，有趣得不可思議的密碼研究
+UID:kobo99-6715153246638606703@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Xd983krfMjOKKgEaCcP-Xg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250831
+DESCRIPTION:書名：颶光典籍首部曲：王者之路．上冊\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/CkETD3f9aTqPzqIZsoxnoA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
+SUMMARY:99元 - 颶光典籍首部曲：王者之路．上冊
+UID:kobo99-1899268732388431349@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/CkETD3f9aTqPzqIZsoxnoA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251112
+DESCRIPTION:書名：測試：死後生命的世界與終極驗證（法國長銷30萬冊靈性經典）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/waqefSDh0TaIhsHjKaTumQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
+SUMMARY:99元 - 測試：死後生命的世界與終極驗證（法國長銷30萬冊靈性經典）
+UID:kobo99-4089735880466621934@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/waqefSDh0TaIhsHjKaTumQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250809
+DESCRIPTION:書名：一個人放鬆按摩術：用手解決身心疲勞、肌膚鬆弛問題\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/gInvsH_zTjmPlNYdgPYaZg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w32
+SUMMARY:99元 - 一個人放鬆按摩術：用手解決身心疲勞、肌膚鬆弛問題
+UID:kobo99-2456409697518906279@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/gInvsH_zTjmPlNYdgPYaZg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250713
+DESCRIPTION:書名：血色童話（2022年新版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/TM_uDipYBTip57HiKb5f7A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
+SUMMARY:99元 - 血色童話（2022年新版）
+UID:kobo99--6044417780180588022@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/TM_uDipYBTip57HiKb5f7A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250830
+DESCRIPTION:書名：《大規模領導力：麥肯錫領導力聖經\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ch2N8tfCCDK0zOoO4DR0-g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
+SUMMARY:99元 - 《大規模領導力：麥肯錫領導力聖經
+UID:kobo99-6149596570238437548@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ch2N8tfCCDK0zOoO4DR0-g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251012
+DESCRIPTION:書名：波西傑克森：烈日星辰\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/394KX5_bRzuh7yK81zlXtQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
+SUMMARY:99元 - 波西傑克森：烈日星辰
+UID:kobo99--5545818356733137139@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/394KX5_bRzuh7yK81zlXtQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250719
+DESCRIPTION:書名：內臟疲勞修復全書\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/YIvn5VbEyzOsjGYduTK4Tg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w29
+SUMMARY:99元 - 內臟疲勞修復全書
+UID:kobo99-1466735232333394313@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/YIvn5VbEyzOsjGYduTK4Tg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250710
+DESCRIPTION:書名：人類何以陷入戰爭：李德哈特的歷史哲學\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/yT7DIrpEzzWV_OamKrpkeg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
+SUMMARY:99元 - 人類何以陷入戰爭：李德哈特的歷史哲學
+UID:kobo99-7401908331153919199@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/yT7DIrpEzzWV_OamKrpkeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251019
+DESCRIPTION:書名：命案現場清潔公司2.0：聽清潔師訴說那些被屍水、血跡、蛆蟲覆蓋的生命故事\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/qMZn0X8tijq_HVDyWZTKFg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
+SUMMARY:99元 - 命案現場清潔公司2.0：聽清潔師訴說那些被屍水、血跡、蛆蟲覆蓋的生命故事
+UID:kobo99-4401288576084123595@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/qMZn0X8tijq_HVDyWZTKFg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251210
+DESCRIPTION:書名：擊敗渣男！這樣可以告嗎？專業律師教的恐怖情人反擊法\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Tdh8QB2xLjiKVXkr5od2WQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
+SUMMARY:99元 - 擊敗渣男！這樣可以告嗎？專業律師教的恐怖情人反擊法
+UID:kobo99-8036596853019798564@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Tdh8QB2xLjiKVXkr5od2WQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250729
+DESCRIPTION:書名：螞蟻螞蟻：螞蟻大師威爾森與霍德伯勒的科學探索之旅（特別收錄螞蟻專家林宗岐教授編寫的〈台灣家屋螞蟻圖鑑〉）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_OKgiH658jyLMleTOQD91A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
+SUMMARY:99元 - 螞蟻螞蟻：螞蟻大師威爾森與霍德伯勒的科學探索之旅（特別收錄螞蟻專家林宗岐教授編寫的〈台灣家屋螞蟻圖鑑〉）
+UID:kobo99--7664759939283819235@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/_OKgiH658jyLMleTOQD91A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250901
+DESCRIPTION:書名：超級感官：人類的32種感覺和運用技巧\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/uXveFm2gEDyuQ8xZgWjAbQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
+SUMMARY:99元 - 超級感官：人類的32種感覺和運用技巧
+UID:kobo99--7762382756667426987@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/uXveFm2gEDyuQ8xZgWjAbQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250912
+DESCRIPTION:書名：从自察到自救：别让情绪偷走你的人生\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/lMrRS5DIQjGwANVNLxAYfg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
+SUMMARY:99元 - 从自察到自救：别让情绪偷走你的人生
+UID:kobo99--6849213609082700360@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/lMrRS5DIQjGwANVNLxAYfg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251106
+DESCRIPTION:書名：控告婚姻：妻子的起訴書\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/06PS_wqd7z2iB6f88XXnng\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
+SUMMARY:99元 - 控告婚姻：妻子的起訴書
+UID:kobo99--6797713044198225004@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/06PS_wqd7z2iB6f88XXnng
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251220
+DESCRIPTION:書名：犯罪人格剖繪檔案（增訂版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/pEmgMQIhjj2GVTPyWaOwLg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w51
+SUMMARY:99元 - 犯罪人格剖繪檔案（增訂版）
+UID:kobo99--7504556503704200654@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/pEmgMQIhjj2GVTPyWaOwLg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251014
+DESCRIPTION:書名：犯罪心理剖繪檔案\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/iOGW1UaJ6zCBjk-QY-hzBw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
+SUMMARY:99元 - 犯罪心理剖繪檔案
+UID:kobo99--576228522908221052@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/iOGW1UaJ6zCBjk-QY-hzBw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250706
+DESCRIPTION:書名：歡笑國度\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/oFqe859WPDC6CAoGm4TgTg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
+SUMMARY:99元 - 歡笑國度
+UID:kobo99-1629372134968772410@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/oFqe859WPDC6CAoGm4TgTg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251115
+DESCRIPTION:書名：無聊心理學：我們為何無聊？無聊不好嗎？無聊時我們可以做些什麼？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/wt_lAV1CtT6-KSmFUGaVrw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
+SUMMARY:99元 - 無聊心理學：我們為何無聊？無聊不好嗎？無聊時我們可以做些什麼？
+UID:kobo99-3805093689763008964@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/wt_lAV1CtT6-KSmFUGaVrw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250826
+DESCRIPTION:書名：我擁群像：栽進體內的微米宇宙，看生物如何與看不見的微生物互相算計、威脅、合作、保護，塑造大自然的全貌\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1eMHkO3dcTiHvrHp9gLDaA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
+SUMMARY:99元 - 我擁群像：栽進體內的微米宇宙，看生物如何與看不見的微生物互相算計、威脅、合作、保護，塑造大自然的全貌
+UID:kobo99-2017784116121026036@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/1eMHkO3dcTiHvrHp9gLDaA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251205
+DESCRIPTION:書名：發現天賦之旅\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/jmt7zZmPWTStBjCtzEn3eg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
+SUMMARY:99元 - 發現天賦之旅
+UID:kobo99--1059079306004577819@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/jmt7zZmPWTStBjCtzEn3eg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250829
+DESCRIPTION:書名：杀人广告\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/KDLBQvR4HjSf5fJtaIo9XQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w35
+SUMMARY:99元 - 杀人广告
+UID:kobo99-574744970589505609@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/KDLBQvR4HjSf5fJtaIo9XQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250919
+DESCRIPTION:書名：升维：不确定时代的决策博弈\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/QHKLK4EMqjOlC2Gb1Bcl-g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
+SUMMARY:99元 - 升维：不确定时代的决策博弈
+UID:kobo99-7400297901500224198@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/QHKLK4EMqjOlC2Gb1Bcl-g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251023
+DESCRIPTION:書名：嫁禍、驅逐、大屠殺：求生存的猶太歷史\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/LtW5zBnH8D2ZWuV8-3fquQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
+SUMMARY:99元 - 嫁禍、驅逐、大屠殺：求生存的猶太歷史
+UID:kobo99--5192879378953591264@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/LtW5zBnH8D2ZWuV8-3fquQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250703
+DESCRIPTION:書名：為什麼我們不想生：生與不生，哪一種人生選擇更幸福？\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/OX-5P4B7kDuPFC8wKA4uwg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w27
+SUMMARY:99元 - 為什麼我們不想生：生與不生，哪一種人生選擇更幸福？
+UID:kobo99--4993981531005536483@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/OX-5P4B7kDuPFC8wKA4uwg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250709
+DESCRIPTION:書名：閉嘴的藝術：以退為進的刻意沉默，讓你趨吉避凶，家庭與事業如沐春風\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/BvkyQMdYlzSxyNXTtBjnkQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
+SUMMARY:99元 - 閉嘴的藝術：以退為進的刻意沉默，讓你趨吉避凶，家庭與事業如沐春風
+UID:kobo99-5233025702664641091@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/BvkyQMdYlzSxyNXTtBjnkQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251114
+DESCRIPTION:書名：我在小米做爆品：让用户觉得聪明的产品才是好产品\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/_M7TJG1OpjuKAS7ocIspeA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
+SUMMARY:99元 - 我在小米做爆品：让用户觉得聪明的产品才是好产品
+UID:kobo99-2001002324772588745@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/_M7TJG1OpjuKAS7ocIspeA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250815
+DESCRIPTION:書名：憂鬱與發炎的大腦：改善憂鬱症狀，從平衡免疫系統，降低發炎開始\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/aQJz18CoXjeuzf2tBDuYCA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - 憂鬱與發炎的大腦：改善憂鬱症狀，從平衡免疫系統，降低發炎開始
+UID:kobo99--6355935991603009531@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/aQJz18CoXjeuzf2tBDuYCA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250930
+DESCRIPTION:書名：我們的行為是怎樣被設計的\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/1I7XCd64-DeshmbKS52U4w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w40
+SUMMARY:99元 - 我們的行為是怎樣被設計的
+UID:kobo99-9042438713211016286@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/1I7XCd64-DeshmbKS52U4w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251026
+DESCRIPTION:書名：什麼荒謬年代\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/8BTkGy7eGjmZ5eXeMsGi8g\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
+SUMMARY:99元 - 什麼荒謬年代
+UID:kobo99-4979088247650223627@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/8BTkGy7eGjmZ5eXeMsGi8g
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250902
+DESCRIPTION:書名：奇幻熊在網路釣魚：為何網際網路如此脆弱？駭客如何利用人性竊取機密，以及我們如何更安全\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/7Thc77w0azWXhAjrztn20Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w36
+SUMMARY:99元 - 奇幻熊在網路釣魚：為何網際網路如此脆弱？駭客如何利用人性竊取機密，以及我們如何更安全
+UID:kobo99-1389758178941911895@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/7Thc77w0azWXhAjrztn20Q
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250711
+DESCRIPTION:書名：别害怕冲突\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/RTHraD0FHjusRoZvuyK7Xg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w28
+SUMMARY:99元 - 别害怕冲突
+UID:kobo99--5132618758719240027@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/RTHraD0FHjusRoZvuyK7Xg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251016
+DESCRIPTION:書名：如何讓人喜歡我\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nBc64-h6yT2-ePd2xUCxEg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
+SUMMARY:99元 - 如何讓人喜歡我
+UID:kobo99-2035967492657241317@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/nBc64-h6yT2-ePd2xUCxEg
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251207
 DESCRIPTION:書名：小婦人：全新譯本【完整版】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/qj9rVpl3eTyE5kHxG8jZjQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w49
 SUMMARY:99元 - 小婦人：全新譯本【完整版】
-UID:kobo99-8731949556859220690@kobo-99-ical
+UID:kobo99--4937502620863165153@kobo-99-ical
 URL:https://www.kobo.com/tw/zh/ebook/qj9rVpl3eTyE5kHxG8jZjQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251104
+DESCRIPTION:書名：魚，什麼都知道：一窺我們水中夥伴的內在生活\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/s8wxFM0rDjmorM2a57iRIg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w45
+SUMMARY:99元 - 魚，什麼都知道：一窺我們水中夥伴的內在生活
+UID:kobo99--7866530020303332370@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/s8wxFM0rDjmorM2a57iRIg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250628
+DESCRIPTION:書名：允許自己變有錢\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/A7ijhGAsJTm2nqou5sIWDQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w26
+SUMMARY:99元 - 允許自己變有錢
+UID:kobo99--678454297403562316@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/A7ijhGAsJTm2nqou5sIWDQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250909
+DESCRIPTION:書名：黑洞簡史：從奇異點到重力波，愛因斯坦到霍金，清晰解析困擾物理界300年的神秘天體\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/EjaCAthrIzyOV-_TPcJpCw\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w37
+SUMMARY:99元 - 黑洞簡史：從奇異點到重力波，愛因斯坦到霍金，清晰解析困擾物理界300年的神秘天體
+UID:kobo99-8966145142511201172@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/EjaCAthrIzyOV-_TPcJpCw
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251009
+DESCRIPTION:書名：人生難題，心理學都有解方：探究底層思維，提升心理智商，做出最佳決定的54種成功策略\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/DVdU2ADUwD-Zb5RiOYPbuA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w41
+SUMMARY:99元 - 人生難題，心理學都有解方：探究底層思維，提升心理智商，做出最佳決定的54種成功策略
+UID:kobo99--7040760343409418088@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/DVdU2ADUwD-Zb5RiOYPbuA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250824
+DESCRIPTION:書名：寄生殺人：尼崎連續怪死事件的真相\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/OxYLkDL1HT-URKXD-PNq0w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
+SUMMARY:99元 - 寄生殺人：尼崎連續怪死事件的真相
+UID:kobo99-8340769715410317047@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/OxYLkDL1HT-URKXD-PNq0w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251020
+DESCRIPTION:書名：一流的人如何擁有動態穩定力：培養變通思維，調整期待，修復不確定性帶來的震盪，隨變動而更高效強大\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sBoBBuPZjzGWbH8pP_UbkA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w43
+SUMMARY:99元 - 一流的人如何擁有動態穩定力：培養變通思維，調整期待，修復不確定性帶來的震盪，隨變動而更高效強大
+UID:kobo99-3730273878603666181@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/sBoBBuPZjzGWbH8pP_UbkA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251122
+DESCRIPTION:書名：《增強你的感恩力！用正面吸引力顯化美好生活》由 史考特．艾倫\, Scott Allan◎著\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/TkbIEzs5fTuUbdlTuCOw0w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w47
+SUMMARY:99元 - 《增強你的感恩力！用正面吸引力顯化美好生活》由 史考特．艾倫\, Scott Allan◎著
+UID:kobo99--7029004935220577346@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/TkbIEzs5fTuUbdlTuCOw0w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250821
+DESCRIPTION:書名：你與世界的10個方程式：把大問題變小問題，用大數據+數學理解現代社會的運作模式\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ZuhsNuXF4TetimatatKBdg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w34
+SUMMARY:99元 - 你與世界的10個方程式：把大問題變小問題，用大數據+數學理解現代社會的運作模式
+UID:kobo99--7238593712773361902@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ZuhsNuXF4TetimatatKBdg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250725
+DESCRIPTION:書名：大象的踪迹\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ue6xS0pS0jSHhrXzvfPXAQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
+SUMMARY:99元 - 大象的踪迹
+UID:kobo99-5451547464149834277@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ue6xS0pS0jSHhrXzvfPXAQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250928
+DESCRIPTION:書名：恐懼境界\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Rqi3IUm8HDO9mN3xMZOCDg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w39
+SUMMARY:99元 - 恐懼境界
+UID:kobo99-7230450288371083176@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Rqi3IUm8HDO9mN3xMZOCDg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251111
+DESCRIPTION:書名：香料(地中海史權威羅傑．克勞利歷史新作)：以摩鹿加群島為中心，見證十六世紀形塑現代世界的權力地圖\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/ZcdRFiFGvzug1Ffrea9LjA\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w46
+SUMMARY:99元 - 香料(地中海史權威羅傑．克勞利歷史新作)：以摩鹿加群島為中心，見證十六世紀形塑現代世界的權力地圖
+UID:kobo99-5865078518209879735@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/ZcdRFiFGvzug1Ffrea9LjA
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250724
+DESCRIPTION:書名：時間最短化，成果最大化的法則：１天安裝１個成功人士的「思維演算法」45天（約1.5月）腦袋將徹底更新！\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/toLobO1FkT66MqizsV9NLQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
+SUMMARY:99元 - 時間最短化，成果最大化的法則：１天安裝１個成功人士的「思維演算法」45天（約1.5月）腦袋將徹底更新！
+UID:kobo99-8996761567463579289@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/toLobO1FkT66MqizsV9NLQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250921
+DESCRIPTION:書名：麥迪遜之橋（復刻經典 愛藏版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/c4-gmjtsFzCtvk7JKk4kTQ\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w38
+SUMMARY:99元 - 麥迪遜之橋（復刻經典 愛藏版）
+UID:kobo99--7547392217794542108@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/c4-gmjtsFzCtvk7JKk4kTQ
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250727
+DESCRIPTION:書名：一個人的聖經\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/tG0fdBSIbjC4zvdLPcBT4A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w30
+SUMMARY:99元 - 一個人的聖經
+UID:kobo99--3256074556577997726@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/tG0fdBSIbjC4zvdLPcBT4A
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251013
+DESCRIPTION:書名：柏格效應：指數型基金教父約翰．柏格和他的先鋒集團如何改變華爾街的遊戲規則。\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/sHEPQSBX6zCqNBVC9Zum9Q\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w42
+SUMMARY:99元 - 柏格效應：指數型基金教父約翰．柏格和他的先鋒集團如何改變華爾街的遊戲規則。
+UID:kobo99-3845561737737727543@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/sHEPQSBX6zCqNBVC9Zum9Q
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251203
+DESCRIPTION:書名：雖然會胖，但還是想一個人吃完半半炸雞再睡【夜食症候群的深夜飢餓告白】\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/nx8im2uocjOpfSChN5Fkdg\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w48
+SUMMARY:99元 - 雖然會胖，但還是想一個人吃完半半炸雞再睡【夜食症候群的深夜飢餓告白】
+UID:kobo99-3142757819630229200@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/nx8im2uocjOpfSChN5Fkdg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250803
+DESCRIPTION:書名：咆哮山莊\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/jN3SO3dQsz-vbnG83btN_w\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w31
+SUMMARY:99元 - 咆哮山莊
+UID:kobo99-3312668004326327677@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/jN3SO3dQsz-vbnG83btN_w
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250816
+DESCRIPTION:書名：好人總是自以為是：政治與宗教如何將我們四分五裂（長銷經典紀念版）\n\n查看電子書：https://www.kobo.com/tw/zh/ebook/Hho7mQ0dgjGM4FBrqyOb4A\n\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2025-w33
+SUMMARY:99元 - 好人總是自以為是：政治與宗教如何將我們四分五裂（長銷經典紀念版）
+UID:kobo99--5911637983400286490@kobo-99-ical
+URL:https://www.kobo.com/tw/zh/ebook/Hho7mQ0dgjGM4FBrqyOb4A
 END:VEVENT
 END:VCALENDAR
