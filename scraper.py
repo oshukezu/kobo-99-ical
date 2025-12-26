@@ -1,389 +1,155 @@
 """
-Kobo 99 元書單爬蟲（支援 Cloudflare 繞過）
-這是更新後的爬蟲程式，整合了所有 Cloudflare 繞過機制
+Kobo 99 元書單爬蟲
 """
 import logging
-import random
 import re
 import time
 from datetime import date, datetime, timedelta
 from typing import List, Optional
-from urllib.parse import urljoin
 
-import httpx
+import cloudscraper
 from bs4 import BeautifulSoup
-
-from utils.headers import get_random_headers, shuffle_headers_order
 
 logger = logging.getLogger(__name__)
 
 
-class KoboScraper:
-    """Kobo 99 元書單爬蟲（支援 Cloudflare 繞過）"""
+class Scraper:
+    """Kobo 99 元書單爬蟲 (Cloudscraper version)"""
 
-    def __init__(self, timeout: float = 30.0, max_retries: int = 5, use_playwright_fallback: bool = True):
-        self.timeout = timeout
-        self.max_retries = max_retries
-        self.use_playwright_fallback = use_playwright_fallback
-        
-        # 初始化 httpx client（使用 HTTP2）
-        try:
-            transport = httpx.HTTPTransport(http2=True)
-            self.client = httpx.Client(
-                transport=transport,
-                timeout=self.timeout,
-                follow_redirects=True,
-            )
-        except Exception as e:
-            logger.warning(f"Failed to initialize HTTP2 transport: {e}, falling back to HTTP/1.1")
-            self.client = httpx.Client(
-                timeout=self.timeout,
-                follow_redirects=True,
-            )
+    def __init__(self):
+        # Create a cloudscraper instance to bypass Cloudflare
+        self.scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'darwin',
+                'desktop': True
+            }
+        )
+        self.max_retries = 3
 
     def __enter__(self):
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        self.client.close()
+        pass
 
-    def get_current_week_info(self) -> tuple[int, int]:
-        """取得當前年份和週數"""
-        today = date.today()
-        year, week, _ = today.isocalendar()
-        return year, week
-
-    def generate_weekly_urls(self, start_year: int, start_week: int, end_year: int, end_week: int) -> List[str]:
-        """生成週次 URL 列表"""
-        urls = []
-        current_year = start_year
-        current_week = start_week
-        # 限制最大週數為 52（若網址存在則嘗試爬取）
-        MAX_WEEK = 54
-
-        while (current_year < end_year) or (current_year == end_year and current_week <= end_week):
-            # 確保週數不超過 49
-            if current_week > MAX_WEEK:
-                break
-            url = f"https://www.kobo.com/zh/blog/weekly-dd99-{current_year}-w{current_week}"
-            urls.append(url)
-            current_week += 1
-            if current_week > 52:
-                current_week = 1
-                current_year += 1
-
-        return urls
-
-    def fetch_with_playwright(self, url: str) -> Optional[str]:
-        """使用 Playwright headless browser 作為 fallback"""
-        try:
-            from playwright.sync_api import sync_playwright
-            from utils.headers import get_random_headers
-            
-            logger.info(f"Using Playwright fallback for: {url}")
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
-                context = browser.new_context(
-                    user_agent=get_random_headers()["User-Agent"],
-                    viewport={"width": 1920, "height": 1080},
-                )
-                page = context.new_page()
-                
-                # 訪問頁面
-                page.goto(url, wait_until="networkidle", timeout=60000)
-                
-                # 等待頁面載入完成
-                time.sleep(2)
-                
-                # 獲取 HTML
-                html = page.content()
-                
-                browser.close()
-                return html
-        except ImportError:
-            logger.error("Playwright not installed. Install with: pip install playwright && playwright install chromium")
-            return None
-        except Exception as e:
-            logger.error(f"Playwright fallback failed: {e}")
-            return None
-
-    def fetch_page(self, url: str, use_random_delay: bool = False) -> Optional[str]:
-        """抓取單一頁面（支援 Cloudflare 繞過）"""
-        # GitHub Actions 中的隨機延遲
-        if use_random_delay:
-            delay = random.uniform(1, 3)
-            logger.info(f"Random delay: {delay:.2f}s")
-            time.sleep(delay)
-        
+    def fetch_page(self, url: str) -> Optional[str]:
+        """抓取頁面內容"""
+        logger.info(f"Fetching URL: {url}")
         for attempt in range(self.max_retries):
             try:
-                # 生成隨機 headers
-                headers = get_random_headers(referer="https://www.kobo.com/zh/blog")
-                
-                # 在 GitHub Actions 中隨機排序 headers
-                if use_random_delay:
-                    headers = shuffle_headers_order(headers)
-                
-                logger.info(f"Fetching: {url} (attempt {attempt + 1}/{self.max_retries})")
-                
-                response = self.client.get(url, headers=headers)
-                status_code = response.status_code
-                
-                # 檢查是否需要重試
-                if status_code in [403, 429] or (500 <= status_code < 600):
-                    if attempt < self.max_retries - 1:
-                        wait_time = random.uniform(2, 5)
-                        logger.warning(
-                            f"Received {status_code} for {url}, retrying after {wait_time:.2f}s "
-                            f"(attempt {attempt + 1}/{self.max_retries})"
-                        )
-                        time.sleep(wait_time)
-                        continue
-                    else:
-                        # 最後一次嘗試失敗，使用 Playwright fallback
-                        logger.error(f"Failed to fetch {url} after {self.max_retries} attempts (status: {status_code})")
-                        if self.use_playwright_fallback and status_code == 403:
-                            logger.info("Attempting Playwright fallback...")
-                            html = self.fetch_with_playwright(url)
-                            if html:
-                                return html
-                        return None
-                
-                # 成功取得回應
-                response.raise_for_status()
-                time.sleep(1.0)  # 基本 rate limit
-                return response.text
-                
-            except httpx.HTTPStatusError as e:
-                status_code = e.response.status_code if e.response else 0
-                if status_code in [403, 429] or (500 <= status_code < 600):
-                    if attempt < self.max_retries - 1:
-                        wait_time = random.uniform(2, 5)
-                        logger.warning(
-                            f"HTTP {status_code} error for {url}, retrying after {wait_time:.2f}s "
-                            f"(attempt {attempt + 1}/{self.max_retries})"
-                        )
-                        time.sleep(wait_time)
-                        continue
-                    else:
-                        logger.error(f"Failed to fetch {url} after {self.max_retries} attempts (status: {status_code})")
-                        if self.use_playwright_fallback and status_code == 403:
-                            logger.info("Attempting Playwright fallback...")
-                            html = self.fetch_with_playwright(url)
-                            if html:
-                                return html
-                        return None
-                else:
-                    logger.error(f"HTTP error {status_code} for {url}: {e}")
+                response = self.scraper.get(url)
+                if response.status_code == 200:
+                    return response.text
+                elif response.status_code == 404:
+                    logger.warning(f"Page not found: {url}")
                     return None
-                    
-            except httpx.RequestError as e:
-                logger.warning(f"Request error for {url}: {e}")
-                if attempt < self.max_retries - 1:
-                    wait_time = random.uniform(2, 5)
-                    time.sleep(wait_time)
-                    continue
                 else:
-                    logger.error(f"Failed to fetch {url} after {self.max_retries} attempts")
-                    return None
+                    logger.warning(f"Status {response.status_code} for {url}, retrying...")
+                    time.sleep(2)
             except Exception as e:
-                logger.error(f"Unexpected error fetching {url}: {e}")
-                if attempt < self.max_retries - 1:
-                    wait_time = random.uniform(2, 5)
-                    time.sleep(wait_time)
-                    continue
-                return None
+                logger.error(f"Error fetching {url}: {e}")
+                time.sleep(2)
         
-        return None
-
-    def parse_article_date(self, soup: BeautifulSoup, article_url: str) -> Optional[date]:
-        """從文章頁面解析日期"""
-        # 嘗試多種日期格式
-        date_patterns = [
-            r'(\d{4})[年\-/](\d{1,2})[月\-/](\d{1,2})[日]?',  # 2024年12月1日
-            r'(\d{4})-(\d{2})-(\d{2})',  # 2024-12-01
-        ]
-
-        # 查找日期相關的元素
-        date_selectors = [
-            'time[datetime]',
-            '.date',
-            '.published-date',
-            '[class*="date"]',
-            '[class*="Date"]',
-        ]
-
-        for selector in date_selectors:
-            elements = soup.select(selector)
-            for elem in elements:
-                # 嘗試從 datetime 屬性取得
-                datetime_attr = elem.get('datetime')
-                if datetime_attr:
-                    try:
-                        dt = datetime.fromisoformat(datetime_attr.replace('Z', '+00:00'))
-                        return dt.date()
-                    except (ValueError, AttributeError):
-                        pass
-
-                # 嘗試從文字內容解析
-                text = elem.get_text(strip=True)
-                for pattern in date_patterns:
-                    match = re.search(pattern, text)
-                    if match:
-                        try:
-                            year, month, day = map(int, match.groups())
-                            return date(year, month, day)
-                        except (ValueError, TypeError):
-                            continue
-
-        # 如果找不到，嘗試從 URL 解析（備用方案）
-        week_match = re.search(r'weekly-dd99-(\d{4})-w(\d+)', article_url)
-        if week_match:
-            year = int(week_match.group(1))
-            week = int(week_match.group(2))
-            # 計算該週的第一天（週一）
-            jan1 = date(year, 1, 1)
-            days_offset = (week - 1) * 7
-            week_start = jan1 + timedelta(days=-jan1.weekday() + days_offset)
-            return week_start
-
-        logger.warning(f"Could not parse date from article: {article_url}")
+        logger.error(f"Failed to fetch {url} after {self.max_retries} attempts")
         return None
 
     def parse_weekly_article(self, html: str, article_url: str, year: int, week: int) -> List[dict]:
-        """解析單一週次文章，提取書籍資訊"""
+        """解析週次文章"""
         soup = BeautifulSoup(html, "html.parser")
         books = []
-
-        # 解析文章日期
-        article_date = self.parse_article_date(soup, article_url)
-        if not article_date:
-            logger.warning(f"Could not determine date for article {article_url}, skipping")
-            return books
-
-        # 查找所有包含「查看電子書」連結的區塊
-        ebook_links = soup.find_all('a', href=re.compile(r'/ebook/'))
         
-        if not ebook_links:
-            logger.warning(f"No ebook links found in article: {article_url}")
-            return books
+        # Strict Regex Pattern
+        # Pattern: {Date}{星期}Kobo99選書：{書名}
+        # Matches: "12/20週六Kobo99選書：《破咒師...》" or "12/20週六Kobo99選書：破咒師..."
+        pattern = re.compile(r'(\d{1,2}/\d{1,2}).*?Kobo99選書[：:]\s*(?:《(.*?)》|(.+))')
+        
+        # Find all text nodes containing "Kobo99選書"
+        text_nodes = soup.find_all(string=re.compile(r"Kobo99選書"))
+        processed_parents = set()
 
-        # 為每個連結找到對應的書籍區塊
-        elements = []
-        seen_links = set()
-        for link_elem in ebook_links:
-            href = link_elem.get('href', '')
-            if href in seen_links:
-                continue
-            seen_links.add(href)
+        for node in text_nodes:
+            # Find closest block parent
+            parent = node.parent
+            while parent and parent.name not in ['div', 'p', 'li', 'article', 'section']:
+                parent = parent.parent
             
-            # 向上查找包含書籍資訊的父元素
-            parent = link_elem.find_parent(['div', 'article', 'section', 'li', 'p'])
-            if parent and parent not in elements:
-                elements.append(parent)
-
-        # 解析每個書籍區塊
-        for idx, elem in enumerate(elements):
-            try:
-                # 查找標題
-                title = None
-                
-                # 先從連結文字取得（通常最準確）
-                link_elem = elem.find('a', href=re.compile(r'/ebook/'))
-                if link_elem:
-                    title = link_elem.get_text(strip=True)
-                
-                # 如果連結文字為空，嘗試從標題元素取得
-                if not title or len(title) < 2:
-                    title_selectors = ['h2', 'h3', 'h4', 'h5', '[class*="title"]', '[class*="Title"]']
-                    for title_sel in title_selectors:
-                        title_elem = elem.select_one(title_sel)
-                        if title_elem:
-                            title_text = title_elem.get_text(strip=True)
-                            if title_text and len(title_text) > 2:
-                                title = title_text
-                                break
-                
-                # 如果還是找不到，嘗試從連結的 title 屬性取得
-                if not title or len(title) < 2:
-                    if link_elem:
-                        title = link_elem.get('title', '') or link_elem.get('aria-label', '')
-
-                # 查找「查看電子書」連結
-                book_url = None
-                link_elem = elem.find('a', href=re.compile(r'/ebook/'))
-                if link_elem:
-                    href = link_elem.get('href', '')
-                    if href:
-                        book_url = urljoin('https://www.kobo.com', href)
-
-                # 如果標題和連結都存在，創建書籍資料
-                if title and book_url and len(title.strip()) > 0:
-                    # 計算該書籍對應的日期（假設每週有7本書，每天一本）
-                    days_offset = idx % 7
-                    book_date = article_date + timedelta(days=days_offset)
-
-                    book = {
-                        "title": title.strip(),
-                        "book_url": book_url,
-                        "article_url": article_url,
-                        "date": book_date.isoformat(),
-                        "week": week,
-                        "year": year,
-                    }
-                    books.append(book)
-                    logger.info(f"Found book: {title} ({book_date})")
-
-            except Exception as e:
-                logger.warning(f"Error parsing book element {idx}: {e}")
+            if not parent or parent in processed_parents:
                 continue
+            
+            processed_parents.add(parent)
+            full_text = parent.get_text(strip=True)
+            
+            match = pattern.search(full_text)
+            if not match:
+                continue
+
+            date_str = match.group(1)
+            title1 = match.group(2)
+            title2 = match.group(3)
+            title = (title1 or title2 or "").strip()
+            
+            if title.endswith('》'):
+                title = title[:-1]
+            if not title or title == "《":
+                continue
+
+            # Parse Date (Month/Day)
+            try:
+                month, day = map(int, date_str.split('/'))
+            except ValueError:
+                continue
+            
+            # Find Link
+            book_url = None
+            # 1. Parent is link
+            if parent.name == 'a':
+                book_url = parent.get('href')
+            # 2. Link inside parent
+            if not book_url:
+                link = parent.find('a', href=re.compile(r'/ebook/'))
+                if link:
+                    book_url = link.get('href')
+
+            if book_url:
+                if '?' in book_url:
+                    book_url = book_url.split('?')[0]
+                if book_url.startswith('/'):
+                    book_url = f"https://www.kobo.com{book_url}"
+                
+                if "查看電子書" in title:
+                     title = title.replace("查看電子書", "").strip()
+
+                books.append({
+                    "title": title,
+                    "book_url": book_url,
+                    "article_url": article_url,
+                    "month": month,
+                    "day": day,
+                    "week": week,
+                    "year_context": year  # Base year from URL
+                })
+                logger.debug(f"Parsed: {title} ({month}/{day})")
 
         return books
 
-    def crawl_weekly_books(self, start_year: Optional[int] = None, start_week: Optional[int] = None,
-                           end_year: Optional[int] = None, end_week: Optional[int] = None,
-                           use_random_delay: bool = False) -> List[dict]:
-        """爬取多個週次的書籍"""
-        if start_year is None or start_week is None:
-            # 預設從 2025 年第 1 週開始
-            start_year = 2025
-            start_week = 1
-
-        if end_year is None or end_week is None:
-            current_year, current_week, _ = date.today().isocalendar()
-            if current_week <= 54:
-                end_year = current_year
-                end_week = current_week
-            else:
-                end_year = current_year
-                end_week = 54
-
-        urls = self.generate_weekly_urls(start_year, start_week, end_year, end_week)
+    def crawl_weekly_books(self, start_year: int, start_week: int, end_year: int, end_week: int) -> List[dict]:
+        """爬取範圍內的週次"""
         all_books = []
-
-        for url in urls:
-            # 從 URL 提取年份和週數
-            match = re.search(r'weekly-dd99-(\d{4})-w(\d+)', url)
-            if not match:
-                continue
-            year = int(match.group(1))
-            week = int(match.group(2))
-
-            html = self.fetch_page(url, use_random_delay=use_random_delay)
-            if html:
-                books = self.parse_weekly_article(html, url, year, week)
-                all_books.extend(books)
-                time.sleep(0.2)  # 請求間隔
-            else:
-                logger.warning(f"Skipping {url} due to fetch failure")
-
-        logger.info(f"Total books crawled: {len(all_books)}")
+        curr_y, curr_w = start_year, start_week
+        target_y, target_w = end_year, end_week
+        
+        while (curr_y < target_y) or (curr_y == target_y and curr_w <= target_w):
+            url = f"https://www.kobo.com/zh/blog/weekly-dd99-{curr_y}-w{curr_w}"
+            content = self.fetch_page(url)
+            
+            if content:
+                items = self.parse_weekly_article(content, url, curr_y, curr_w)
+                all_books.extend(items)
+            
+            curr_w += 1
+            if curr_w > 54:
+                curr_w = 1
+                curr_y += 1
+                
         return all_books
-
-
-if __name__ == "__main__":
-    # 測試用
-    logging.basicConfig(level=logging.INFO)
-    with KoboScraper() as scraper:
-        books = scraper.crawl_weekly_books(use_random_delay=False)
-        print(f"爬取到 {len(books)} 本書籍")

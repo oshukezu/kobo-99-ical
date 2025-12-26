@@ -178,7 +178,20 @@ class KoboCrawler:
                 content = raw_text.strip()
                 if len(content) > 400:
                     content = content[:380] + '…'
-                link_infos.append((norm_title(title), title.strip(), book_url, content))
+                if (not title) or len(title.strip()) < 2:
+                    mtt = re.search(r'[《「『【](.*?)[》」』】]', raw_text)
+                    if mtt:
+                        title = mtt.group(1).strip()
+                # 從元素文字解析日期（優先使用）
+                md = re.search(r'(\d{1,2})/(\d{1,2})\s*週[一二三四五六日]', raw_text)
+                elem_date = None
+                if md:
+                    try:
+                        mm, dd = int(md.group(1)), int(md.group(2))
+                        elem_date = date(year, mm, dd)
+                    except Exception:
+                        elem_date = None
+                link_infos.append((norm_title(title), title.strip(), book_url, content, elem_date))
             except Exception as e:
                 logger.warning(f"Error parsing book element {idx}: {e}")
                 continue
@@ -190,73 +203,78 @@ class KoboCrawler:
 
         tnorm_to_link = {}
         used = set()
-        for nt, t, u, c in link_infos:
+        for nt, t, u, c, ed in link_infos:
             for key in title_date_map.keys():
                 if canon(nt) == canon(key):
-                    tnorm_to_link[key] = (t, u, c)
+                    tnorm_to_link[key] = (t, u, c, ed)
                     break
 
-        assigned_dates = set()
-        for tnorm, dval in title_date_list:
+        per_date_cnt = {}
+        # 先按文章列出的日期順序建立
+        for i, (tnorm, dval) in enumerate(title_date_list):
             info = tnorm_to_link.get(tnorm)
             if not info:
-                for nt, t, u, c in link_infos:
+                # 找不到對應標題時，從剩餘 link 取一個
+                for nt, t, u, c, ed in link_infos:
                     if u not in used:
-                        info = (t, u, c)
+                        info = (t, u, c, ed)
                         break
             if not info:
                 continue
-            t, u, c = info
+            t, u, c, ed = info
             used.add(u)
-            if re.search(r'weekly-dd99-2025-w49', article_url):
-                dval = date(2025,12,4) + timedelta(days=len(assigned_dates))
-            if dval in assigned_dates:
+            final_date = dval or ed
+            if re.search(r'weekly-dd99-2025-w49', article_url) and not ed:
+                final_date = date(2025,12,4) + timedelta(days=i)
+            cnt = per_date_cnt.get(final_date, 0)
+            if cnt >= 2:
                 continue
-            assigned_dates.add(dval)
+            per_date_cnt[final_date] = cnt + 1
             book = BookItem(
                 title=t,
                 book_url=u,
                 article_url=article_url,
                 article_title=article_title,
                 content=c,
-                date=dval,
+                date=final_date,
                 week=week,
                 year=year,
             )
             books.append(book)
-            logger.info(f"Found book: {t} ({dval})")
+            logger.info(f"Found book: {t} ({final_date})")
 
-        if len(assigned_dates) < 7 and link_infos:
+        if sum(per_date_cnt.values()) < min(7, len(link_infos)) and link_infos:
             fallback_dates = []
             for i in range(min(7, len(link_infos))):
                 dval = article_date + timedelta(days=i)
-                if dval not in assigned_dates:
+                if per_date_cnt.get(dval, 0) < 2:
                     fallback_dates.append(dval)
             for dval in fallback_dates:
                 info = None
-                for nt, t, u, c in link_infos:
+                for nt, t, u, c, ed in link_infos:
                     if u not in used:
-                        info = (t, u, c)
+                        info = (t, u, c, ed)
                         break
                 if not info:
                     break
-                t, u, c = info
+                t, u, c, ed = info
                 used.add(u)
-                if dval in assigned_dates:
+                cnt = per_date_cnt.get(dval, 0)
+                if cnt >= 2:
                     continue
-                assigned_dates.add(dval)
+                per_date_cnt[dval] = cnt + 1
                 book = BookItem(
                     title=t,
                     book_url=u,
                     article_url=article_url,
                     article_title=article_title,
                     content=c,
-                    date=dval,
+                    date=dval or ed,
                     week=week,
                     year=year,
                 )
                 books.append(book)
-                logger.info(f"Found book: {t} ({dval})")
+                logger.info(f"Found book: {t} ({dval or ed})")
 
         return books
 

@@ -2,8 +2,8 @@ name: Generate Kobo 99 ICS
 
 on:
   schedule:
-    # 每天 UTC 00:00 執行（台灣時間 08:00）
-    - cron: '0 0 * * *'
+    # 每天 UTC 02:00 執行（台灣時間 10:00）
+    - cron: '0 2 * * *'
   workflow_dispatch:  # 允許手動觸發
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       with:
         python-version: '3.11'
         
-     - name: Install system dependencies
+    - name: Install system dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y \
@@ -47,11 +47,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-
-    - name: Install Playwright browsers
-      run: |
-        python -m playwright install chromium
-        python -m playwright install-deps chromium
         
     - name: Generate ICS and JSON files
       env:
@@ -59,15 +54,22 @@ jobs:
       run: |
         python main.py
         echo "Generated files:"
-        ls -lh docs/ data/
+        ls -lh docs/ data/ || true
 
     - name: Commit and push if changed
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add docs/kobo99.ics data/events.json
+        
+        # Ensure docs dir exists
+        mkdir -p docs
+        
+        # Add generated files
+        git add docs/kobo99.ics data/events.json || true
+        
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
           git commit -m "Auto-update: Generate Kobo 99 ICS [skip ci]"
           git push
+        fi
