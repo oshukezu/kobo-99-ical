@@ -62,7 +62,8 @@ class Scraper:
         # Strict Regex Pattern
         # Pattern: {Date}{星期}Kobo99選書：{書名}
         # Matches: "12/20週六Kobo99選書：《破咒師...》" or "12/20週六Kobo99選書：破咒師..."
-        pattern = re.compile(r'(\d{1,2}/\d{1,2}).*?Kobo99選書[：:]\s*(?:《(.*?)》|(.+))')
+        # Note: For non-bracketed titles, we stop at the first period '。' or newline to avoid capturing description.
+        pattern = re.compile(r'(\d{1,2}/\d{1,2}).*?Kobo99選書[：:]\s*(?:《(.*?)》|([^。]+))')
         
         # Find all text nodes containing "Kobo99選書"
         text_nodes = soup.find_all(string=re.compile(r"Kobo99選書"))
@@ -127,7 +128,8 @@ class Scraper:
                     "month": month,
                     "day": day,
                     "week": week,
-                    "year_context": year  # Base year from URL
+                    "year_context": year,  # Base year from URL
+                    "raw_text": full_text
                 })
                 logger.debug(f"Parsed: {title} ({month}/{day})")
 

@@ -60,7 +60,50 @@ class CalendarManager:
             book['date_obj'] = date(final_year, month, day)
             processed.append(book)
             
-        return processed
+        return CalendarManager.filter_duplicates(processed)
+
+    @staticmethod
+    def filter_duplicates(books: List[dict]) -> List[dict]:
+        """
+        Deduplicate books by date.
+        If multiple books exist for the same date, prefer Traditional Chinese titles.
+        """
+        grouped = {}
+        for book in books:
+            d = book['date_obj']
+            if d not in grouped:
+                grouped[d] = []
+            grouped[d].append(book)
+            
+        final_list = []
+        for d in sorted(grouped.keys()):
+            candidates = grouped[d]
+            if len(candidates) == 1:
+                final_list.append(candidates[0])
+            else:
+                # Collision: Pick best
+                best = max(candidates, key=lambda x: CalendarManager.score_traditional(x['title']))
+                final_list.append(best)
+                
+        return final_list
+
+    @staticmethod
+    def score_traditional(text: str) -> int:
+        """
+        Score text based on Traditional vs Simplified characters.
+        +1 for Trad unique chars, -1 for Simp unique chars.
+        """
+        # Common distinguishing characters
+        trad_chars = set("與鉅電腦體國愛說寫時講師驗證戰爭")
+        simp_chars = set("与巨电脑体国爱说写时讲师验证战争") # Corresponding simplified
+        
+        score = 0
+        for char in text:
+            if char in trad_chars:
+                score += 1
+            elif char in simp_chars:
+                score -= 1
+        return score
 
     @staticmethod
     def create_ical(books: List[dict]) -> bytes:
