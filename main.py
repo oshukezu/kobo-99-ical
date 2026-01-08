@@ -30,28 +30,31 @@ def main():
     ensure_output_dir()
     
     # 1. Determine Range
-    # Crawl current year + next year (to be safe for Dec/Jan transition)
+    # Crawl daily: +/- 2 weeks from today
     today = date.today()
-    this_year = today.year
     
-    # Range: this_year Jan 1 to next_year Jan (covers sufficient ground)
-    # Actually, user wants "Daily at 10 AM", implies rolling window.
-    # But crawler logic is cheap with cloudscraper. let's crawl broad range.
-    # Start: this_year, week 1. End: this_year, week 53.
-    # Also check next year week 1-5 just in case.
+    # Calculate start and end dates
+    start_date = today - timedelta(weeks=2)
+    end_date = today + timedelta(weeks=2)
     
-    ranges = [
-        (this_year, 1, this_year, 54),
-        (this_year + 1, 1, this_year + 1, 8)
-    ]
+    start_iso = start_date.isocalendar()
+    end_iso = end_date.isocalendar()
+    
+    # Extract year and week
+    start_year, start_week = start_iso[0], start_iso[1]
+    end_year, end_week = end_iso[0], end_iso[1]
+
+    logger.info(f"Target date range: {start_date} to {end_date}")
+    
+    # We only need one range call because Scraper.crawl_weekly_books handles year crossing
+    # But Scraper.crawl_weekly_books takes (sy, sw, ey, ew)
     
     raw_books = []
     
     with Scraper() as scraper:
-        for (sy, sw, ey, ew) in ranges:
-            logger.info(f"Crawling range: {sy}-W{sw} to {ey}-W{ew}")
-            batch = scraper.crawl_weekly_books(sy, sw, ey, ew)
-            raw_books.extend(batch)
+        logger.info(f"Crawling range: {start_year}-W{start_week} to {end_year}-W{end_week}")
+        # Note: scraper.crawl_weekly_books logic handles the wrap around years automatically
+        raw_books = scraper.crawl_weekly_books(start_year, start_week, end_year, end_week)
             
     logger.info(f"Total raw books found (incl duplicates): {len(raw_books)}")
     
