@@ -40,6 +40,10 @@ class Scraper:
             try:
                 response = self.scraper.get(url)
                 if response.status_code == 200:
+
+                    # Force encoding to avoid garbled text
+                    if response.encoding == 'ISO-8859-1':
+                        response.encoding = response.apparent_encoding or 'utf-8'
                     return response.text
                 elif response.status_code == 404:
                     logger.warning(f"Page not found: {url}")
@@ -62,8 +66,8 @@ class Scraper:
         # Strict Regex Pattern
         # Pattern: {Date}{星期}Kobo99選書：{書名}
         # Matches: "12/20週六Kobo99選書：《破咒師...》" or "12/20週六Kobo99選書：破咒師..."
-        # Note: For non-bracketed titles, we stop at the first period '。' or newline to avoid capturing description.
-        pattern = re.compile(r'(\d{1,2}/\d{1,2}).*?Kobo99選書[：:]\s*(?:《(.*?)》|([^。]+))')
+        # Note: Allow optional whitespace around colon.
+        pattern = re.compile(r'(\d{1,2}/\d{1,2}).*?Kobo99選書\s*[：:]\s*(?:《(.*?)》|([^。]+))')
         
         # Find all text nodes containing "Kobo99選書"
         text_nodes = soup.find_all(string=re.compile(r"Kobo99選書"))
@@ -133,6 +137,9 @@ class Scraper:
                 })
                 logger.debug(f"Parsed: {title} ({month}/{day})")
 
+        if not books:
+            logger.warning(f"No books parsed for {article_url} (Year: {year}, Week: {week}). Content snippet: {html[:200]}...")
+            
         return books
 
     def crawl_weekly_books(self, start_year: int, start_week: int, end_year: int, end_week: int) -> List[dict]:
