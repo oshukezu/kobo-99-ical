@@ -2,4 +2,144 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Kobo99 Crawler//zh-TW//
 X-WR-CALNAME:Kobo 99 選書
+BEGIN:VEVENT
+SUMMARY:不當決策：行為經濟學大師教你避開人性偏誤
+DTSTART;VALUE=DATE:20260108
+UID:kobo99--4503120999637437619
+DESCRIPTION:書名：不當決策：行為經濟學大師教你避開人
+ 性偏誤\n查看電子書：https://www.kobo.com/tw/zh/ebook/a8dnqNnSJjep
+ 9sJLVIkwFw\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w
+ 2
+URL:https://www.kobo.com/tw/zh/ebook/a8dnqNnSJjep9sJLVIkwFw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:零干擾
+DTSTART;VALUE=DATE:20260109
+UID:kobo99--7719325234786202691
+DESCRIPTION:書名：零干擾\n查看電子書：https://www.kobo.com/tw/
+ zh/ebook/B0-QYTt3OzqZeC77emsBkQ\n來源文章：https://www.kobo.com/zh/bl
+ og/weekly-dd99-2026-w2
+URL:https://www.kobo.com/tw/zh/ebook/B0-QYTt3OzqZeC77emsBkQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:空王冠：玫瑰戰爭與都鐸王朝的崛起
+DTSTART;VALUE=DATE:20260110
+UID:kobo99-7247612571190361426
+DESCRIPTION:書名：空王冠：玫瑰戰爭與都鐸王朝的崛起\n查
+ 看電子書：https://www.kobo.com/tw/zh/ebook/p_NqaFRj8D-x7W7IdudVKw\n
+ 來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w2
+URL:https://www.kobo.com/tw/zh/ebook/p_NqaFRj8D-x7W7IdudVKw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:麥吉爾腰背修復手冊：脊椎生物力學權威，從評估
+ 成因，到運動方法，帶你找回核心的力量，永遠脫離背
+ 痛
+DTSTART;VALUE=DATE:20260111
+UID:kobo99-6812704602930428523
+DESCRIPTION:書名：麥吉爾腰背修復手冊：脊椎生物力學權
+ 威，從評估成因，到運動方法，帶你找回核心的力量，
+ 永遠脫離背痛\n查看電子書：https://www.kobo.com/tw/zh/ebook/7jD
+ bF0LHPz2swdzAjS26kg\n來源文章：https://www.kobo.com/zh/blog/weekly-dd
+ 99-2026-w2
+URL:https://www.kobo.com/tw/zh/ebook/7jDbF0LHPz2swdzAjS26kg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:猶太人每天鍛鍊的WHY思考法：34個問題演練，讓你
+ 理性思考、勇敢議論所有事懶人包
+DTSTART;VALUE=DATE:20260112
+UID:kobo99-3149542745133184717
+DESCRIPTION:書名：猶太人每天鍛鍊的WHY思考法：34個問題演
+ 練，讓你理性思考、勇敢議論所有事懶人包\n查看電子書
+ ：https://www.kobo.com/tw/zh/ebook/why-34-1\n來源文章：https://www.k
+ obo.com/zh/blog/weekly-dd99-2026-w2
+URL:https://www.kobo.com/tw/zh/ebook/why-34-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:從此不再煩惱
+DTSTART;VALUE=DATE:20260113
+UID:kobo99--6544786320009354987
+DESCRIPTION:書名：從此不再煩惱\n查看電子書：https://www.kob
+ o.com/tw/zh/ebook/XOJd9GN0CDq6QzJ4atANnQ\n來源文章：https://www.kobo.
+ com/zh/blog/weekly-dd99-2026-w2
+URL:https://www.kobo.com/tw/zh/ebook/XOJd9GN0CDq6QzJ4atANnQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:機艙機密：解答你對搭機旅行的種種疑問（二版）
+DTSTART;VALUE=DATE:20260114
+UID:kobo99-6604657248313239953
+DESCRIPTION:書名：機艙機密：解答你對搭機旅行的種種疑
+ 問（二版）\n查看電子書：https://www.kobo.com/tw/zh/ebook/jW35U2
+ eRKDKeBhiAkz0H2w\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-
+ 2026-w2
+URL:https://www.kobo.com/tw/zh/ebook/jW35U2eRKDKeBhiAkz0H2w
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:努力，但不費力：只做最重要的事，其實沒有你想
+ 的那麼難
+DTSTART;VALUE=DATE:20260115
+UID:kobo99-8599346373654163324
+DESCRIPTION:書名：努力，但不費力：只做最重要的事，其
+ 實沒有你想的那麼難\n查看電子書：https://www.kobo.com/tw/zh/
+ ebook/ewLP6aY24zqhI2yUiisp1g\n來源文章：https://www.kobo.com/zh/blog/
+ weekly-dd99-2026-w3
+URL:https://www.kobo.com/tw/zh/ebook/ewLP6aY24zqhI2yUiisp1g
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:脆弱系統：從人性貪婪、網路詐騙到駭客入侵，探
+ 索資訊安全的歷史和未來
+DTSTART;VALUE=DATE:20260116
+UID:kobo99-244340480125336027
+DESCRIPTION:書名：脆弱系統：從人性貪婪、網路詐騙到駭
+ 客入侵，探索資訊安全的歷史和未來\n查看電子書：https:
+ //www.kobo.com/tw/zh/ebook/tLK07QsS2zWKDAt1UFftrw\n來源文章：https://
+ www.kobo.com/zh/blog/weekly-dd99-2026-w3
+URL:https://www.kobo.com/tw/zh/ebook/tLK07QsS2zWKDAt1UFftrw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:遠大前程
+DTSTART;VALUE=DATE:20260117
+UID:kobo99--5241446952800950133
+DESCRIPTION:書名：遠大前程\n查看電子書：https://www.kobo.com/
+ tw/zh/ebook/U2WHt7Q3xDqChRS8G02Umw\n來源文章：https://www.kobo.com/zh
+ /blog/weekly-dd99-2026-w3
+URL:https://www.kobo.com/tw/zh/ebook/U2WHt7Q3xDqChRS8G02Umw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:窮究台灣茶
+DTSTART;VALUE=DATE:20260118
+UID:kobo99-1730811760100726285
+DESCRIPTION:書名：窮究台灣茶\n查看電子書：https://www.kobo.c
+ om/tw/zh/ebook/ERk6Llt9uDObpYgogzImeA\n來源文章：https://www.kobo.com
+ /zh/blog/weekly-dd99-2026-w3
+URL:https://www.kobo.com/tw/zh/ebook/ERk6Llt9uDObpYgogzImeA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CIA洗腦計畫：解密美國史上最暗黑的心智操控實驗
+DTSTART;VALUE=DATE:20260119
+UID:kobo99-192978159300177517
+DESCRIPTION:書名：CIA洗腦計畫：解密美國史上最暗黑的心
+ 智操控實驗\n查看電子書：https://www.kobo.com/tw/zh/ebook/cia-8\
+ n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w3
+URL:https://www.kobo.com/tw/zh/ebook/cia-8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:小島經濟學：關於魚(金錢)、漁網(資本)、儲蓄及
+ 借貸的經濟寓言 【插畫圖解珍藏版】
+DTSTART;VALUE=DATE:20260120
+UID:kobo99-8853661423667372644
+DESCRIPTION:書名：小島經濟學：關於魚(金錢)、漁網(資本)
+ 、儲蓄及借貸的經濟寓言 【插畫圖解珍藏版】\n查看電
+ 子書：https://www.kobo.com/tw/zh/ebook/2-oXbpcTlDCtCvRLiBYUAA\n來源
+ 文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w3
+URL:https://www.kobo.com/tw/zh/ebook/2-oXbpcTlDCtCvRLiBYUAA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:人類是五分之四的灰熊
+DTSTART;VALUE=DATE:20260121
+UID:kobo99--165009556819494135
+DESCRIPTION:書名：人類是五分之四的灰熊\n查看電子書：htt
+ ps://www.kobo.com/tw/zh/ebook/Q_MKhTdtmDOq42AaYoO_sQ\n來源文章：https
+ ://www.kobo.com/zh/blog/weekly-dd99-2026-w3
+URL:https://www.kobo.com/tw/zh/ebook/Q_MKhTdtmDOq42AaYoO_sQ
+END:VEVENT
 END:VCALENDAR
