@@ -2,4 +2,78 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Kobo99 Crawler//zh-TW//
 X-WR-CALNAME:Kobo 99 選書
+BEGIN:VEVENT
+SUMMARY:4％的人毫無良知 我該怎麼辦？：哈佛名醫教你如
+ 何看人、怎麼自保！
+DTSTART;VALUE=DATE:20260226
+UID:kobo99-2356271553382837192
+DESCRIPTION:書名：4％的人毫無良知 我該怎麼辦？：哈佛名
+ 醫教你如何看人、怎麼自保！\n查看電子書：https://www.kob
+ o.com/tw/zh/ebook/F5lrU34_Pz69pBqjCh3wiQ\n來源文章：https://www.kobo.
+ com/zh/blog/weekly-dd99-2026-w9
+URL:https://www.kobo.com/tw/zh/ebook/F5lrU34_Pz69pBqjCh3wiQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:誘因設計：精準傳遞訊號，讓人照著你的想法行動
+DTSTART;VALUE=DATE:20260227
+UID:kobo99--8604336846064088540
+DESCRIPTION:書名：誘因設計：精準傳遞訊號，讓人照著你
+ 的想法行動\n查看電子書：https://www.kobo.com/tw/zh/ebook/BUh9S7
+ OOTTylH1ufvVwXOQ\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-
+ 2026-w9
+URL:https://www.kobo.com/tw/zh/ebook/BUh9S7OOTTylH1ufvVwXOQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:糖果屋
+DTSTART;VALUE=DATE:20260228
+UID:kobo99--9190348022495960564
+DESCRIPTION:書名：糖果屋\n查看電子書：https://www.kobo.com/tw/
+ zh/ebook/f-1fz_mD4DWxiLmG3OOOnw\n來源文章：https://www.kobo.com/zh/bl
+ og/weekly-dd99-2026-w9
+URL:https://www.kobo.com/tw/zh/ebook/f-1fz_mD4DWxiLmG3OOOnw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:雜食者的兩難（新版）：速食、有機和野生食物的
+ 自然史
+DTSTART;VALUE=DATE:20260301
+UID:kobo99-5020775498213056194
+DESCRIPTION:書名：雜食者的兩難（新版）：速食、有機和
+ 野生食物的自然史\n查看電子書：https://www.kobo.com/tw/zh/ebo
+ ok/wOfnoN3xfDiVRM6M1sTWoQ\n來源文章：https://www.kobo.com/zh/blog/wee
+ kly-dd99-2026-w9
+URL:https://www.kobo.com/tw/zh/ebook/wOfnoN3xfDiVRM6M1sTWoQ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:滙豐全球大案：跨國銀行的環球金融，遇上毒梟在
+ 地智慧，「大到不能關」，這是我們該選擇的最佳銀行
+ ！
+DTSTART;VALUE=DATE:20260302
+UID:kobo99--3266686852457879611
+DESCRIPTION:書名：滙豐全球大案：跨國銀行的環球金融，
+ 遇上毒梟在地智慧，「大到不能關」，這是我們該選擇
+ 的最佳銀行！\n查看電子書：https://www.kobo.com/tw/zh/ebook/ik_
+ IhIDxtD2Le7gZMyL05A\n來源文章：https://www.kobo.com/zh/blog/weekly-dd
+ 99-2026-w9
+URL:https://www.kobo.com/tw/zh/ebook/ik_IhIDxtD2Le7gZMyL05A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:在路上【反抗文化經典】
+DTSTART;VALUE=DATE:20260303
+UID:kobo99-6730181136165506214
+DESCRIPTION:書名：在路上【反抗文化經典】\n查看電子書：
+ https://www.kobo.com/tw/zh/ebook/qQXDwcF4QDm-qkgl3KbgdA\n來源文章：ht
+ tps://www.kobo.com/zh/blog/weekly-dd99-2026-w9
+URL:https://www.kobo.com/tw/zh/ebook/qQXDwcF4QDm-qkgl3KbgdA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:威士忌品飲全書：從歷史、釀製、風味、產區到收
+ 藏、調酒、餐搭，跟著行家融會貫通品飲之道
+DTSTART;VALUE=DATE:20260304
+UID:kobo99--6767554681047819848
+DESCRIPTION:書名：威士忌品飲全書：從歷史、釀製、風味
+ 、產區到收藏、調酒、餐搭，跟著行家融會貫通品飲之
+ 道\n查看電子書：https://www.kobo.com/tw/zh/ebook/S9LEOLD9NDC0s5ycpB
+ hEKg\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w9
+URL:https://www.kobo.com/tw/zh/ebook/S9LEOLD9NDC0s5ycpBhEKg
+END:VEVENT
 END:VCALENDAR
