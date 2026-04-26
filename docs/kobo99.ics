@@ -3,82 +3,9 @@ VERSION:2.0
 PRODID:-//Kobo99 Crawler//zh-TW//
 X-WR-CALNAME:Kobo 99 選書
 BEGIN:VEVENT
-SUMMARY:流量國度：從人氣變現到掌握影響力，網紅如何造
- 就自媒體盛世
-DTSTART;VALUE=DATE:20260409
-UID:kobo99--5867044838249501407
-DESCRIPTION:書名：流量國度：從人氣變現到掌握影響力，
- 網紅如何造就自媒體盛世\n查看電子書：https://www.kobo.com/
- tw/zh/ebook/IrWUrQ917TKBsR6kGaTRTg\n來源文章：https://www.kobo.com/zh
- /blog/weekly-dd99-2026-w15
-URL:https://www.kobo.com/tw/zh/ebook/IrWUrQ917TKBsR6kGaTRTg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:時間悖論：你的慣性盲點，也是能改寫人生劇本的
- 轉捩點——影響命運的時間心理學
-DTSTART;VALUE=DATE:20260410
-UID:kobo99-8694017964454561750
-DESCRIPTION:書名：時間悖論：你的慣性盲點，也是能改寫
- 人生劇本的轉捩點——影響命運的時間心理學\n查看電子
- 書：https://www.kobo.com/tw/zh/ebook/5Zcm7HPmsDautSqgGX3KrA\n來源文
- 章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w15
-URL:https://www.kobo.com/tw/zh/ebook/5Zcm7HPmsDautSqgGX3KrA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:調情學：追尋真愛的萬用公式，人際互動專家讓你
- 面對自我，走進關係
-DTSTART;VALUE=DATE:20260411
-UID:kobo99-1755371186427021229
-DESCRIPTION:書名：調情學：追尋真愛的萬用公式，人際互
- 動專家讓你面對自我，走進關係\n查看電子書：https://www.
- kobo.com/tw/zh/ebook/9kEn6QXvxDav8wLSgZg1Ug\n來源文章：https://www.ko
- bo.com/zh/blog/weekly-dd99-2026-w15
-URL:https://www.kobo.com/tw/zh/ebook/9kEn6QXvxDav8wLSgZg1Ug
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:量子未來（亞馬遜超人氣科幻名家科技奇想鉅作）
-DTSTART;VALUE=DATE:20260412
-UID:kobo99--2002052420143199574
-DESCRIPTION:書名：量子未來（亞馬遜超人氣科幻名家科技
- 奇想鉅作）\n查看電子書：https://www.kobo.com/tw/zh/ebook/jQp54M
- p_ojKacImxqK9LQQ\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-
- 2026-w15
-URL:https://www.kobo.com/tw/zh/ebook/jQp54Mp_ojKacImxqK9LQQ
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:銀翼狂潮：美國如何在中途島贏得太平洋戰爭
-DTSTART;VALUE=DATE:20260413
-UID:kobo99--3900160238761291339
-DESCRIPTION:書名：銀翼狂潮：美國如何在中途島贏得太平
- 洋戰爭\n查看電子書：https://www.kobo.com/tw/zh/ebook/DTlMlNudgD6l
- CYPLPV6R6Q\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w
- 15
-URL:https://www.kobo.com/tw/zh/ebook/DTlMlNudgD6lCYPLPV6R6Q
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:我們為何會做夢：睡夢中的大腦如何激發創造力，
- 以及更好地改善清醒時的生活
-DTSTART;VALUE=DATE:20260414
-UID:kobo99--7447662763316088033
-DESCRIPTION:書名：我們為何會做夢：睡夢中的大腦如何激
- 發創造力，以及更好地改善清醒時的生活\n查看電子書：
- https://www.kobo.com/tw/zh/ebook/v_tYmuopVT6TcVTnJZPMdw\n來源文章：ht
- tps://www.kobo.com/zh/blog/weekly-dd99-2026-w15
-URL:https://www.kobo.com/tw/zh/ebook/v_tYmuopVT6TcVTnJZPMdw
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:用媽祖籤詩搞懂人生
-DTSTART;VALUE=DATE:20260415
-UID:kobo99--5710861843815514045
-DESCRIPTION:書名：用媽祖籤詩搞懂人生\n查看電子書：https:
- //www.kobo.com/tw/zh/ebook/fDn6eIWgXjiBYsybhe2Zrw\n來源文章：https://
- www.kobo.com/zh/blog/weekly-dd99-2026-w15
-URL:https://www.kobo.com/tw/zh/ebook/fDn6eIWgXjiBYsybhe2Zrw
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:創造可能：從分歧衝突走向繁榮共存的關鍵選擇
 DTSTART;VALUE=DATE:20260416
-UID:kobo99-3933558090749187837
+UID:kobo99-920155570263650110
 DESCRIPTION:書名：創造可能：從分歧衝突走向繁榮共存的
  關鍵選擇\n查看電子書：https://www.kobo.com/tw/zh/ebook/IJ8HQOYhr
  j6Rwyppa1UhZA\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-202
@@ -88,7 +15,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:打造你要的人生
 DTSTART;VALUE=DATE:20260417
-UID:kobo99-7308468748749689511
+UID:kobo99--411933972222485130
 DESCRIPTION:書名：打造你要的人生\n查看電子書：https://www.
  kobo.com/tw/zh/ebook/xoDY60IQcDe8XW4D2rtFiA\n來源文章：https://www.ko
  bo.com/zh/blog/weekly-dd99-2026-w16
@@ -99,7 +26,7 @@ SUMMARY:小零件改變大世界：釘子、輪子、彈簧、磁鐵、鏡
  片、繩子、泵浦，七種細小發明如何成為現代文明的重
  要推手？
 DTSTART;VALUE=DATE:20260418
-UID:kobo99--2200505775202757512
+UID:kobo99-2509628538354409452
 DESCRIPTION:書名：小零件改變大世界：釘子、輪子、彈簧
  、磁鐵、鏡片、繩子、泵浦，七種細小發明如何成為現
  代文明的重要推手？\n查看電子書：https://www.kobo.com/tw/zh/
@@ -110,7 +37,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:運動基因：頂尖運動表現背後的科學
 DTSTART;VALUE=DATE:20260419
-UID:kobo99-8513519246005547166
+UID:kobo99--4443820110378928442
 DESCRIPTION:書名：運動基因：頂尖運動表現背後的科學\n查
  看電子書：https://www.kobo.com/tw/zh/ebook/caDExS_50TauuGHZdZvKNA\n
  來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w16
@@ -120,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:她們的古埃及：從創世女神到末代女法老，古埃及
  三千年的女性力量
 DTSTART;VALUE=DATE:20260420
-UID:kobo99-6038489131627839658
+UID:kobo99-248847077109921936
 DESCRIPTION:書名：她們的古埃及：從創世女神到末代女法
  老，古埃及三千年的女性力量\n查看電子書：https://www.kob
  o.com/tw/zh/ebook/SPnYyymWDjKwbrAzaGRp3A\n來源文章：https://www.kobo.
@@ -130,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:擺脫鼻塞、打呼、睡不好的「鼻呼吸」
 DTSTART;VALUE=DATE:20260421
-UID:kobo99-4940059290833019688
+UID:kobo99-4420553019539353852
 DESCRIPTION:書名：擺脫鼻塞、打呼、睡不好的「鼻呼吸」\n
  查看電子書：https://www.kobo.com/tw/zh/ebook/eQmdnotaJzKbF8iDhY05YQ\
  n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w16
@@ -140,7 +67,7 @@ BEGIN:VEVENT
 SUMMARY:早餐之書：穿越歷史時空與文學品味的早餐解謎之
  旅
 DTSTART;VALUE=DATE:20260422
-UID:kobo99--7764520521043072027
+UID:kobo99--7469354052689491537
 DESCRIPTION:書名：早餐之書：穿越歷史時空與文學品味的
  早餐解謎之旅\n查看電子書：https://www.kobo.com/tw/zh/ebook/PGz
  Ic-RtgzKJJgBKNkKbDw\n來源文章：https://www.kobo.com/zh/blog/weekly-dd
@@ -151,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:地緣政治輕鬆讀：原來如此！全民啟蒙師超強圖解
  ，60張秒懂全世界！
 DTSTART;VALUE=DATE:20260423
-UID:kobo99--2673073614192706361
+UID:kobo99-1068958862165481713
 DESCRIPTION:書名：地緣政治輕鬆讀：原來如此！全民啟蒙
  師超強圖解，60張秒懂全世界！\n查看電子書：https://www.k
  obo.com/tw/zh/ebook/3_W3-OIsijKWdUh0rUYcUw\n來源文章：https://www.kob
@@ -162,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:真正的快樂處方：瑞典國民書！腦科學實證的健康
  生活提案
 DTSTART;VALUE=DATE:20260424
-UID:kobo99--6691070679618765152
+UID:kobo99-6502872879925593080
 DESCRIPTION:書名：真正的快樂處方：瑞典國民書！腦科學
  實證的健康生活提案\n查看電子書：https://www.kobo.com/tw/zh/
  ebook/DrSl7amSrTK8-gIZZ6tbGA\n來源文章：https://www.kobo.com/zh/blog/
@@ -172,7 +99,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:裝幀師
 DTSTART;VALUE=DATE:20260425
-UID:kobo99-6748656330551940941
+UID:kobo99-3817220338994264947
 DESCRIPTION:書名：裝幀師\n查看電子書：https://www.kobo.com/tw/
  zh/ebook/23WdBms6lje8asd45-msng\n來源文章：https://www.kobo.com/zh/bl
  og/weekly-dd99-2026-w17
@@ -182,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:物理之舞：用量子力學打開新時代大門，理性與靈
  性的絕妙共舞【榮獲美國國家圖書獎】
 DTSTART;VALUE=DATE:20260426
-UID:kobo99--2731295052084747101
+UID:kobo99-7637511520025636760
 DESCRIPTION:書名：物理之舞：用量子力學打開新時代大門
  ，理性與靈性的絕妙共舞【榮獲美國國家圖書獎】\n查看
  電子書：https://www.kobo.com/tw/zh/ebook/Q1RZNYlGxzuS3KU11wSE1Q\n來
@@ -192,7 +119,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:X！又是星期一（影集同名原著小說）
 DTSTART;VALUE=DATE:20260427
-UID:kobo99--6224552983076974975
+UID:kobo99-7877939071314915634
 DESCRIPTION:書名：X！又是星期一（影集同名原著小說）\n
  查看電子書：https://www.kobo.com/tw/zh/ebook/x-530\n來源文章：h
  ttps://www.kobo.com/zh/blog/weekly-dd99-2026-w17
@@ -201,7 +128,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:東方星理學（單星篇）
 DTSTART;VALUE=DATE:20260428
-UID:kobo99--7576913081572143616
+UID:kobo99--4890374160474829532
 DESCRIPTION:書名：東方星理學（單星篇）\n查看電子書：htt
  ps://www.kobo.com/tw/zh/ebook/GujL42psITy1h8hIh8d0Fw\n來源文章：https
  ://www.kobo.com/zh/blog/weekly-dd99-2026-w17
@@ -210,7 +137,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:手勢心理學
 DTSTART;VALUE=DATE:20260429
-UID:kobo99-370837170941028923
+UID:kobo99-6744916355240917645
 DESCRIPTION:書名：手勢心理學\n查看電子書：https://www.kobo.c
  om/tw/zh/ebook/e1bXTFPqxj-4ddi9xLXC-Q\n來源文章：https://www.kobo.com
  /zh/blog/weekly-dd99-2026-w17
