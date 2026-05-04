@@ -3,82 +3,10 @@ VERSION:2.0
 PRODID:-//Kobo99 Crawler//zh-TW//
 X-WR-CALNAME:Kobo 99 選書
 BEGIN:VEVENT
-SUMMARY:創造可能：從分歧衝突走向繁榮共存的關鍵選擇
-DTSTART;VALUE=DATE:20260416
-UID:kobo99--6710986406510186797
-DESCRIPTION:書名：創造可能：從分歧衝突走向繁榮共存的
- 關鍵選擇\n查看電子書：https://www.kobo.com/tw/zh/ebook/IJ8HQOYhr
- j6Rwyppa1UhZA\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-202
- 6-w16
-URL:https://www.kobo.com/tw/zh/ebook/IJ8HQOYhrj6Rwyppa1UhZA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:打造你要的人生
-DTSTART;VALUE=DATE:20260417
-UID:kobo99--4218468089045598511
-DESCRIPTION:書名：打造你要的人生\n查看電子書：https://www.
- kobo.com/tw/zh/ebook/xoDY60IQcDe8XW4D2rtFiA\n來源文章：https://www.ko
- bo.com/zh/blog/weekly-dd99-2026-w16
-URL:https://www.kobo.com/tw/zh/ebook/xoDY60IQcDe8XW4D2rtFiA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:小零件改變大世界：釘子、輪子、彈簧、磁鐵、鏡
- 片、繩子、泵浦，七種細小發明如何成為現代文明的重
- 要推手？
-DTSTART;VALUE=DATE:20260418
-UID:kobo99--3098393221839854128
-DESCRIPTION:書名：小零件改變大世界：釘子、輪子、彈簧
- 、磁鐵、鏡片、繩子、泵浦，七種細小發明如何成為現
- 代文明的重要推手？\n查看電子書：https://www.kobo.com/tw/zh/
- ebook/Q-Rk67yqgj-J-kC8KYVh4w\n來源文章：https://www.kobo.com/zh/blog/
- weekly-dd99-2026-w16
-URL:https://www.kobo.com/tw/zh/ebook/Q-Rk67yqgj-J-kC8KYVh4w
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:運動基因：頂尖運動表現背後的科學
-DTSTART;VALUE=DATE:20260419
-UID:kobo99-5403578858656562231
-DESCRIPTION:書名：運動基因：頂尖運動表現背後的科學\n查
- 看電子書：https://www.kobo.com/tw/zh/ebook/caDExS_50TauuGHZdZvKNA\n
- 來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w16
-URL:https://www.kobo.com/tw/zh/ebook/caDExS_50TauuGHZdZvKNA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:她們的古埃及：從創世女神到末代女法老，古埃及
- 三千年的女性力量
-DTSTART;VALUE=DATE:20260420
-UID:kobo99--8812510054118491555
-DESCRIPTION:書名：她們的古埃及：從創世女神到末代女法
- 老，古埃及三千年的女性力量\n查看電子書：https://www.kob
- o.com/tw/zh/ebook/SPnYyymWDjKwbrAzaGRp3A\n來源文章：https://www.kobo.
- com/zh/blog/weekly-dd99-2026-w16
-URL:https://www.kobo.com/tw/zh/ebook/SPnYyymWDjKwbrAzaGRp3A
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:擺脫鼻塞、打呼、睡不好的「鼻呼吸」
-DTSTART;VALUE=DATE:20260421
-UID:kobo99--7384098058333605750
-DESCRIPTION:書名：擺脫鼻塞、打呼、睡不好的「鼻呼吸」\n
- 查看電子書：https://www.kobo.com/tw/zh/ebook/eQmdnotaJzKbF8iDhY05YQ\
- n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w16
-URL:https://www.kobo.com/tw/zh/ebook/eQmdnotaJzKbF8iDhY05YQ
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:早餐之書：穿越歷史時空與文學品味的早餐解謎之
- 旅
-DTSTART;VALUE=DATE:20260422
-UID:kobo99-7650990426631415645
-DESCRIPTION:書名：早餐之書：穿越歷史時空與文學品味的
- 早餐解謎之旅\n查看電子書：https://www.kobo.com/tw/zh/ebook/PGz
- Ic-RtgzKJJgBKNkKbDw\n來源文章：https://www.kobo.com/zh/blog/weekly-dd
- 99-2026-w16
-URL:https://www.kobo.com/tw/zh/ebook/PGzIc-RtgzKJJgBKNkKbDw
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:地緣政治輕鬆讀：原來如此！全民啟蒙師超強圖解
  ，60張秒懂全世界！
 DTSTART;VALUE=DATE:20260423
-UID:kobo99-9050536027997215306
+UID:kobo99-6893874821993957025
 DESCRIPTION:書名：地緣政治輕鬆讀：原來如此！全民啟蒙
  師超強圖解，60張秒懂全世界！\n查看電子書：https://www.k
  obo.com/tw/zh/ebook/3_W3-OIsijKWdUh0rUYcUw\n來源文章：https://www.kob
@@ -89,7 +17,7 @@ BEGIN:VEVENT
 SUMMARY:真正的快樂處方：瑞典國民書！腦科學實證的健康
  生活提案
 DTSTART;VALUE=DATE:20260424
-UID:kobo99-8670895033532304415
+UID:kobo99--2794458405846694231
 DESCRIPTION:書名：真正的快樂處方：瑞典國民書！腦科學
  實證的健康生活提案\n查看電子書：https://www.kobo.com/tw/zh/
  ebook/DrSl7amSrTK8-gIZZ6tbGA\n來源文章：https://www.kobo.com/zh/blog/
@@ -99,7 +27,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:裝幀師
 DTSTART;VALUE=DATE:20260425
-UID:kobo99--7233826796704750707
+UID:kobo99-4357725238697859443
 DESCRIPTION:書名：裝幀師\n查看電子書：https://www.kobo.com/tw/
  zh/ebook/23WdBms6lje8asd45-msng\n來源文章：https://www.kobo.com/zh/bl
  og/weekly-dd99-2026-w17
@@ -109,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY:物理之舞：用量子力學打開新時代大門，理性與靈
  性的絕妙共舞【榮獲美國國家圖書獎】
 DTSTART;VALUE=DATE:20260426
-UID:kobo99--3991161394476416751
+UID:kobo99-6767936966574391481
 DESCRIPTION:書名：物理之舞：用量子力學打開新時代大門
  ，理性與靈性的絕妙共舞【榮獲美國國家圖書獎】\n查看
  電子書：https://www.kobo.com/tw/zh/ebook/Q1RZNYlGxzuS3KU11wSE1Q\n來
@@ -119,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:X！又是星期一（影集同名原著小說）
 DTSTART;VALUE=DATE:20260427
-UID:kobo99--477818413661907623
+UID:kobo99-3577289836940598952
 DESCRIPTION:書名：X！又是星期一（影集同名原著小說）\n
  查看電子書：https://www.kobo.com/tw/zh/ebook/x-530\n來源文章：h
  ttps://www.kobo.com/zh/blog/weekly-dd99-2026-w17
@@ -128,7 +56,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:東方星理學（單星篇）
 DTSTART;VALUE=DATE:20260428
-UID:kobo99-8361946001054372371
+UID:kobo99-362278178455676507
 DESCRIPTION:書名：東方星理學（單星篇）\n查看電子書：htt
  ps://www.kobo.com/tw/zh/ebook/GujL42psITy1h8hIh8d0Fw\n來源文章：https
  ://www.kobo.com/zh/blog/weekly-dd99-2026-w17
@@ -137,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:手勢心理學
 DTSTART;VALUE=DATE:20260429
-UID:kobo99--765948667582321812
+UID:kobo99--52819675612389148
 DESCRIPTION:書名：手勢心理學\n查看電子書：https://www.kobo.c
  om/tw/zh/ebook/e1bXTFPqxj-4ddi9xLXC-Q\n來源文章：https://www.kobo.com
  /zh/blog/weekly-dd99-2026-w17
@@ -146,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:毒梟烏托邦：解密逃出中情局掌握的亞洲販毒集團
 DTSTART;VALUE=DATE:20260430
-UID:kobo99--4666121834205176985
+UID:kobo99--4830612212407045460
 DESCRIPTION:書名：毒梟烏托邦：解密逃出中情局掌握的亞
  洲販毒集團\n查看電子書：https://www.kobo.com/tw/zh/ebook/AeEb58
  aKMjGn0Az3MePPkg\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-
@@ -157,7 +85,7 @@ BEGIN:VEVENT
 SUMMARY:筆記的魔力：最強深度思考筆記術，打造你攀登人
  生曲線高峰的行動力，高效自我進化
 DTSTART;VALUE=DATE:20260501
-UID:kobo99-1519000583856439438
+UID:kobo99--4158491131464021799
 DESCRIPTION:書名：筆記的魔力：最強深度思考筆記術，打
  造你攀登人生曲線高峰的行動力，高效自我進化\n查看電
  子書：https://www.kobo.com/tw/zh/ebook/lgrPeUeOdzGZZYnHT9t52Q\n來源
@@ -167,7 +95,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:神曲
 DTSTART;VALUE=DATE:20260502
-UID:kobo99-7125146412235042143
+UID:kobo99--2692274063548694411
 DESCRIPTION:書名：神曲\n查看電子書：https://www.kobo.com/tw/zh/
  ebook/iDuViurP7zqZm-Igjjuxgg\n來源文章：https://www.kobo.com/zh/blog/
  weekly-dd99-2026-w18
@@ -177,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:品嘗的科學：普立茲獎得主教你用腦品出好滋味（
  三版）
 DTSTART;VALUE=DATE:20260503
-UID:kobo99-2908245484935360214
+UID:kobo99-3639837519530818614
 DESCRIPTION:書名：品嘗的科學：普立茲獎得主教你用腦品
  出好滋味（三版）\n查看電子書：https://www.kobo.com/tw/zh/ebo
  ok/7o3X8vfHAzKbbt0xSu_ADg\n來源文章：https://www.kobo.com/zh/blog/wee
@@ -187,7 +115,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:問題不是從你開始的
 DTSTART;VALUE=DATE:20260504
-UID:kobo99--401713176652330130
+UID:kobo99--93791081948617753
 DESCRIPTION:書名：問題不是從你開始的\n查看電子書：https:
  //www.kobo.com/tw/zh/ebook/HGex0KgpWTikrLj3J-9kgw\n來源文章：https://
  www.kobo.com/zh/blog/weekly-dd99-2026-w18
@@ -197,7 +125,7 @@ BEGIN:VEVENT
 SUMMARY:失智行為說明書：到底是失智？還是老化？改善問
  題行為同時改善生理現象，讓照顧變輕鬆！
 DTSTART;VALUE=DATE:20260506
-UID:kobo99-6351641944512096067
+UID:kobo99--3758488212024486129
 DESCRIPTION:書名：失智行為說明書：到底是失智？還是老
  化？改善問題行為同時改善生理現象，讓照顧變輕鬆！\n
  查看電子書：https://www.kobo.com/tw/zh/ebook/K-PXT5OlQDin5aEFM4rvgw\
